@@ -2,12 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.1.6](https://github.com/shinokada/flexilexi/compare/v0.1.5...v0.1.6) (2024-01-04)
+### [0.1.7](https://github.com/shinokada/flexilexi/compare/v0.1.6...v0.1.7) (2024-01-04)
 
 
 ### Features
 
-* add GitHub repo, update README and json file ([83bda50](https://github.com/shinokada/flexilexi/commit/83bda5020aa9564eb022bacd12fd70d1f5b85c01))
+* add Footer ([7664bf2](https://github.com/shinokada/flexilexi/commit/7664bf2f570bdc7781ab580c638a835bb9d81424))
+
+### [0.1.6](https://github.com/shinokada/flexilexi/compare/v0.1.5...v0.1.6) (2024-01-04)
+
+### Features
+
+- add GitHub repo, update README and json file ([83bda50](https://github.com/shinokada/flexilexi/commit/83bda5020aa9564eb022bacd12fd70d1f5b85c01))
 
 ### [0.1.5](https://github.com/shinokada/flexilexi/compare/v0.1.4...v0.1.5) (2024-01-04)
 
