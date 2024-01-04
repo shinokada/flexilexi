@@ -63,7 +63,6 @@ yarn add -D flexilexi // yarn
 </style>
 ```
 
-
 ## Props
 
 The FlexiLexi component accepts the following props:

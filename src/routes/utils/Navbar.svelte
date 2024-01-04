@@ -89,8 +89,8 @@
 					<a
 						href="https://github.com/shinokada/flexilexi"
 						onclick={closeNav}
-			      target="_blank"
-						class="{linkStyle}">GitHub</a
+						target="_blank"
+						class={linkStyle}>GitHub</a
 					>
 				</li>
 			</ul>

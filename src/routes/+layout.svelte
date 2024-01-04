@@ -1,6 +1,7 @@
 <script>
 	import '../app.pcss';
 	import Navbar from './utils/Navbar.svelte';
+	import Footer from './utils/Footer.svelte'
 	let { children } = $props();
 </script>
 
@@ -11,3 +12,5 @@
 		{@render children()}
 	</div>
 </section>
+
+<Footer title="FlexiLexi" />
