@@ -23,7 +23,7 @@
 		}
 	}
 
-	$inspect('keys: ', keys, 'threshold', threshold, 'fields: ', fields);
+	// $inspect('keys: ', keys, 'threshold', threshold, 'fields: ', fields);
 
 	let options = $derived({
 		keys,

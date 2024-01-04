@@ -42,9 +42,17 @@ yarn add -D flexilexi // yarn
   import {FlexiLexi} from 'flexilexi'
 </script>
 
-<h1 class="text-4xl">Japanese dictionary</h1>
-<h2 class="text-3xl">You can search Japanese, Romaji, and English.</h2>
-<FlexiLexi {dictionary} />
+<div class="wrapper">
+  <h1 class="text-4xl">Japanese dictionary</h1>
+  <h2 class="text-3xl">You can search Japanese, Romaji, and English.</h2>
+  <FlexiLexi {dictionary} />
+</div>
+
+<style>
+  .wrapper {
+    text-align: center;
+  }
+</style>
 ```
 
 ## Props
@@ -84,9 +92,17 @@ An optional array of strings representing the fields to search within the datase
   let keys = ['japanese', 'english']
 </script>
 
-<h1 class="text-4xl">Japanese dictionary</h1>
-<h2 class="text-3xl">You can search Japanese and English.</h2>
-<FlexiLexi {dictionary} {keys}/>
+<div class="wrapper">
+  <h1 class="text-4xl">Japanese dictionary</h1>
+  <h2 class="text-3xl">You can search Japanese and English.</h2>
+  <FlexiLexi {dictionary} {keys}/>
+</div>
+
+<style>
+  .wrapper {
+    text-align: center;
+  }
+</style>
 ```
 
 ### fields=[]:
@@ -100,9 +116,17 @@ An optional array of strings determining which fields from the dataset should be
   let feilds = ['japanese', 'english']
 </script>
 
-<h1 class="text-4xl">Japanese dictionary</h1>
-<h2 class="text-3xl">You can search Japanese and English.</h2>
-<FlexiLexi {dictionary} {feilds}/>
+<div class="wrapper">
+  <h1 class="text-4xl">Japanese dictionary</h1>
+  <h2 class="text-3xl">You can search Japanese and English.</h2>
+  <FlexiLexi {dictionary} {feilds}/>
+</div>
+
+<style>
+  .wrapper {
+    text-align: center;
+  }
+</style>
 ```
 
 ### thresholdValue=0:
@@ -115,14 +139,22 @@ An optional number (ranging from 0 to 1) that sets the fuzziness value for the s
   import {FlexiLexi} from 'flexilexi'
 </script>
 
-<h1 class="text-4xl">Japanese dictionary</h1>
-<h2 class="text-3xl">You can search Japanese and English.</h2>
-<FlexiLexi {dictionary} threshold={0.6}/>
+<div class="wrapper">
+  <h1 class="text-4xl">Japanese dictionary</h1>
+  <h2 class="text-3xl">You can search Japanese and English.</h2>
+  <FlexiLexi {dictionary} threshold={0.6}/>
+</div>
+
+<style>
+  .wrapper {
+    text-align: center;
+  }
+</style>
 ```
 
 ## Styling
 
-Use the following classes in your style sheet:
+Use the following classes to style items in your style sheet:
 
 - `.divClass`
 - `.rangeLabelClass`
