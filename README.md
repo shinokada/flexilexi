@@ -22,10 +22,16 @@ FlexiLexi is an npm package designed to facilitate dynamic and flexible searchin
 - Svelte 5
 - Fuse.js
 
+## License Information
+
+MIT
+
 ## Installation
 
 ```
-pnpm i -D flexilexi
+npm i -D flexilexi // npm
+pnpm i -D flexilexi  // pnpm
+yarn add -D flexilexi // yarn
 ```
 
 ## Usage
@@ -34,25 +40,84 @@ pnpm i -D flexilexi
 <script>
   import dictionary from './data/example-data.json'
   import {FlexiLexi} from 'flexilexi'
-  let keys = ['japanese', 'romaji', 'english']
 </script>
 
 <h1 class="text-4xl">Japanese dictionary</h1>
 <h2 class="text-3xl">You can search Japanese, Romaji, and English.</h2>
-<FlexiLexi {dictionary} {keys} />
+<FlexiLexi {dictionary} />
 ```
 
 ## Props
 
+The FlexiLexi component accepts the following props:
+
+### dictionary: (Required) 
+A dataset for performing searches. This should be a link to a file or an array/object that represents the dataset.
+
+example-data.json:
+
 ```
-- dictionary: link to a file
-- keys: fields you want to search in your file
-- fields=[]: fields to display, the default is the same as keys.
-- thresholdValue = 0: fuzziness value 0: exact, 1: flexible.
-- 
+[
+  {
+    "japanese": "行く",
+    "romaji": "iku",
+    "english": "go"
+  },
+  {
+    "japanese": "見る",
+    "romaji": "miru",
+    "english": "see, look at"
+  },
+  // more lines
+]
 ```
 
-Example: See the previous example.
+### keys=[]:
+An optional array of strings representing the fields to search within the dataset. If specified, the search will be limited to these fields. If not provided, the default behavior is to search in all available fields.
+
+
+```
+<script>
+  import dictionary from './data/example-data.json'
+  import {FlexiLexi} from 'flexilexi'
+  let keys = ['japanese', 'english']
+</script>
+
+<h1 class="text-4xl">Japanese dictionary</h1>
+<h2 class="text-3xl">You can search Japanese and English.</h2>
+<FlexiLexi {dictionary} {keys}/>
+```
+
+### fields=[]:
+An optional array of strings determining which fields from the dataset should be displayed as search results. If not specified, it defaults to the keys provided.
+
+
+```
+<script>
+  import dictionary from './data/example-data.json'
+  import {FlexiLexi} from 'flexilexi'
+  let feilds = ['japanese', 'english']
+</script>
+
+<h1 class="text-4xl">Japanese dictionary</h1>
+<h2 class="text-3xl">You can search Japanese and English.</h2>
+<FlexiLexi {dictionary} {feilds}/>
+```
+
+### thresholdValue=0:
+An optional number (ranging from 0 to 1) that sets the fuzziness value for the search. A value of 0 signifies an exact match, while 1 represents the most flexible/fuzzy search.
+
+
+```
+<script>
+  import dictionary from './data/example-data.json'
+  import {FlexiLexi} from 'flexilexi'
+</script>
+
+<h1 class="text-4xl">Japanese dictionary</h1>
+<h2 class="text-3xl">You can search Japanese and English.</h2>
+<FlexiLexi {dictionary} threshold={0.6}/>
+```
 
 ## Styling
 

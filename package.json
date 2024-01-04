@@ -1,6 +1,16 @@
 {
 	"name": "flexilexi",
 	"version": "0.1.0",
+	"description": "A library to facilitate dynamic and flexible searching within a dataset.",
+	"main": "dist/index.js",
+	"author": {
+    "name": "Shinichi Okada",
+    "email": "connect@codewithshin.com",
+    "url": "https://blog.codewithshin.com"
+  },
+  "bugs": "https://github.com/shinokada/flexilexi/issues",
+  "homepage": "https://flexilexi.vercel.app/",
+  "license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -21,6 +31,10 @@
 			"svelte": "./dist/index.js"
 		}
 	},
+	"engines": {
+    "npm": ">=7.0.0",
+    "node": ">=18.0.0"
+  },
 	"files": [
 		"dist",
 		"!dist/**/*.test.*",
@@ -60,5 +74,16 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"keywords": [
+    "svelte 5",
+		"fuse.js",
+		"dictionary",
+		"fuzzy",
+		"search"
+	],
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/shinokada/flexilexi"
+  }
 }

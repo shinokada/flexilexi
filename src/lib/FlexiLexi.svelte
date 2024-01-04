@@ -2,13 +2,25 @@
   interface Props {
     dictionary: Record<string, any> | any[];
     keys?: string[];
-    fields: string[];
-    thresholdValue: number;
+    fields?: string[];
+    thresholdValue?: number;
   }
-  let { dictionary, keys, fields=[], thresholdValue = 0, ...attributes } = $props<Props>()
+  let { dictionary, keys=[], fields=[], thresholdValue = 0, ...attributes } = $props<Props>()
 	import Fuse from 'fuse.js';
 
 	let threshold = $state(thresholdValue);
+
+   // If keys are not provided, extract keys dynamically from the dictionary dataset
+   if (!keys || keys.length === 0) {
+    // Check if the dictionary is an object and extract keys from its first item
+    if (Array.isArray(dictionary) && dictionary.length > 0 && typeof dictionary[0] === 'object') {
+      keys = Object.keys(dictionary[0]);
+    } else if (typeof dictionary === 'object') {
+      keys = Object.keys(dictionary);
+    }
+  }
+
+  $inspect('keys: ', keys, 'threshold', threshold, 'fields: ', fields)
 
 	let options = $derived({
 		keys,
