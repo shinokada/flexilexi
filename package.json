@@ -25,7 +25,7 @@
 		"test:integration": "playwright test",
 		"test:unit": "vitest",
 		"copy:package": "svelte-lib-helpers package",
-		"package:publish": "npm copy:package && npm run format && standard-version && git push --follow-tags origin main && npm publish"
+		"package:publish": "npm run copy:package && npm run format && standard-version && git push --follow-tags origin main && npm publish"
 	},
 	"exports": {
 		".": {
