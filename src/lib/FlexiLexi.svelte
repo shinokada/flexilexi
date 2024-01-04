@@ -1,6 +1,9 @@
 <script lang="ts">
+  interface DictionaryObject {
+    [key: string]: string;
+  }
 	interface Props {
-		dictionary: Record<string, any> | any[];
+		dictionary: DictionaryObject[] | DictionaryObject;
 		keys?: string[];
 		fields?: string[];
 		thresholdValue?: number;
