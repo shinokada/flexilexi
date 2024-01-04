@@ -2,12 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.1.5](https://github.com/shinokada/flexilexi/compare/v0.1.4...v0.1.5) (2024-01-04)
+### [0.1.6](https://github.com/shinokada/flexilexi/compare/v0.1.5...v0.1.6) (2024-01-04)
 
+
+### Features
+
+* add GitHub repo, update README and json file ([83bda50](https://github.com/shinokada/flexilexi/commit/83bda5020aa9564eb022bacd12fd70d1f5b85c01))
+
+### [0.1.5](https://github.com/shinokada/flexilexi/compare/v0.1.4...v0.1.5) (2024-01-04)
 
 ### Bug Fixes
 
-* put back typescript ([6964ab9](https://github.com/shinokada/flexilexi/commit/6964ab9bd3be224f45df6ba67ebed2bf53e97821))
+- put back typescript ([6964ab9](https://github.com/shinokada/flexilexi/commit/6964ab9bd3be224f45df6ba67ebed2bf53e97821))
 
 ### [0.1.4](https://github.com/shinokada/flexilexi/compare/v0.1.3...v0.1.4) (2024-01-04)
 
