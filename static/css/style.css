@@ -1,51 +1,51 @@
 .divClass {
-  margin: 1rem;
+	margin: 1rem;
 }
 
 .rangeLabelClass {
-  margin-bottom: 0.5rem;
-  display: block;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #1f2937;
+	margin-bottom: 0.5rem;
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 500;
+	color: #1f2937;
 }
 
 .rangeInputClass {
-  height: 0.5rem;
-  width: 30%;
-  cursor: pointer;
-  appearance: none;
-  border-radius: 0.5rem;
-  background-color: #e5e7eb;
+	height: 0.5rem;
+	width: 30%;
+	cursor: pointer;
+	appearance: none;
+	border-radius: 0.5rem;
+	background-color: #e5e7eb;
 }
 
 .searchLabelClass {
-  margin-bottom: 0.5rem;
-  display: block;
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: #1f2937;
+	margin-bottom: 0.5rem;
+	display: block;
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: #1f2937;
 }
 
 .searchInputClass {
-  display: block;
-  border-radius: 0.5rem;
-  border: 1px solid #d1d5db;
-  background-color: #f3f4f6;
-  padding: 0.625rem;
-  font-size: 1.25rem;
-  color: #1f2937;
-  width: 20rem;
-  margin: auto;
+	display: block;
+	border-radius: 0.5rem;
+	border: 1px solid #d1d5db;
+	background-color: #f3f4f6;
+	padding: 0.625rem;
+	font-size: 1.25rem;
+	color: #1f2937;
+	width: 20rem;
+	margin: auto;
 }
 
 .ulClass {
-  max-width: 32rem;
-  list-style-position: inside;
-  list-style-type: disc;
-  line-height: 1.25;
-  color: #4b5563;
-  text-align: left;
-  width: 24rem;
-  margin: auto;
+	max-width: 32rem;
+	list-style-position: inside;
+	list-style-type: disc;
+	line-height: 1.25;
+	color: #4b5563;
+	text-align: left;
+	width: 24rem;
+	margin: auto;
 }

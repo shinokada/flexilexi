@@ -51,7 +51,8 @@ yarn add -D flexilexi // yarn
 
 The FlexiLexi component accepts the following props:
 
-### dictionary: (Required) 
+### dictionary: (Required)
+
 A dataset for performing searches. This should be a link to a file or an array/object that represents the dataset.
 
 example-data.json:
@@ -73,8 +74,8 @@ example-data.json:
 ```
 
 ### keys=[]:
-An optional array of strings representing the fields to search within the dataset. If specified, the search will be limited to these fields. If not provided, the default behavior is to search in all available fields.
 
+An optional array of strings representing the fields to search within the dataset. If specified, the search will be limited to these fields. If not provided, the default behavior is to search in all available fields.
 
 ```
 <script>
@@ -89,8 +90,8 @@ An optional array of strings representing the fields to search within the datase
 ```
 
 ### fields=[]:
-An optional array of strings determining which fields from the dataset should be displayed as search results. If not specified, it defaults to the keys provided.
 
+An optional array of strings determining which fields from the dataset should be displayed as search results. If not specified, it defaults to the keys provided.
 
 ```
 <script>
@@ -105,8 +106,8 @@ An optional array of strings determining which fields from the dataset should be
 ```
 
 ### thresholdValue=0:
-An optional number (ranging from 0 to 1) that sets the fuzziness value for the search. A value of 0 signifies an exact match, while 1 represents the most flexible/fuzzy search.
 
+An optional number (ranging from 0 to 1) that sets the fuzziness value for the search. A value of 0 signifies an exact match, while 1 represents the most flexible/fuzzy search.
 
 ```
 <script>
@@ -142,16 +143,16 @@ Use the following prop to add your custome class names:
 - liClassName
 ```
 
-Example: 
+Example:
 
 ```
-<FlexiLexi 
-  {dictionary} 
-  {keys} 
+<FlexiLexi
+  {dictionary}
+  {keys}
   divClassName="customDiv"
   rangeLabelClassName="customRangeLabel"
   rangeInputClassName="customRangeInput"
-  searchInputClassName="customSearchInput" 
+  searchInputClassName="customSearchInput"
   searchLabelClassName="customSearchLabel"
   ulClassName="customUl"
   liClassName="customLi"
@@ -164,12 +165,12 @@ The above example produces the following html:
 <div class="divClass customDiv">
   <label for="minmax-range" class="rangeLabelClass customRangeLabel">
     Fuzziness: 0
-  </label> 
-  <input id="minmax-range" type="range" min="0" max="1" step="0.2" value="0" class="rangeInputClass customRangeInput"></div> 
+  </label>
+  <input id="minmax-range" type="range" min="0" max="1" step="0.2" value="0" class="rangeInputClass customRangeInput"></div>
   <div>
     <label for="default-input" class="searchLabelClass customSearchLabel">Searching: </label>
     <input type="text" placeholder="Search..." class="searchInputClass customSearchInput">
-  </div> 
+  </div>
   <ul class="ulClass customUl">
     <li class="liClass customLi"></li>
   </ul>

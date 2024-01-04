@@ -1,1 +1,1 @@
-export { default as FlexiLexi } from './FlexiLexi.svelte'
+export { default as FlexiLexi } from './FlexiLexi.svelte';

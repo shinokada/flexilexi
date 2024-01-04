@@ -1,157 +1,157 @@
 [
-  {
-    "japanese": "行く",
-    "romaji": "iku",
-    "english": "go"
-  },
-  {
-    "japanese": "見る",
-    "romaji": "miru",
-    "english": "see, look at"
-  },
-  {
-    "japanese": "多い",
-    "romaji": "ooi",
-    "english": "a lot of, many"
-  },
-  {
-    "japanese": "家",
-    "romaji": "ie",
-    "english": "home, household"
-  },
-  {
-    "japanese": "これ",
-    "romaji": "kore",
-    "english": "this, this one"
-  },
-  {
-    "japanese": "それ",
-    "romaji": "sore",
-    "english": "that, that one"
-  },
-  {
-    "japanese": "私",
-    "romaji": "watashi",
-    "english": "I"
-  },
-  {
-    "japanese": "仕事",
-    "romaji": "shigoto",
-    "english": "work, job"
-  },
-  {
-    "japanese": "いつ",
-    "romaji": "itsu",
-    "english": "when"
-  },
-  {
-    "japanese": "する",
-    "romaji": "suru",
-    "english": "do, make"
-  },
-  {
-    "japanese": "出る",
-    "romaji": "deru",
-    "english": "go out, leave"
-  },
-  {
-    "japanese": "使う",
-    "romaji": "tsukau",
-    "english": "use, make use of"
-  },
-  {
-    "japanese": "所",
-    "romaji": "tokoro",
-    "english": "place"
-  },
-  {
-    "japanese": "作る",
-    "romaji": "tsukuru",
-    "english": "make, create"
-  },
-  {
-    "japanese": "思う",
-    "romaji": "omou",
-    "english": "think"
-  },
-  {
-    "japanese": "持つ",
-    "romaji": "motsu",
-    "english": "have, possess"
-  },
-  {
-    "japanese": "買う",
-    "romaji": "kau",
-    "english": "buy"
-  },
-  {
-    "japanese": "時間",
-    "romaji": "jikan",
-    "english": "time, hour"
-  },
-  {
-    "japanese": "知る",
-    "romaji": "shiru",
-    "english": "know"
-  },
-  {
-    "japanese": "同じ",
-    "romaji": "onaji",
-    "english": "same, identical"
-  },
-  {
-    "japanese": "今",
-    "romaji": "ima",
-    "english": "now"
-  },
-  {
-    "japanese": "新しい",
-    "romaji": "atarashii",
-    "english": "new"
-  },
-  {
-    "japanese": "なる",
-    "romaji": "naru",
-    "english": "become"
-  },
-  {
-    "japanese": "まだ",
-    "romaji": "mada",
-    "english": "(not) yet, still"
-  },
-  {
-    "japanese": "あと",
-    "romaji": "ato",
-    "english": "after"
-  },
-  {
-    "japanese": "聞く",
-    "romaji": "kiku",
-    "english": "hear, ask"
-  },
-  {
-    "japanese": "言う",
-    "romaji": "iu",
-    "english": "say, tell"
-  },
-  {
-    "japanese": "少ない",
-    "romaji": "sukunai",
-    "english": "few, little"
-  },
-  {
-    "japanese": "高い",
-    "romaji": "takai",
-    "english": "high, tall"
-  },
-  {
-    "japanese": "子供",
-    "romaji": "kodomo",
-    "english": "child"
-  },
-  {
-    "japanese": "そう",
-    "romaji": "sou",
-    "english": "so, that way"
-  }
+	{
+		"japanese": "行く",
+		"romaji": "iku",
+		"english": "go"
+	},
+	{
+		"japanese": "見る",
+		"romaji": "miru",
+		"english": "see, look at"
+	},
+	{
+		"japanese": "多い",
+		"romaji": "ooi",
+		"english": "a lot of, many"
+	},
+	{
+		"japanese": "家",
+		"romaji": "ie",
+		"english": "home, household"
+	},
+	{
+		"japanese": "これ",
+		"romaji": "kore",
+		"english": "this, this one"
+	},
+	{
+		"japanese": "それ",
+		"romaji": "sore",
+		"english": "that, that one"
+	},
+	{
+		"japanese": "私",
+		"romaji": "watashi",
+		"english": "I"
+	},
+	{
+		"japanese": "仕事",
+		"romaji": "shigoto",
+		"english": "work, job"
+	},
+	{
+		"japanese": "いつ",
+		"romaji": "itsu",
+		"english": "when"
+	},
+	{
+		"japanese": "する",
+		"romaji": "suru",
+		"english": "do, make"
+	},
+	{
+		"japanese": "出る",
+		"romaji": "deru",
+		"english": "go out, leave"
+	},
+	{
+		"japanese": "使う",
+		"romaji": "tsukau",
+		"english": "use, make use of"
+	},
+	{
+		"japanese": "所",
+		"romaji": "tokoro",
+		"english": "place"
+	},
+	{
+		"japanese": "作る",
+		"romaji": "tsukuru",
+		"english": "make, create"
+	},
+	{
+		"japanese": "思う",
+		"romaji": "omou",
+		"english": "think"
+	},
+	{
+		"japanese": "持つ",
+		"romaji": "motsu",
+		"english": "have, possess"
+	},
+	{
+		"japanese": "買う",
+		"romaji": "kau",
+		"english": "buy"
+	},
+	{
+		"japanese": "時間",
+		"romaji": "jikan",
+		"english": "time, hour"
+	},
+	{
+		"japanese": "知る",
+		"romaji": "shiru",
+		"english": "know"
+	},
+	{
+		"japanese": "同じ",
+		"romaji": "onaji",
+		"english": "same, identical"
+	},
+	{
+		"japanese": "今",
+		"romaji": "ima",
+		"english": "now"
+	},
+	{
+		"japanese": "新しい",
+		"romaji": "atarashii",
+		"english": "new"
+	},
+	{
+		"japanese": "なる",
+		"romaji": "naru",
+		"english": "become"
+	},
+	{
+		"japanese": "まだ",
+		"romaji": "mada",
+		"english": "(not) yet, still"
+	},
+	{
+		"japanese": "あと",
+		"romaji": "ato",
+		"english": "after"
+	},
+	{
+		"japanese": "聞く",
+		"romaji": "kiku",
+		"english": "hear, ask"
+	},
+	{
+		"japanese": "言う",
+		"romaji": "iu",
+		"english": "say, tell"
+	},
+	{
+		"japanese": "少ない",
+		"romaji": "sukunai",
+		"english": "few, little"
+	},
+	{
+		"japanese": "高い",
+		"romaji": "takai",
+		"english": "high, tall"
+	},
+	{
+		"japanese": "子供",
+		"romaji": "kodomo",
+		"english": "child"
+	},
+	{
+		"japanese": "そう",
+		"romaji": "sou",
+		"english": "so, that way"
+	}
 ]
