@@ -1,6 +1,6 @@
 {
 	"name": "flexilexi",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "A library to facilitate dynamic and flexible searching within a dataset.",
 	"main": "dist/index.js",
 	"author": {
