@@ -17,6 +17,14 @@ FlexiLexi is an npm package designed to facilitate dynamic and flexible searchin
   - Presents search results in an unordered list.
   - Supports display customization by iterating through selected fields for each result.
 
+## Demo
+
+[FlexiLexi](https://flexilexi.vercel.app/)
+
+## Repo
+
+[GitHub](https://github.com/shinokada/flexilexi)
+
 ## Requirement
 
 - Svelte 5
@@ -54,6 +62,7 @@ yarn add -D flexilexi // yarn
   }
 </style>
 ```
+
 
 ## Props
 
@@ -151,6 +160,10 @@ An optional number (ranging from 0 to 1) that sets the fuzziness value for the s
   }
 </style>
 ```
+
+## Sample data
+
+[example-data.json](https://github.com/shinokada/flexilexi/blob/main/src/routes/data/example-data.json)
 
 ## Styling
 

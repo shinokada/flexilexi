@@ -85,6 +85,14 @@
 						class={$page.url.pathname === '/threshold' ? activeStyle : linkStyle}>Threshold</a
 					>
 				</li>
+				<li>
+					<a
+						href="https://github.com/shinokada/flexilexi"
+						onclick={closeNav}
+			      target="_blank"
+						class="{linkStyle}">GitHub</a
+					>
+				</li>
 			</ul>
 		</div>
 	</div>
