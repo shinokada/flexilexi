@@ -1,16 +1,16 @@
 {
 	"name": "flexilexi",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A library to facilitate dynamic and flexible searching within a dataset.",
 	"main": "dist/index.js",
 	"author": {
-    "name": "Shinichi Okada",
-    "email": "connect@codewithshin.com",
-    "url": "https://blog.codewithshin.com"
-  },
-  "bugs": "https://github.com/shinokada/flexilexi/issues",
-  "homepage": "https://flexilexi.vercel.app/",
-  "license": "MIT",
+		"name": "Shinichi Okada",
+		"email": "connect@codewithshin.com",
+		"url": "https://blog.codewithshin.com"
+	},
+	"bugs": "https://github.com/shinokada/flexilexi/issues",
+	"homepage": "https://flexilexi.vercel.app/",
+	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -23,7 +23,8 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"test:integration": "playwright test",
-		"test:unit": "vitest"
+		"test:unit": "vitest",
+		"package:publish": "npm run format && standard-version && git push --follow-tags origin main && npm publish"
 	},
 	"exports": {
 		".": {
@@ -32,9 +33,9 @@
 		}
 	},
 	"engines": {
-    "npm": ">=7.0.0",
-    "node": ">=18.0.0"
-  },
+		"npm": ">=7.0.0",
+		"node": ">=18.0.0"
+	},
 	"files": [
 		"dist",
 		"!dist/**/*.test.*",
@@ -76,14 +77,14 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"keywords": [
-    "svelte 5",
+		"svelte 5",
 		"fuse.js",
 		"dictionary",
 		"fuzzy",
 		"search"
 	],
 	"repository": {
-    "type": "git",
-    "url": "https://github.com/shinokada/flexilexi"
-  }
+		"type": "git",
+		"url": "https://github.com/shinokada/flexilexi"
+	}
 }
