@@ -1,0 +1,79 @@
+<script lang="ts">
+  interface Props {
+    dictionary: Record<string, any> | any[];
+    keys?: string[];
+    fields: string[];
+    thresholdValue: number;
+  }
+  let { dictionary, keys, fields=[], thresholdValue = 0, ...attributes } = $props<Props>()
+	import Fuse from 'fuse.js';
+
+	let threshold = $state(thresholdValue);
+
+	let options = $derived({
+		keys,
+		threshold
+	});
+
+	if(!fields.length){
+		fields = keys
+	}
+
+	let fuse;
+	let searchInput = $state();
+
+	fuse = new Fuse(dictionary, options);
+
+	let searchResults = $state([]);
+
+	function handleSearch() {
+		searchResults = fuse.search(searchInput);
+	}
+
+	function handleThreshold() {
+		fuse = new Fuse(dictionary, options);
+		searchResults = fuse.search(searchInput);
+	}
+
+</script>
+
+<div class="divClass {attributes.divClassName}">
+  <label for="minmax-range" class="rangeLabelClass {attributes.rangeLabelClassName}"
+    >Fuzziness: {threshold}</label
+  >
+  <input
+    id="minmax-range"
+    type="range"
+    min="0"
+    max="1"
+    step="0.2"
+    bind:value={threshold}
+    onchange={handleThreshold}
+    class="rangeInputClass {attributes.rangeInputClassName}"
+  />
+</div>
+<div>
+  <label for="default-input" class="searchLabelClass {attributes.searchLabelClassName}"
+    >Searching: {searchInput}</label
+  >
+  <input
+    type="text"
+    bind:value={searchInput}
+    oninput={handleSearch}
+    placeholder="Search..."
+    class="searchInputClass {attributes.searchInputClassName}"
+  />
+</div>
+
+<ul class="ulClass {attributes.ulClassName}">
+  {#each searchResults as result}
+  <li class="liClass {attributes.liClassName}">
+    {#each fields as field, index}
+      {result.item[field]}
+      {#if index < fields.length - 1}
+        :&nbsp;
+      {/if}
+    {/each}
+    </li>
+  {/each}
+</ul>
