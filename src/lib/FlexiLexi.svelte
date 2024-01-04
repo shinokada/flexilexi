@@ -1,14 +1,14 @@
-<script lang="ts">
-  interface DictionaryObject {
-    [key: string]: string;
-  }
-	interface Props {
-		dictionary: DictionaryObject[] | DictionaryObject;
-		keys?: string[];
-		fields?: string[];
-		thresholdValue?: number;
-	}
-	let { dictionary, keys = [], fields = [], thresholdValue = 0, ...attributes } = $props<Props>();
+<script>
+	// interface DictionaryObject {
+	// 	[key: string]: string;
+	// }
+	// interface Props {
+	// 	dictionary: DictionaryObject[] | DictionaryObject;
+	// 	keys?: string[];
+	// 	fields?: string[];
+	// 	thresholdValue?: number;
+	// }
+	let { dictionary, keys = [], fields = [], thresholdValue = 0, ...attributes } = $props();
 	import Fuse from 'fuse.js';
 
 	let threshold = $state(thresholdValue);
