@@ -87,6 +87,14 @@
 				</li>
 				<li>
 					<a
+						href="/single-object"
+						onclick={closeNav}
+						aria-current={$page.url.pathname === '/single-object'}
+						class={$page.url.pathname === '/single-object' ? activeStyle : linkStyle}>Single object</a
+					>
+				</li>
+				<li>
+					<a
 						href="https://github.com/shinokada/flexilexi"
 						onclick={closeNav}
 						target="_blank"

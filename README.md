@@ -73,17 +73,28 @@ example-data.json:
 ```
 [
   {
-    "japanese": "行く",
-    "romaji": "iku",
-    "english": "go"
+    "key-1": "value-1",
+    "key-2": "value-2",
+    "key-3": "value-3"
   },
   {
-    "japanese": "見る",
-    "romaji": "miru",
-    "english": "see, look at"
+    "key-1": "value-4",
+    "key-2": "value-5",
+    "key-3": "value-6"
   },
   // more lines
 ]
+```
+
+Or an object:
+
+
+```
+{
+  "key-1": "value-1",
+  "key-2": "value-2",
+  "key-3": "value-3",
+}
 ```
 
 ### keys=[]:

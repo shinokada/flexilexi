@@ -7,8 +7,9 @@
 		keys?: string[];
 		fields?: string[];
 		thresholdValue?: number;
+		isObject?: boolean;
 	}
-	let { dictionary, keys = [], fields = [], thresholdValue = 0, ...attributes } = $props<Props>();
+	let { dictionary, keys = [], fields = [], thresholdValue = 0, isObject = false, ...attributes } = $props<Props>();
 	import Fuse from 'fuse.js';
 
 	let threshold = $state(thresholdValue);
@@ -18,10 +19,18 @@
 		// Check if the dictionary is an object and extract keys from its first item
 		if (Array.isArray(dictionary) && dictionary.length > 0 && typeof dictionary[0] === 'object') {
 			keys = Object.keys(dictionary[0]);
-		} else if (typeof dictionary === 'object') {
-			keys = Object.keys(dictionary);
+		} else {
+			// keys = Object.keys(dictionary);
+			dictionary = Object.keys(dictionary).map(key => ({ key, value: dictionary[key] }));
+			keys = ["key"];
+			fields = ['key', 'value']
+			console.log('dic: ', dictionary)
 		}
 	}
+
+	// if (Array.isArray(dictionary)){
+
+	// }
 
 	// $inspect('keys: ', keys, 'threshold', threshold, 'fields: ', fields);
 

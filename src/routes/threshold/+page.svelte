@@ -1,5 +1,5 @@
 <script>
-	import dictionary from '../data/example-data.json';
+	import dictionary from '../data/japanese-data.json';
 	import { FlexiLexi } from '$lib';
 </script>
 

@@ -1,0 +1,4347 @@
+[
+	{
+		"japanese": "行く",
+		"romaji": "iku",
+		"english": "go"
+	},
+	{
+		"japanese": "見る",
+		"romaji": "miru",
+		"english": "see, look at"
+	},
+	{
+		"japanese": "多い",
+		"romaji": "ooi",
+		"english": "a lot of, many"
+	},
+	{
+		"japanese": "家",
+		"romaji": "ie",
+		"english": "home, household"
+	},
+	{
+		"japanese": "これ",
+		"romaji": "kore",
+		"english": "this, this one"
+	},
+	{
+		"japanese": "それ",
+		"romaji": "sore",
+		"english": "that, that one"
+	},
+	{
+		"japanese": "私",
+		"romaji": "watashi",
+		"english": "I"
+	},
+	{
+		"japanese": "仕事",
+		"romaji": "shigoto",
+		"english": "work, job"
+	},
+	{
+		"japanese": "いつ",
+		"romaji": "itsu",
+		"english": "when"
+	},
+	{
+		"japanese": "する",
+		"romaji": "suru",
+		"english": "do, make"
+	},
+	{
+		"japanese": "出る",
+		"romaji": "deru",
+		"english": "go out, leave"
+	},
+	{
+		"japanese": "使う",
+		"romaji": "tsukau",
+		"english": "use, make use of"
+	},
+	{
+		"japanese": "所",
+		"romaji": "tokoro",
+		"english": "place"
+	},
+	{
+		"japanese": "作る",
+		"romaji": "tsukuru",
+		"english": "make, create"
+	},
+	{
+		"japanese": "思う",
+		"romaji": "omou",
+		"english": "think"
+	},
+	{
+		"japanese": "持つ",
+		"romaji": "motsu",
+		"english": "have, possess"
+	},
+	{
+		"japanese": "買う",
+		"romaji": "kau",
+		"english": "buy"
+	},
+	{
+		"japanese": "時間",
+		"romaji": "jikan",
+		"english": "time, hour"
+	},
+	{
+		"japanese": "知る",
+		"romaji": "shiru",
+		"english": "know"
+	},
+	{
+		"japanese": "同じ",
+		"romaji": "onaji",
+		"english": "same, identical"
+	},
+	{
+		"japanese": "今",
+		"romaji": "ima",
+		"english": "now"
+	},
+	{
+		"japanese": "新しい",
+		"romaji": "atarashii",
+		"english": "new"
+	},
+	{
+		"japanese": "なる",
+		"romaji": "naru",
+		"english": "become"
+	},
+	{
+		"japanese": "まだ",
+		"romaji": "mada",
+		"english": "(not) yet, still"
+	},
+	{
+		"japanese": "あと",
+		"romaji": "ato",
+		"english": "after"
+	},
+	{
+		"japanese": "聞く",
+		"romaji": "kiku",
+		"english": "hear, ask"
+	},
+	{
+		"japanese": "言う",
+		"romaji": "iu",
+		"english": "say, tell"
+	},
+	{
+		"japanese": "少ない",
+		"romaji": "sukunai",
+		"english": "few, little"
+	},
+	{
+		"japanese": "高い",
+		"romaji": "takai",
+		"english": "high, tall"
+	},
+	{
+		"japanese": "子供",
+		"romaji": "kodomo",
+		"english": "child"
+	},
+	{
+		"japanese": "そう",
+		"romaji": "sou",
+		"english": "so, that way"
+	},
+	{
+		"japanese": "もう",
+		"romaji": "mou",
+		"english": "already, yet"
+	},
+	{
+		"japanese": "学生",
+		"romaji": "gakusei",
+		"english": "student"
+	},
+	{
+		"japanese": "熱い",
+		"romaji": "atsui",
+		"english": "hot (to touch)"
+	},
+	{
+		"japanese": "どうぞ",
+		"romaji": "douzo",
+		"english": "please"
+	},
+	{
+		"japanese": "午後",
+		"romaji": "gogo",
+		"english": "afternoon, p.m."
+	},
+	{
+		"japanese": "長い",
+		"romaji": "nagai",
+		"english": "long"
+	},
+	{
+		"japanese": "本",
+		"romaji": "hon",
+		"english": "book, volume"
+	},
+	{
+		"japanese": "今年",
+		"romaji": "kotoshi",
+		"english": "this year (colloquial)"
+	},
+	{
+		"japanese": "よく",
+		"romaji": "yoku",
+		"english": "often, well"
+	},
+	{
+		"japanese": "彼女",
+		"romaji": "kanojo",
+		"english": "she, one’s girlfriend"
+	},
+	{
+		"japanese": "どう",
+		"romaji": "dou",
+		"english": "how, what"
+	},
+	{
+		"japanese": "言葉",
+		"romaji": "kotoba",
+		"english": "word, language"
+	},
+	{
+		"japanese": "顔",
+		"romaji": "kao",
+		"english": "face"
+	},
+	{
+		"japanese": "終わる",
+		"romaji": "owaru",
+		"english": "finish, end"
+	},
+	{
+		"japanese": "一つ",
+		"romaji": "hitotsu",
+		"english": "one (thing)"
+	},
+	{
+		"japanese": "あげる",
+		"romaji": "ageru",
+		"english": "give, offer (colloquial)"
+	},
+	{
+		"japanese": "こう",
+		"romaji": "kou",
+		"english": "like this, such"
+	},
+	{
+		"japanese": "学校",
+		"romaji": "gakkou",
+		"english": "school"
+	},
+	{
+		"japanese": "くれる",
+		"romaji": "kureru",
+		"english": "be given"
+	},
+	{
+		"japanese": "始める",
+		"romaji": "hajimeru",
+		"english": "start (something)"
+	},
+	{
+		"japanese": "起きる",
+		"romaji": "okiru",
+		"english": "get up, get out of bed"
+	},
+	{
+		"japanese": "春",
+		"romaji": "haru",
+		"english": "spring"
+	},
+	{
+		"japanese": "午前",
+		"romaji": "gozen",
+		"english": "morning, a.m."
+	},
+	{
+		"japanese": "別",
+		"romaji": "betsu",
+		"english": "another, different"
+	},
+	{
+		"japanese": "どこ",
+		"romaji": "doko",
+		"english": "where"
+	},
+	{
+		"japanese": "部屋",
+		"romaji": "heya",
+		"english": "room"
+	},
+	{
+		"japanese": "若い",
+		"romaji": "wakai",
+		"english": "young"
+	},
+	{
+		"japanese": "車",
+		"romaji": "kuruma",
+		"english": "car, automobile"
+	},
+	{
+		"japanese": "置く",
+		"romaji": "oku",
+		"english": "put, place"
+	},
+	{
+		"japanese": "住む",
+		"romaji": "sumu",
+		"english": "live, reside"
+	},
+	{
+		"japanese": "働く",
+		"romaji": "hataraku",
+		"english": "work"
+	},
+	{
+		"japanese": "難しい",
+		"romaji": "muzukashii",
+		"english": "difficult"
+	},
+	{
+		"japanese": "先生",
+		"romaji": "sensei",
+		"english": "teacher"
+	},
+	{
+		"japanese": "立つ",
+		"romaji": "tatsu",
+		"english": "stand, rise"
+	},
+	{
+		"japanese": "呼ぶ",
+		"romaji": "yobu",
+		"english": "call, name"
+	},
+	{
+		"japanese": "大学",
+		"romaji": "daigaku",
+		"english": "university, college"
+	},
+	{
+		"japanese": "安い",
+		"romaji": "yasui",
+		"english": "cheap, inexpensive"
+	},
+	{
+		"japanese": "もっと",
+		"romaji": "motto",
+		"english": "more"
+	},
+	{
+		"japanese": "帰る",
+		"romaji": "kaeru",
+		"english": "go back home"
+	},
+	{
+		"japanese": "分かる",
+		"romaji": "wakaru",
+		"english": "understand"
+	},
+	{
+		"japanese": "広い",
+		"romaji": "hiroi",
+		"english": "wide, big"
+	},
+	{
+		"japanese": "数",
+		"romaji": "suu",
+		"english": "number"
+	},
+	{
+		"japanese": "近い",
+		"romaji": "chikai",
+		"english": "near, close"
+	},
+	{
+		"japanese": "そこ",
+		"romaji": "soko",
+		"english": "there"
+	},
+	{
+		"japanese": "走る",
+		"romaji": "hashiru",
+		"english": "run"
+	},
+	{
+		"japanese": "入れる",
+		"romaji": "ireru",
+		"english": "put in"
+	},
+	{
+		"japanese": "教える",
+		"romaji": "oshieru",
+		"english": "teach, tell"
+	},
+	{
+		"japanese": "歩く",
+		"romaji": "aruku",
+		"english": "walk, go on foot"
+	},
+	{
+		"japanese": "会う",
+		"romaji": "au",
+		"english": "meet"
+	},
+	{
+		"japanese": "書く",
+		"romaji": "kaku",
+		"english": "write"
+	},
+	{
+		"japanese": "頭",
+		"romaji": "atama",
+		"english": "head"
+	},
+	{
+		"japanese": "売る",
+		"romaji": "uru",
+		"english": "sell"
+	},
+	{
+		"japanese": "大好き",
+		"romaji": "daisuki",
+		"english": "like (something) a lot"
+	},
+	{
+		"japanese": "体",
+		"romaji": "karada",
+		"english": "body, physique"
+	},
+	{
+		"japanese": "直ぐ",
+		"romaji": "sugu",
+		"english": "at once, soon"
+	},
+	{
+		"japanese": "飛ぶ",
+		"romaji": "tobu",
+		"english": "fly"
+	},
+	{
+		"japanese": "とても",
+		"romaji": "totemo",
+		"english": "very (colloquial)"
+	},
+	{
+		"japanese": "誰",
+		"romaji": "dare",
+		"english": "who"
+	},
+	{
+		"japanese": "好き",
+		"romaji": "suki",
+		"english": "favorite, liked"
+	},
+	{
+		"japanese": "読む",
+		"romaji": "yomu",
+		"english": "read"
+	},
+	{
+		"japanese": "次",
+		"romaji": "tsugi",
+		"english": "next"
+	},
+	{
+		"japanese": "あなた",
+		"romaji": "anata",
+		"english": "you"
+	},
+	{
+		"japanese": "飲む",
+		"romaji": "nomu",
+		"english": "drink"
+	},
+	{
+		"japanese": "古い",
+		"romaji": "furui",
+		"english": "old"
+	},
+	{
+		"japanese": "質問",
+		"romaji": "shitsumon",
+		"english": "question"
+	},
+	{
+		"japanese": "今日",
+		"romaji": "kyou",
+		"english": "today (colloquial)"
+	},
+	{
+		"japanese": "友達",
+		"romaji": "tomodachi",
+		"english": "friend, companion (colloquial)"
+	},
+	{
+		"japanese": "早い",
+		"romaji": "hayai",
+		"english": "early"
+	},
+	{
+		"japanese": "どれ",
+		"romaji": "dore",
+		"english": "what, which"
+	},
+	{
+		"japanese": "美しい",
+		"romaji": "utsukushii",
+		"english": "beautiful"
+	},
+	{
+		"japanese": "いつも",
+		"romaji": "itsumo",
+		"english": "always (colloquial)"
+	},
+	{
+		"japanese": "足",
+		"romaji": "ashi",
+		"english": "leg, foot"
+	},
+	{
+		"japanese": "起こす",
+		"romaji": "okosu",
+		"english": "wake (someone) up"
+	},
+	{
+		"japanese": "見せる",
+		"romaji": "miseru",
+		"english": "show"
+	},
+	{
+		"japanese": "娘",
+		"romaji": "musume",
+		"english": "daughter, girl"
+	},
+	{
+		"japanese": "楽しむ",
+		"romaji": "tanoshimu",
+		"english": "enjoy"
+	},
+	{
+		"japanese": "色",
+		"romaji": "iro",
+		"english": "color"
+	},
+	{
+		"japanese": "みんな",
+		"romaji": "minna",
+		"english": "everybody (colloquial)"
+	},
+	{
+		"japanese": "取る",
+		"romaji": "toru",
+		"english": "take, get"
+	},
+	{
+		"japanese": "勉強",
+		"romaji": "benkyou",
+		"english": "study"
+	},
+	{
+		"japanese": "できる",
+		"romaji": "dekiru",
+		"english": "can do, be good at"
+	},
+	{
+		"japanese": "短い",
+		"romaji": "mijikai",
+		"english": "short, brief"
+	},
+	{
+		"japanese": "落ちる",
+		"romaji": "ochiru",
+		"english": "fall, come down"
+	},
+	{
+		"japanese": "息子",
+		"romaji": "musuko",
+		"english": "son"
+	},
+	{
+		"japanese": "白い",
+		"romaji": "shiroi",
+		"english": "white, blank"
+	},
+	{
+		"japanese": "飛行機",
+		"romaji": "hikouki",
+		"english": "airplane"
+	},
+	{
+		"japanese": "病気",
+		"romaji": "byouki",
+		"english": "illness"
+	},
+	{
+		"japanese": "冬",
+		"romaji": "fuyu",
+		"english": "winter"
+	},
+	{
+		"japanese": "年",
+		"romaji": "toshi",
+		"english": "year, age"
+	},
+	{
+		"japanese": "重い",
+		"romaji": "omoi",
+		"english": "heavy"
+	},
+	{
+		"japanese": "胸",
+		"romaji": "mune",
+		"english": "chest, breast"
+	},
+	{
+		"japanese": "払う",
+		"romaji": "harau",
+		"english": "pay (money, respect, attention, etc.)"
+	},
+	{
+		"japanese": "軽い",
+		"romaji": "karui",
+		"english": "light (of weight)"
+	},
+	{
+		"japanese": "見つける",
+		"romaji": "mitsukeru",
+		"english": "find"
+	},
+	{
+		"japanese": "忘れる",
+		"romaji": "wasureru",
+		"english": "forget, leave behind"
+	},
+	{
+		"japanese": "酒",
+		"romaji": "sake",
+		"english": "alcohol, rice wine"
+	},
+	{
+		"japanese": "どちら",
+		"romaji": "dochira",
+		"english": "which (polite)"
+	},
+	{
+		"japanese": "姉",
+		"romaji": "ane",
+		"english": "(one’s own) older sister"
+	},
+	{
+		"japanese": "覚える",
+		"romaji": "oboeru",
+		"english": "memorize, learn"
+	},
+	{
+		"japanese": "狭い",
+		"romaji": "semai",
+		"english": "narrow, small"
+	},
+	{
+		"japanese": "赤い",
+		"romaji": "akai",
+		"english": "red"
+	},
+	{
+		"japanese": "着る",
+		"romaji": "kiru",
+		"english": "wear, put on"
+	},
+	{
+		"japanese": "笑う",
+		"romaji": "warau",
+		"english": "laugh, smile"
+	},
+	{
+		"japanese": "一番",
+		"romaji": "ichiban",
+		"english": "most, best"
+	},
+	{
+		"japanese": "授業",
+		"romaji": "jugyou",
+		"english": "class session, lecture"
+	},
+	{
+		"japanese": "週",
+		"romaji": "shuu",
+		"english": "week"
+	},
+	{
+		"japanese": "漢字",
+		"romaji": "kanji",
+		"english": "Chinese character"
+	},
+	{
+		"japanese": "自転車",
+		"romaji": "jitensha",
+		"english": "bicycle"
+	},
+	{
+		"japanese": "電車",
+		"romaji": "densha",
+		"english": "train"
+	},
+	{
+		"japanese": "探す",
+		"romaji": "sagasu",
+		"english": "search for, look for"
+	},
+	{
+		"japanese": "紙",
+		"romaji": "kami",
+		"english": "paper"
+	},
+	{
+		"japanese": "歌う",
+		"romaji": "utau",
+		"english": "sing"
+	},
+	{
+		"japanese": "遅い",
+		"romaji": "osoi",
+		"english": "slow, late"
+	},
+	{
+		"japanese": "首",
+		"romaji": "kubi",
+		"english": "neck"
+	},
+	{
+		"japanese": "速い",
+		"romaji": "hayai",
+		"english": "fast"
+	},
+	{
+		"japanese": "一緒に",
+		"romaji": "issho ni",
+		"english": "together, at the same time"
+	},
+	{
+		"japanese": "今月",
+		"romaji": "kongetsu",
+		"english": "this month"
+	},
+	{
+		"japanese": "遊ぶ",
+		"romaji": "asobu",
+		"english": "play"
+	},
+	{
+		"japanese": "遠い",
+		"romaji": "tooi",
+		"english": "far, distant"
+	},
+	{
+		"japanese": "弱い",
+		"romaji": "yowai",
+		"english": "weak"
+	},
+	{
+		"japanese": "耳",
+		"romaji": "mimi",
+		"english": "ear"
+	},
+	{
+		"japanese": "座る",
+		"romaji": "suwaru",
+		"english": "sit, sit down"
+	},
+	{
+		"japanese": "右",
+		"romaji": "migi",
+		"english": "right"
+	},
+	{
+		"japanese": "浴びる",
+		"romaji": "abiru",
+		"english": "take (a shower)"
+	},
+	{
+		"japanese": "肩",
+		"romaji": "kata",
+		"english": "shoulder"
+	},
+	{
+		"japanese": "寝る",
+		"romaji": "neru",
+		"english": "lie down and sleep, go to sleep"
+	},
+	{
+		"japanese": "消す",
+		"romaji": "kesu",
+		"english": "switch off, turn off"
+	},
+	{
+		"japanese": "元気",
+		"romaji": "genki",
+		"english": "healthy, energetic"
+	},
+	{
+		"japanese": "全部",
+		"romaji": "zenbu",
+		"english": "all, whole"
+	},
+	{
+		"japanese": "去年",
+		"romaji": "kyonen",
+		"english": "last year (colloquial)"
+	},
+	{
+		"japanese": "引く",
+		"romaji": "hiku",
+		"english": "draw, pull"
+	},
+	{
+		"japanese": "図書館",
+		"romaji": "toshokan",
+		"english": "library"
+	},
+	{
+		"japanese": "上げる",
+		"romaji": "ageru",
+		"english": "raise, lift"
+	},
+	{
+		"japanese": "緑",
+		"romaji": "midori",
+		"english": "green"
+	},
+	{
+		"japanese": "腕",
+		"romaji": "ude",
+		"english": "arm"
+	},
+	{
+		"japanese": "ドア",
+		"romaji": "doa",
+		"english": "door (loan word)"
+	},
+	{
+		"japanese": "女の子",
+		"romaji": "onna no ko",
+		"english": "little girl"
+	},
+	{
+		"japanese": "男の子",
+		"romaji": "otoko no ko",
+		"english": "boy"
+	},
+	{
+		"japanese": "私たち",
+		"romaji": "watashitachi",
+		"english": "we (colloquial)"
+	},
+	{
+		"japanese": "近く",
+		"romaji": "chikaku",
+		"english": "near, close to"
+	},
+	{
+		"japanese": "やる",
+		"romaji": "yaru",
+		"english": "do, give"
+	},
+	{
+		"japanese": "かなり",
+		"romaji": "kanari",
+		"english": "fairly, rather"
+	},
+	{
+		"japanese": "国",
+		"romaji": "kuni",
+		"english": "country"
+	},
+	{
+		"japanese": "起こる",
+		"romaji": "okoru",
+		"english": "happen"
+	},
+	{
+		"japanese": "秋",
+		"romaji": "aki",
+		"english": "autumn, fall"
+	},
+	{
+		"japanese": "送る",
+		"romaji": "okuru",
+		"english": "send"
+	},
+	{
+		"japanese": "死ぬ",
+		"romaji": "shinu",
+		"english": "die"
+	},
+	{
+		"japanese": "気持ち",
+		"romaji": "kimochi",
+		"english": "feeling, sensation"
+	},
+	{
+		"japanese": "乗る",
+		"romaji": "noru",
+		"english": "ride, take"
+	},
+	{
+		"japanese": "いる",
+		"romaji": "iru",
+		"english": "be present, stay"
+	},
+	{
+		"japanese": "木",
+		"romaji": "ki",
+		"english": "tree, wood"
+	},
+	{
+		"japanese": "開ける",
+		"romaji": "akeru",
+		"english": "open, unlock (doors, windows, etc.)"
+	},
+	{
+		"japanese": "閉める",
+		"romaji": "shimeru",
+		"english": "shut, close (doors, windows, etc.)"
+	},
+	{
+		"japanese": "続く",
+		"romaji": "tsuzuku",
+		"english": "continue, follow"
+	},
+	{
+		"japanese": "お医者さん",
+		"romaji": "oishasan",
+		"english": "doctor (polite)"
+	},
+	{
+		"japanese": "円",
+		"romaji": "en",
+		"english": "Japanese yen"
+	},
+	{
+		"japanese": "ここ",
+		"romaji": "koko",
+		"english": "here"
+	},
+	{
+		"japanese": "待つ",
+		"romaji": "matsu",
+		"english": "wait, wait for"
+	},
+	{
+		"japanese": "低い",
+		"romaji": "hikui",
+		"english": "low, short"
+	},
+	{
+		"japanese": "もらう",
+		"romaji": "morau",
+		"english": "receive"
+	},
+	{
+		"japanese": "食べる",
+		"romaji": "taberu",
+		"english": "eat"
+	},
+	{
+		"japanese": "兄",
+		"romaji": "ani",
+		"english": "(one’s own) older brother"
+	},
+	{
+		"japanese": "名前",
+		"romaji": "namae",
+		"english": "name"
+	},
+	{
+		"japanese": "夫",
+		"romaji": "otto",
+		"english": "husband"
+	},
+	{
+		"japanese": "一",
+		"romaji": "ichi",
+		"english": "one"
+	},
+	{
+		"japanese": "結婚",
+		"romaji": "kekkon",
+		"english": "marriage"
+	},
+	{
+		"japanese": "親",
+		"romaji": "oya",
+		"english": "parent"
+	},
+	{
+		"japanese": "話す",
+		"romaji": "hanasu",
+		"english": "speak, talk"
+	},
+	{
+		"japanese": "少し",
+		"romaji": "sukoshi",
+		"english": "a bit, a little while"
+	},
+	{
+		"japanese": "閉じる",
+		"romaji": "tojiru",
+		"english": "shut, close (books, eyes, etc.)"
+	},
+	{
+		"japanese": "時",
+		"romaji": "toki",
+		"english": "time, moment"
+	},
+	{
+		"japanese": "米",
+		"romaji": "kome",
+		"english": "rice (grain)"
+	},
+	{
+		"japanese": "切る",
+		"romaji": "kiru",
+		"english": "cut"
+	},
+	{
+		"japanese": "楽しい",
+		"romaji": "tanoshii",
+		"english": "fun, enjoyable"
+	},
+	{
+		"japanese": "服",
+		"romaji": "fuku",
+		"english": "clothes (colloquial)"
+	},
+	{
+		"japanese": "後ろ",
+		"romaji": "ushiro",
+		"english": "back, behind"
+	},
+	{
+		"japanese": "嬉しい",
+		"romaji": "ureshii",
+		"english": "happy, glad"
+	},
+	{
+		"japanese": "腰",
+		"romaji": "koshi",
+		"english": "waist, lower back"
+	},
+	{
+		"japanese": "日曜日",
+		"romaji": "nichiyoubi",
+		"english": "Sunday"
+	},
+	{
+		"japanese": "昼",
+		"romaji": "hiru",
+		"english": "daytime, midday"
+	},
+	{
+		"japanese": "お母さん",
+		"romaji": "okaasan",
+		"english": "mother (colloquial)"
+	},
+	{
+		"japanese": "大学生",
+		"romaji": "daigakusei",
+		"english": "university student"
+	},
+	{
+		"japanese": "終わり",
+		"romaji": "owari",
+		"english": "end, conclusion"
+	},
+	{
+		"japanese": "背",
+		"romaji": "se",
+		"english": "height, stature"
+	},
+	{
+		"japanese": "手伝う",
+		"romaji": "tetsudau",
+		"english": "help, assist"
+	},
+	{
+		"japanese": "鼻",
+		"romaji": "hana",
+		"english": "nose"
+	},
+	{
+		"japanese": "起きる",
+		"romaji": "okiru",
+		"english": "occur, happen, wake up, get up"
+	},
+	{
+		"japanese": "載せる",
+		"romaji": "noseru",
+		"english": "place, put on"
+	},
+	{
+		"japanese": "悲しい",
+		"romaji": "kanashii",
+		"english": "sad"
+	},
+	{
+		"japanese": "しゃべる",
+		"romaji": "shaberu",
+		"english": "chat, talk"
+	},
+	{
+		"japanese": "近く",
+		"romaji": "chikaku",
+		"english": "in the near future, before long"
+	},
+	{
+		"japanese": "甘い",
+		"romaji": "amai",
+		"english": "sweet"
+	},
+	{
+		"japanese": "テーブル",
+		"romaji": "te-buru",
+		"english": "table"
+	},
+	{
+		"japanese": "食べ物",
+		"romaji": "tabemono",
+		"english": "food (colloquial)"
+	},
+	{
+		"japanese": "始まる",
+		"romaji": "hajimaru",
+		"english": "begin"
+	},
+	{
+		"japanese": "ゲーム",
+		"romaji": "ge-mu",
+		"english": "game"
+	},
+	{
+		"japanese": "十",
+		"romaji": "juu",
+		"english": "ten"
+	},
+	{
+		"japanese": "天気",
+		"romaji": "tenki",
+		"english": "weather"
+	},
+	{
+		"japanese": "暑い",
+		"romaji": "atsui",
+		"english": "hot (of weather)"
+	},
+	{
+		"japanese": "太い",
+		"romaji": "futoi",
+		"english": "thick, fat"
+	},
+	{
+		"japanese": "晩",
+		"romaji": "ban",
+		"english": "evening, night (from sunset to bedtime)"
+	},
+	{
+		"japanese": "土曜日",
+		"romaji": "doyoubi",
+		"english": "Saturday"
+	},
+	{
+		"japanese": "痛い",
+		"romaji": "itai",
+		"english": "sore, painful"
+	},
+	{
+		"japanese": "お父さん",
+		"romaji": "otousan",
+		"english": "father, dad (colloquial)"
+	},
+	{
+		"japanese": "多分",
+		"romaji": "tabun",
+		"english": "probably, perhaps"
+	},
+	{
+		"japanese": "時計",
+		"romaji": "tokei",
+		"english": "clock, watch"
+	},
+	{
+		"japanese": "泊まる",
+		"romaji": "tomaru",
+		"english": "stay overnight"
+	},
+	{
+		"japanese": "どうして",
+		"romaji": "doushite",
+		"english": "how come"
+	},
+	{
+		"japanese": "掛ける",
+		"romaji": "kakeru",
+		"english": "hang, put on"
+	},
+	{
+		"japanese": "曲がる",
+		"romaji": "magaru",
+		"english": "make a turn, turn"
+	},
+	{
+		"japanese": "お腹",
+		"romaji": "onaka",
+		"english": "stomach, belly"
+	},
+	{
+		"japanese": "ミーティング",
+		"romaji": "mi-tingu",
+		"english": "meeting"
+	},
+	{
+		"japanese": "嫌い",
+		"romaji": "kirai",
+		"english": "dislike (habitual)"
+	},
+	{
+		"japanese": "金曜日",
+		"romaji": "kinyoubi",
+		"english": "Friday"
+	},
+	{
+		"japanese": "要る",
+		"romaji": "iru",
+		"english": "need, require"
+	},
+	{
+		"japanese": "無い",
+		"romaji": "nai",
+		"english": "to not be"
+	},
+	{
+		"japanese": "風邪",
+		"romaji": "kaze",
+		"english": "cold (illness)"
+	},
+	{
+		"japanese": "黄色い",
+		"romaji": "kiiroi",
+		"english": "yellow"
+	},
+	{
+		"japanese": "優しい",
+		"romaji": "yasashii",
+		"english": "gentle, kind"
+	},
+	{
+		"japanese": "晴れる",
+		"romaji": "hareru",
+		"english": "be sunny, clear up"
+	},
+	{
+		"japanese": "汚い",
+		"romaji": "kitanai",
+		"english": "dirty"
+	},
+	{
+		"japanese": "茶色",
+		"romaji": "chairo",
+		"english": "brown"
+	},
+	{
+		"japanese": "空く",
+		"romaji": "suku",
+		"english": "be empty, become less crowded"
+	},
+	{
+		"japanese": "上る",
+		"romaji": "noboru",
+		"english": "go up, climb"
+	},
+	{
+		"japanese": "ご飯",
+		"romaji": "gohan",
+		"english": "meal, cooked rice"
+	},
+	{
+		"japanese": "日",
+		"romaji": "nichi",
+		"english": "counter for days"
+	},
+	{
+		"japanese": "髪の毛",
+		"romaji": "kaminoke",
+		"english": "hair, each single hair"
+	},
+	{
+		"japanese": "つける",
+		"romaji": "tsukeru",
+		"english": "switch on, turn on"
+	},
+	{
+		"japanese": "月曜日",
+		"romaji": "getsuyoubi",
+		"english": "Monday"
+	},
+	{
+		"japanese": "入る",
+		"romaji": "hairu",
+		"english": "enter"
+	},
+	{
+		"japanese": "カタカナ",
+		"romaji": "katakana",
+		"english": "katakana"
+	},
+	{
+		"japanese": "今週",
+		"romaji": "konshuu",
+		"english": "this week"
+	},
+	{
+		"japanese": "開く",
+		"romaji": "hiraku",
+		"english": "open (books, eyes, etc.)"
+	},
+	{
+		"japanese": "水",
+		"romaji": "mizu",
+		"english": "water"
+	},
+	{
+		"japanese": "あれ",
+		"romaji": "are",
+		"english": "that (over there)"
+	},
+	{
+		"japanese": "二",
+		"romaji": "ni",
+		"english": "two"
+	},
+	{
+		"japanese": "締める",
+		"romaji": "shimeru",
+		"english": "tighten, fasten"
+	},
+	{
+		"japanese": "まずい",
+		"romaji": "mazui",
+		"english": "bad (taste), distasteful"
+	},
+	{
+		"japanese": "平仮名",
+		"romaji": "hiragana",
+		"english": "hiragana"
+	},
+	{
+		"japanese": "曇る",
+		"romaji": "kumoru",
+		"english": "become cloudy"
+	},
+	{
+		"japanese": "触る",
+		"romaji": "sawaru",
+		"english": "touch, feel"
+	},
+	{
+		"japanese": "駄目",
+		"romaji": "dame",
+		"english": "no good"
+	},
+	{
+		"japanese": "飲み物",
+		"romaji": "nomimono",
+		"english": "beverage, drink"
+	},
+	{
+		"japanese": "木曜日",
+		"romaji": "mokuyoubi",
+		"english": "Thursday"
+	},
+	{
+		"japanese": "曜日",
+		"romaji": "youbi",
+		"english": "day of the week"
+	},
+	{
+		"japanese": "そば",
+		"romaji": "soba",
+		"english": "side, vicinity"
+	},
+	{
+		"japanese": "こっち",
+		"romaji": "kocchi",
+		"english": "here, this way (casual)"
+	},
+	{
+		"japanese": "火曜日",
+		"romaji": "kayoubi",
+		"english": "Tuesday"
+	},
+	{
+		"japanese": "渇く",
+		"romaji": "kawaku",
+		"english": "be thirsty"
+	},
+	{
+		"japanese": "三",
+		"romaji": "san",
+		"english": "three"
+	},
+	{
+		"japanese": "水曜日",
+		"romaji": "suiyoubi",
+		"english": "Wednesday"
+	},
+	{
+		"japanese": "二つ",
+		"romaji": "futatsu",
+		"english": "two (things)"
+	},
+	{
+		"japanese": "今晩",
+		"romaji": "konban",
+		"english": "this evening, tonight"
+	},
+	{
+		"japanese": "千",
+		"romaji": "sen",
+		"english": "thousand"
+	},
+	{
+		"japanese": "六日",
+		"romaji": "muika",
+		"english": "six days, sixth of the month"
+	},
+	{
+		"japanese": "お姉さん",
+		"romaji": "onesan",
+		"english": "older sister"
+	},
+	{
+		"japanese": "直る",
+		"romaji": "naoru",
+		"english": "be repaired, get fixed"
+	},
+	{
+		"japanese": "ちょっと",
+		"romaji": "chotto",
+		"english": "just a moment, just a little"
+	},
+	{
+		"japanese": "四",
+		"romaji": "yon",
+		"english": "four (Japanese origin)"
+	},
+	{
+		"japanese": "これから",
+		"romaji": "korekara",
+		"english": "from now on, after this"
+	},
+	{
+		"japanese": "考える",
+		"romaji": "kangaeru",
+		"english": "think, consider"
+	},
+	{
+		"japanese": "戻る",
+		"romaji": "modoru",
+		"english": "return to a point of departure"
+	},
+	{
+		"japanese": "変える",
+		"romaji": "kaeru",
+		"english": "change (something), alter"
+	},
+	{
+		"japanese": "朝",
+		"romaji": "asa",
+		"english": "morning"
+	},
+	{
+		"japanese": "歯",
+		"romaji": "ha",
+		"english": "tooth"
+	},
+	{
+		"japanese": "頑張る",
+		"romaji": "ganbaru",
+		"english": "work hard, do one’s best"
+	},
+	{
+		"japanese": "携帯電話",
+		"romaji": "keitaidenwa",
+		"english": "cellular phone"
+	},
+	{
+		"japanese": "雨",
+		"romaji": "ame",
+		"english": "rain"
+	},
+	{
+		"japanese": "金",
+		"romaji": "kane",
+		"english": "money (colloquial)"
+	},
+	{
+		"japanese": "易しい",
+		"romaji": "yasashii",
+		"english": "easy, simple (colloquial)"
+	},
+	{
+		"japanese": "お兄さん",
+		"romaji": "oniisan",
+		"english": "older brother"
+	},
+	{
+		"japanese": "大きい",
+		"romaji": "ooki",
+		"english": "big"
+	},
+	{
+		"japanese": "小さい",
+		"romaji": "chiisai",
+		"english": "small"
+	},
+	{
+		"japanese": "辛い",
+		"romaji": "karai",
+		"english": "spicy, hot"
+	},
+	{
+		"japanese": "八",
+		"romaji": "hachi",
+		"english": "eight"
+	},
+	{
+		"japanese": "あそこ",
+		"romaji": "asoko",
+		"english": "over there"
+	},
+	{
+		"japanese": "来る",
+		"romaji": "kuru",
+		"english": "come"
+	},
+	{
+		"japanese": "前",
+		"romaji": "mae",
+		"english": "front, before"
+	},
+	{
+		"japanese": "五日",
+		"romaji": "itsuka",
+		"english": "five days, fifth of the month"
+	},
+	{
+		"japanese": "いっぱい",
+		"romaji": "ippai",
+		"english": "full"
+	},
+	{
+		"japanese": "酸っぱい",
+		"romaji": "suppai",
+		"english": "sour"
+	},
+	{
+		"japanese": "違う",
+		"romaji": "chigau",
+		"english": "differ, be wrong"
+	},
+	{
+		"japanese": "細い",
+		"romaji": "hosoi",
+		"english": "thin, slender"
+	},
+	{
+		"japanese": "三つ",
+		"romaji": "mittsu",
+		"english": "three (things)"
+	},
+	{
+		"japanese": "八日",
+		"romaji": "youka",
+		"english": "eight days, eighth of the month"
+	},
+	{
+		"japanese": "高校生",
+		"romaji": "koukousei",
+		"english": "high school student"
+	},
+	{
+		"japanese": "上手",
+		"romaji": "jouzu",
+		"english": "good, skilled"
+	},
+	{
+		"japanese": "強い",
+		"romaji": "tsuyoi",
+		"english": "strong"
+	},
+	{
+		"japanese": "七",
+		"romaji": "nana",
+		"english": "seven (Japanese origin)"
+	},
+	{
+		"japanese": "二十日",
+		"romaji": "hatsuka",
+		"english": "20 days, 20th of the month"
+	},
+	{
+		"japanese": "左",
+		"romaji": "hidari",
+		"english": "left"
+	},
+	{
+		"japanese": "二日",
+		"romaji": "futsuka",
+		"english": "two days, second of the month"
+	},
+	{
+		"japanese": "四つ",
+		"romaji": "yottsu",
+		"english": "four (things)"
+	},
+	{
+		"japanese": "暖かい",
+		"romaji": "atatakai",
+		"english": "warm"
+	},
+	{
+		"japanese": "ある",
+		"romaji": "aru",
+		"english": "exist, there is"
+	},
+	{
+		"japanese": "いい",
+		"romaji": "ii",
+		"english": "good (informal/spoken form)"
+	},
+	{
+		"japanese": "上",
+		"romaji": "ue",
+		"english": "up, above"
+	},
+	{
+		"japanese": "駅",
+		"romaji": "eki",
+		"english": "train station"
+	},
+	{
+		"japanese": "美味しい",
+		"romaji": "oishii",
+		"english": "tasty"
+	},
+	{
+		"japanese": "昨日",
+		"romaji": "kinou",
+		"english": "yesterday (colloquial)"
+	},
+	{
+		"japanese": "綺麗",
+		"romaji": "kirei",
+		"english": "pretty, clean"
+	},
+	{
+		"japanese": "五",
+		"romaji": "go",
+		"english": "five"
+	},
+	{
+		"japanese": "九つ",
+		"romaji": "kokonotsu",
+		"english": "nine (things)"
+	},
+	{
+		"japanese": "お願い",
+		"romaji": "onegai",
+		"english": "favor"
+	},
+	{
+		"japanese": "答える",
+		"romaji": "kotaeru",
+		"english": "give an answer"
+	},
+	{
+		"japanese": "先",
+		"romaji": "saki",
+		"english": "ahead, first"
+	},
+	{
+		"japanese": "寒い",
+		"romaji": "samui",
+		"english": "cold (temperature of the air)"
+	},
+	{
+		"japanese": "四",
+		"romaji": "shi",
+		"english": "four (Chinese origin)"
+	},
+	{
+		"japanese": "三日",
+		"romaji": "mikka",
+		"english": "three days, third of the month"
+	},
+	{
+		"japanese": "下",
+		"romaji": "shita",
+		"english": "under, below"
+	},
+	{
+		"japanese": "大丈夫",
+		"romaji": "daijoubu",
+		"english": "all right, OK"
+	},
+	{
+		"japanese": "大人",
+		"romaji": "otona",
+		"english": "adult"
+	},
+	{
+		"japanese": "出す",
+		"romaji": "dasu",
+		"english": "take out"
+	},
+	{
+		"japanese": "父",
+		"romaji": "chichi",
+		"english": "(speaker’s) father"
+	},
+	{
+		"japanese": "母",
+		"romaji": "haha",
+		"english": "(speaker’s) mother"
+	},
+	{
+		"japanese": "月",
+		"romaji": "tsuki",
+		"english": "moon"
+	},
+	{
+		"japanese": "妹",
+		"romaji": "imouto",
+		"english": "younger sister"
+	},
+	{
+		"japanese": "冷たい",
+		"romaji": "tsumetai",
+		"english": "cold (to touch)"
+	},
+	{
+		"japanese": "弟",
+		"romaji": "otouto",
+		"english": "younger brother"
+	},
+	{
+		"japanese": "手",
+		"romaji": "te",
+		"english": "hand"
+	},
+	{
+		"japanese": "十日",
+		"romaji": "tooka",
+		"english": "ten days, tenth of the month"
+	},
+	{
+		"japanese": "口",
+		"romaji": "kuchi",
+		"english": "mouth"
+	},
+	{
+		"japanese": "夏",
+		"romaji": "natsu",
+		"english": "summer"
+	},
+	{
+		"japanese": "七つ",
+		"romaji": "nanatsu",
+		"english": "seven (things)"
+	},
+	{
+		"japanese": "時々",
+		"romaji": "tokidoki",
+		"english": "sometimes"
+	},
+	{
+		"japanese": "何",
+		"romaji": "nani",
+		"english": "what"
+	},
+	{
+		"japanese": "人",
+		"romaji": "hito",
+		"english": "person"
+	},
+	{
+		"japanese": "一人",
+		"romaji": "hitori",
+		"english": "one person"
+	},
+	{
+		"japanese": "一日",
+		"romaji": "tsuitachi",
+		"english": "first of the month"
+	},
+	{
+		"japanese": "九日",
+		"romaji": "kokonoka",
+		"english": "nine days, ninth of the month"
+	},
+	{
+		"japanese": "方",
+		"romaji": "hou",
+		"english": "direction, side"
+	},
+	{
+		"japanese": "他",
+		"romaji": "hoka",
+		"english": "other (Japanese origin)"
+	},
+	{
+		"japanese": "僕",
+		"romaji": "boku",
+		"english": "I, me (usually used by young males)"
+	},
+	{
+		"japanese": "欲しい",
+		"romaji": "hoshii",
+		"english": "want, desire (of the speaker)"
+	},
+	{
+		"japanese": "万",
+		"romaji": "man",
+		"english": "ten thousand"
+	},
+	{
+		"japanese": "見える",
+		"romaji": "mieru",
+		"english": "be visible, can see"
+	},
+	{
+		"japanese": "道",
+		"romaji": "michi",
+		"english": "street, way"
+	},
+	{
+		"japanese": "五つ",
+		"romaji": "itsutsu",
+		"english": "five (things)"
+	},
+	{
+		"japanese": "目",
+		"romaji": "me",
+		"english": "eye"
+	},
+	{
+		"japanese": "八つ",
+		"romaji": "yattsu",
+		"english": "eight (things)"
+	},
+	{
+		"japanese": "止める",
+		"romaji": "tomeru",
+		"english": "stop (a car…). 止める (yameru) give up"
+	},
+	{
+		"japanese": "四日",
+		"romaji": "yokka",
+		"english": "four days, fourth of the month"
+	},
+	{
+		"japanese": "夜",
+		"romaji": "yoru",
+		"english": "night (from sunset to sunrise)"
+	},
+	{
+		"japanese": "来年",
+		"romaji": "rainen",
+		"english": "next year"
+	},
+	{
+		"japanese": "六",
+		"romaji": "roku",
+		"english": "six"
+	},
+	{
+		"japanese": "悪い",
+		"romaji": "warui",
+		"english": "bad"
+	},
+	{
+		"japanese": "お手洗い",
+		"romaji": "otearai",
+		"english": "toilet, bathroom"
+	},
+	{
+		"japanese": "ご主人",
+		"romaji": "goshujin",
+		"english": "(someone else’s) husband"
+	},
+	{
+		"japanese": "本当に",
+		"romaji": "hontouni",
+		"english": "really, truly"
+	},
+	{
+		"japanese": "自分",
+		"romaji": "jibun",
+		"english": "self, oneself"
+	},
+	{
+		"japanese": "ため",
+		"romaji": "tame",
+		"english": "sake, purpose"
+	},
+	{
+		"japanese": "見つかる",
+		"romaji": "mitsukaru",
+		"english": "be found, be caught"
+	},
+	{
+		"japanese": "休む",
+		"romaji": "yasumu",
+		"english": "take a rest, take a break"
+	},
+	{
+		"japanese": "ゆっくり",
+		"romaji": "yukkuri",
+		"english": "slowly"
+	},
+	{
+		"japanese": "六つ",
+		"romaji": "muttsu",
+		"english": "six (things)"
+	},
+	{
+		"japanese": "花",
+		"romaji": "hana",
+		"english": "flower"
+	},
+	{
+		"japanese": "動く",
+		"romaji": "ugoku",
+		"english": "move"
+	},
+	{
+		"japanese": "線",
+		"romaji": "sen",
+		"english": "line"
+	},
+	{
+		"japanese": "七日",
+		"romaji": "nanoka",
+		"english": "seven days, seventh of the month"
+	},
+	{
+		"japanese": "以外",
+		"romaji": "igai",
+		"english": "except for"
+	},
+	{
+		"japanese": "男",
+		"romaji": "otoko",
+		"english": "man, male"
+	},
+	{
+		"japanese": "彼",
+		"romaji": "kare",
+		"english": "he, one’s boyfriend"
+	},
+	{
+		"japanese": "女",
+		"romaji": "onna",
+		"english": "woman"
+	},
+	{
+		"japanese": "妻",
+		"romaji": "tsuma",
+		"english": "woman"
+	},
+	{
+		"japanese": "百",
+		"romaji": "hyaku",
+		"english": "hundred"
+	},
+	{
+		"japanese": "辺",
+		"romaji": "atari",
+		"english": "vicinity"
+	},
+	{
+		"japanese": "店",
+		"romaji": "mise",
+		"english": "shop, store"
+	},
+	{
+		"japanese": "閉まる",
+		"romaji": "shimaru",
+		"english": "be shut, be closed"
+	},
+	{
+		"japanese": "問題",
+		"romaji": "mondai",
+		"english": "problem, question"
+	},
+	{
+		"japanese": "必要",
+		"romaji": "hitsuyou",
+		"english": "need, necessary"
+	},
+	{
+		"japanese": "もつ",
+		"romaji": "motsu",
+		"english": "last long, be durable"
+	},
+	{
+		"japanese": "開く",
+		"romaji": "hiraku",
+		"english": "open"
+	},
+	{
+		"japanese": "昨年",
+		"romaji": "sakunen",
+		"english": "last year (formal, often used in writing)"
+	},
+	{
+		"japanese": "治る",
+		"romaji": "naoru",
+		"english": "be cured, get well"
+	},
+	{
+		"japanese": "ドル",
+		"romaji": "doru",
+		"english": "dollar"
+	},
+	{
+		"japanese": "システム",
+		"romaji": "shisutemu",
+		"english": "system (loan word)"
+	},
+	{
+		"japanese": "以上",
+		"romaji": "ijou",
+		"english": "more than, not less than"
+	},
+	{
+		"japanese": "最近",
+		"romaji": "saikin",
+		"english": "recent, latest"
+	},
+	{
+		"japanese": "世界",
+		"romaji": "sekai",
+		"english": "world"
+	},
+	{
+		"japanese": "コンピューター",
+		"romaji": "konpyu-ta-",
+		"english": "computer"
+	},
+	{
+		"japanese": "やる",
+		"romaji": "yaru",
+		"english": "give (to an inferior)"
+	},
+	{
+		"japanese": "意味",
+		"romaji": "imi",
+		"english": "meaning, sense"
+	},
+	{
+		"japanese": "増える",
+		"romaji": "fueru",
+		"english": "increase, accrue"
+	},
+	{
+		"japanese": "選ぶ",
+		"romaji": "erabu",
+		"english": "choose, elect"
+	},
+	{
+		"japanese": "生活",
+		"romaji": "seikatsu",
+		"english": "life, living"
+	},
+	{
+		"japanese": "進める",
+		"romaji": "susumeru",
+		"english": "go ahead, proceed"
+	},
+	{
+		"japanese": "続ける",
+		"romaji": "tsuzukeru",
+		"english": "continue, keep up"
+	},
+	{
+		"japanese": "ほとんど",
+		"romaji": "hotondo",
+		"english": "almost, hardly"
+	},
+	{
+		"japanese": "会社",
+		"romaji": "kaisha",
+		"english": "company, corporation"
+	},
+	{
+		"japanese": "家",
+		"romaji": "ie",
+		"english": "house, dwelling"
+	},
+	{
+		"japanese": "多く",
+		"romaji": "ooku",
+		"english": "much, largely"
+	},
+	{
+		"japanese": "話",
+		"romaji": "hanashi",
+		"english": "talk, story"
+	},
+	{
+		"japanese": "上がる",
+		"romaji": "agaru",
+		"english": "go up, rise (physical movement)"
+	},
+	{
+		"japanese": "もう",
+		"romaji": "mou",
+		"english": "another, again"
+	},
+	{
+		"japanese": "集める",
+		"romaji": "atsumeru",
+		"english": "collect, gather"
+	},
+	{
+		"japanese": "声",
+		"romaji": "koe",
+		"english": "voice, sound"
+	},
+	{
+		"japanese": "初めて",
+		"romaji": "hajimete",
+		"english": "for the first time"
+	},
+	{
+		"japanese": "変わる",
+		"romaji": "kawaru",
+		"english": "change, turn into"
+	},
+	{
+		"japanese": "まず",
+		"romaji": "mazu",
+		"english": "first of all, to begin with"
+	},
+	{
+		"japanese": "社会",
+		"romaji": "shakai",
+		"english": "society"
+	},
+	{
+		"japanese": "プログラム",
+		"romaji": "puroguramu",
+		"english": "program booklet"
+	},
+	{
+		"japanese": "力",
+		"romaji": "chikara",
+		"english": "strength, power"
+	},
+	{
+		"japanese": "今回",
+		"romaji": "konkai",
+		"english": "this time"
+	},
+	{
+		"japanese": "予定",
+		"romaji": "yotei",
+		"english": "schedule, plan"
+	},
+	{
+		"japanese": "まま",
+		"romaji": "mama",
+		"english": "as is, still (in the current state)"
+	},
+	{
+		"japanese": "テレビ",
+		"romaji": "terebi",
+		"english": "television"
+	},
+	{
+		"japanese": "減る",
+		"romaji": "heru",
+		"english": "decrease, diminish"
+	},
+	{
+		"japanese": "消える",
+		"romaji": "kieru",
+		"english": "be extinguished, disappear"
+	},
+	{
+		"japanese": "家族",
+		"romaji": "kazoku",
+		"english": "family, household"
+	},
+	{
+		"japanese": "比べる",
+		"romaji": "kuraberu",
+		"english": "compare, contrast"
+	},
+	{
+		"japanese": "生まれる",
+		"romaji": "umareru",
+		"english": "be born, come into existence"
+	},
+	{
+		"japanese": "ただ",
+		"romaji": "tada",
+		"english": "free"
+	},
+	{
+		"japanese": "これら",
+		"romaji": "korera",
+		"english": "these"
+	},
+	{
+		"japanese": "調べる",
+		"romaji": "shiraberu",
+		"english": "investigate, check"
+	},
+	{
+		"japanese": "事故",
+		"romaji": "jiko",
+		"english": "accident, trouble"
+	},
+	{
+		"japanese": "電話",
+		"romaji": "denwa",
+		"english": "telephone, phone call"
+	},
+	{
+		"japanese": "外国",
+		"romaji": "gaikoku",
+		"english": "foreign country"
+	},
+	{
+		"japanese": "銀行",
+		"romaji": "ginkou",
+		"english": "bank"
+	},
+	{
+		"japanese": "十分",
+		"romaji": "juubun",
+		"english": "enough, plentiful"
+	},
+	{
+		"japanese": "あまり",
+		"romaji": "amari",
+		"english": "(not) much"
+	},
+	{
+		"japanese": "写真",
+		"romaji": "shashin",
+		"english": "photograph"
+	},
+	{
+		"japanese": "繰り返す",
+		"romaji": "kurikaesu",
+		"english": "repeat"
+	},
+	{
+		"japanese": "種類",
+		"romaji": "shurui",
+		"english": "kind, type"
+	},
+	{
+		"japanese": "意見",
+		"romaji": "iken",
+		"english": "opinion"
+	},
+	{
+		"japanese": "新聞",
+		"romaji": "shinbun",
+		"english": "newspaper"
+	},
+	{
+		"japanese": "文章",
+		"romaji": "bunshou",
+		"english": "sentence, writing"
+	},
+	{
+		"japanese": "目立つ",
+		"romaji": "medatsu",
+		"english": "stand out, be conspicuous"
+	},
+	{
+		"japanese": "相手",
+		"romaji": "aite",
+		"english": "opponent, the other party"
+	},
+	{
+		"japanese": "病院",
+		"romaji": "byouin",
+		"english": "hospital"
+	},
+	{
+		"japanese": "厚い",
+		"romaji": "atsui",
+		"english": "thick, bulky"
+	},
+	{
+		"japanese": "忙しい",
+		"romaji": "isogashii",
+		"english": "busy, occupied"
+	},
+	{
+		"japanese": "薄い",
+		"romaji": "usui",
+		"english": "thin, weak"
+	},
+	{
+		"japanese": "川",
+		"romaji": "kawa",
+		"english": "river, stream"
+	},
+	{
+		"japanese": "暗い",
+		"romaji": "kurai",
+		"english": "dark, gloomy"
+	},
+	{
+		"japanese": "クラス",
+		"romaji": "kurasu",
+		"english": "class (in school)"
+	},
+	{
+		"japanese": "黒い",
+		"romaji": "kuroi",
+		"english": "black, dark"
+	},
+	{
+		"japanese": "バス",
+		"romaji": "basu",
+		"english": "bus"
+	},
+	{
+		"japanese": "青い",
+		"romaji": "aoi",
+		"english": "blue"
+	},
+	{
+		"japanese": "買い物",
+		"romaji": "kaimono",
+		"english": "shopping, purchase"
+	},
+	{
+		"japanese": "薬",
+		"romaji": "kusuri",
+		"english": "drug, medicine"
+	},
+	{
+		"japanese": "砂糖",
+		"romaji": "satou",
+		"english": "sugar"
+	},
+	{
+		"japanese": "休み",
+		"romaji": "yasumi",
+		"english": "holiday, break"
+	},
+	{
+		"japanese": "郵便局",
+		"romaji": "yuubinkyoku",
+		"english": "post office"
+	},
+	{
+		"japanese": "住所",
+		"romaji": "juusho",
+		"english": "address"
+	},
+	{
+		"japanese": "こちら",
+		"romaji": "kochira",
+		"english": "here, this way (polite)"
+	},
+	{
+		"japanese": "財布",
+		"romaji": "saifu",
+		"english": "purse, wallet"
+	},
+	{
+		"japanese": "パスポート",
+		"romaji": "pasupo-to",
+		"english": "passport"
+	},
+	{
+		"japanese": "椅子",
+		"romaji": "isu",
+		"english": "chair"
+	},
+	{
+		"japanese": "可愛い",
+		"romaji": "kawaii",
+		"english": "cute, sweet"
+	},
+	{
+		"japanese": "お祖父さん",
+		"romaji": "ojiisan",
+		"english": "grandfather (colloquial)"
+	},
+	{
+		"japanese": "切手",
+		"romaji": "kitte",
+		"english": "postage stamp"
+	},
+	{
+		"japanese": "涼しい",
+		"romaji": "suzushii",
+		"english": "cool (of temperature)"
+	},
+	{
+		"japanese": "いくつ",
+		"romaji": "ikutsu",
+		"english": "how many, how old"
+	},
+	{
+		"japanese": "メニュー",
+		"romaji": "menyu-",
+		"english": "menu"
+	},
+	{
+		"japanese": "電気",
+		"romaji": "denki",
+		"english": "electricity, electric light"
+	},
+	{
+		"japanese": "勝つ",
+		"romaji": "katsu",
+		"english": "win"
+	},
+	{
+		"japanese": "負ける",
+		"romaji": "makeru",
+		"english": "lose"
+	},
+	{
+		"japanese": "建てる",
+		"romaji": "tateru",
+		"english": "build, erect"
+	},
+	{
+		"japanese": "日記",
+		"romaji": "nikki",
+		"english": "diary"
+	},
+	{
+		"japanese": "売り切れ",
+		"romaji": "urikire",
+		"english": "sell out"
+	},
+	{
+		"japanese": "お巡りさん",
+		"romaji": "omawarisan",
+		"english": "police officer (colloquial)"
+	},
+	{
+		"japanese": "目覚まし時計",
+		"romaji": "mezamashitokei",
+		"english": "alarm clock"
+	},
+	{
+		"japanese": "レシート",
+		"romaji": "reshi-to",
+		"english": "receipt (loan word)"
+	},
+	{
+		"japanese": "ティッシュ",
+		"romaji": "tisshu",
+		"english": "tissue"
+	},
+	{
+		"japanese": "歯ブラシ",
+		"romaji": "haburashi",
+		"english": "toothbrush"
+	},
+	{
+		"japanese": "下りる",
+		"romaji": "oriru",
+		"english": "go down, come down"
+	},
+	{
+		"japanese": "洗う",
+		"romaji": "arau",
+		"english": "wash"
+	},
+	{
+		"japanese": "パート",
+		"romaji": "pa-to",
+		"english": "part-time"
+	},
+	{
+		"japanese": "氏名",
+		"romaji": "shimei",
+		"english": "full name"
+	},
+	{
+		"japanese": "今夜",
+		"romaji": "konya",
+		"english": "tonight, this evening"
+	},
+	{
+		"japanese": "夜中",
+		"romaji": "yonaka",
+		"english": "midnight"
+	},
+	{
+		"japanese": "来週",
+		"romaji": "raishuu",
+		"english": "next week"
+	},
+	{
+		"japanese": "誰か",
+		"romaji": "dareka",
+		"english": "someone"
+	},
+	{
+		"japanese": "何",
+		"romaji": "nan",
+		"english": "what. それはなんですか. What is that?"
+	},
+	{
+		"japanese": "今朝",
+		"romaji": "kesa",
+		"english": "this morning"
+	},
+	{
+		"japanese": "寿司",
+		"romaji": "sushi",
+		"english": "sushi"
+	},
+	{
+		"japanese": "履く",
+		"romaji": "haku",
+		"english": "put on (shoes), wear (pants, skirt)"
+	},
+	{
+		"japanese": "おじさん",
+		"romaji": "ojisan",
+		"english": "uncle"
+	},
+	{
+		"japanese": "おばさん",
+		"romaji": "obasan",
+		"english": "aunt"
+	},
+	{
+		"japanese": "お祖母さん",
+		"romaji": "obaasan",
+		"english": "grandmother (colloquial)"
+	},
+	{
+		"japanese": "いとこ",
+		"romaji": "itoko",
+		"english": "cousin"
+	},
+	{
+		"japanese": "辞書",
+		"romaji": "jisho",
+		"english": "dictionary (category)"
+	},
+	{
+		"japanese": "朝ご飯",
+		"romaji": "asagohan",
+		"english": "breakfast"
+	},
+	{
+		"japanese": "白",
+		"romaji": "shiro",
+		"english": "white"
+	},
+	{
+		"japanese": "どっち",
+		"romaji": "docchi",
+		"english": "which (casual)"
+	},
+	{
+		"japanese": "そっち",
+		"romaji": "socchi",
+		"english": "there (casual)"
+	},
+	{
+		"japanese": "明日",
+		"romaji": "ashita",
+		"english": "tomorrow (colloquial)"
+	},
+	{
+		"japanese": "明後日",
+		"romaji": "myougonichi/asatte",
+		"english": "day after tomorrow (colloquial)"
+	},
+	{
+		"japanese": "一昨日",
+		"romaji": "ototoi",
+		"english": "the day before yesterday (colloquial)"
+	},
+	{
+		"japanese": "庭",
+		"romaji": "niwa",
+		"english": "garden, yard"
+	},
+	{
+		"japanese": "左側",
+		"romaji": "hidarigawa",
+		"english": "left side"
+	},
+	{
+		"japanese": "右側",
+		"romaji": "migigawa",
+		"english": "right side"
+	},
+	{
+		"japanese": "指",
+		"romaji": "yubi",
+		"english": "finger, toe"
+	},
+	{
+		"japanese": "眼鏡",
+		"romaji": "megane",
+		"english": "glasses"
+	},
+	{
+		"japanese": "鞄",
+		"romaji": "kaban",
+		"english": "bag, handbag"
+	},
+	{
+		"japanese": "あっち",
+		"romaji": "acchi",
+		"english": "other side, over there (casual)"
+	},
+	{
+		"japanese": "大人しい",
+		"romaji": "otonashii",
+		"english": "gentle, quiet"
+	},
+	{
+		"japanese": "下手",
+		"romaji": "heta",
+		"english": "not good at"
+	},
+	{
+		"japanese": "厳しい",
+		"romaji": "kibishii",
+		"english": "strict, severe"
+	},
+	{
+		"japanese": "一人で",
+		"romaji": "hitoride",
+		"english": "by oneself, alone"
+	},
+	{
+		"japanese": "答え",
+		"romaji": "kotae",
+		"english": "answer, solution"
+	},
+	{
+		"japanese": "この頃",
+		"romaji": "konogoro",
+		"english": "these days, recently"
+	},
+	{
+		"japanese": "残念",
+		"romaji": "zannen",
+		"english": "regretful, disappointing"
+	},
+	{
+		"japanese": "仕舞う",
+		"romaji": "shimau",
+		"english": "put away, put in"
+	},
+	{
+		"japanese": "心配",
+		"romaji": "shinpai",
+		"english": "anxiety, worry"
+	},
+	{
+		"japanese": "外",
+		"romaji": "soto",
+		"english": "outside, open air"
+	},
+	{
+		"japanese": "大切",
+		"romaji": "taisetsu",
+		"english": "important, valuable"
+	},
+	{
+		"japanese": "ちょうど",
+		"romaji": "choudo",
+		"english": "just, exactly"
+	},
+	{
+		"japanese": "助ける",
+		"romaji": "tasukeru",
+		"english": "help, save"
+	},
+	{
+		"japanese": "勤める",
+		"romaji": "tsutomeru",
+		"english": "serve, hold a job"
+	},
+	{
+		"japanese": "連れていく",
+		"romaji": "tsureteiku",
+		"english": "take along, bring along (a person)"
+	},
+	{
+		"japanese": "丈夫",
+		"romaji": "joubu",
+		"english": "healthy, sturdy"
+	},
+	{
+		"japanese": "賑やか",
+		"romaji": "nigiyaka",
+		"english": "lively, exciting"
+	},
+	{
+		"japanese": "眠い",
+		"romaji": "nemui",
+		"english": "sleepy"
+	},
+	{
+		"japanese": "山",
+		"romaji": "yama",
+		"english": "mountain"
+	},
+	{
+		"japanese": "橋",
+		"romaji": "hashi",
+		"english": "bridge"
+	},
+	{
+		"japanese": "止まる",
+		"romaji": "tomaru",
+		"english": "come to a stop, cease"
+	},
+	{
+		"japanese": "降る",
+		"romaji": "furu",
+		"english": "fall, come down (rain, snow, etc.)"
+	},
+	{
+		"japanese": "本当",
+		"romaji": "hontou",
+		"english": "reality, genuine"
+	},
+	{
+		"japanese": "町",
+		"romaji": "machi",
+		"english": "town, city"
+	},
+	{
+		"japanese": "お菓子",
+		"romaji": "okashi",
+		"english": "sweets, snacks"
+	},
+	{
+		"japanese": "緩い",
+		"romaji": "yurui",
+		"english": "slack, loose"
+	},
+	{
+		"japanese": "良い",
+		"romaji": "yoi",
+		"english": "good (formal/written form)"
+	},
+	{
+		"japanese": "ようこそ",
+		"romaji": "youkoso",
+		"english": "welcome (greeting)"
+	},
+	{
+		"japanese": "お土産",
+		"romaji": "omiyage",
+		"english": "souvenir (polite)"
+	},
+	{
+		"japanese": "両親",
+		"romaji": "ryoushin",
+		"english": "parents"
+	},
+	{
+		"japanese": "ウェーター",
+		"romaji": "we-ta-",
+		"english": "waiter"
+	},
+	{
+		"japanese": "ウェートレス",
+		"romaji": "we-toresu",
+		"english": "waitress"
+	},
+	{
+		"japanese": "絶対に",
+		"romaji": "zettaini",
+		"english": "absolutely, definitely"
+	},
+	{
+		"japanese": "ごちそう",
+		"romaji": "gochisou",
+		"english": "feast, treat"
+	},
+	{
+		"japanese": "フォーク",
+		"romaji": "fo-ku",
+		"english": "fork"
+	},
+	{
+		"japanese": "スプーン",
+		"romaji": "supu-n",
+		"english": "spoon"
+	},
+	{
+		"japanese": "瓶",
+		"romaji": "bin",
+		"english": "bottle"
+	},
+	{
+		"japanese": "つく",
+		"romaji": "tsuku",
+		"english": "be on, be switched on"
+	},
+	{
+		"japanese": "醤油",
+		"romaji": "shouyu",
+		"english": "soy sauce"
+	},
+	{
+		"japanese": "茶碗",
+		"romaji": "chawan",
+		"english": "rice bowl"
+	},
+	{
+		"japanese": "決める",
+		"romaji": "kimeru",
+		"english": "decide, agree upon"
+	},
+	{
+		"japanese": "感じる",
+		"romaji": "kanjiru",
+		"english": "feel, sense"
+	},
+	{
+		"japanese": "生きる",
+		"romaji": "ikiru",
+		"english": "live (one’s life)"
+	},
+	{
+		"japanese": "動かす",
+		"romaji": "ugokasu",
+		"english": "move (something)"
+	},
+	{
+		"japanese": "壊れる",
+		"romaji": "kowareru",
+		"english": "break, break down"
+	},
+	{
+		"japanese": "復習",
+		"romaji": "fukushuu",
+		"english": "review"
+	},
+	{
+		"japanese": "眉",
+		"romaji": "mayu",
+		"english": "eyebrow"
+	},
+	{
+		"japanese": "客",
+		"romaji": "kyaku",
+		"english": "visitor, customer"
+	},
+	{
+		"japanese": "机",
+		"romaji": "tsukue",
+		"english": "desk"
+	},
+	{
+		"japanese": "風呂",
+		"romaji": "furo",
+		"english": "bath"
+	},
+	{
+		"japanese": "湯",
+		"romaji": "yu",
+		"english": "hot water"
+	},
+	{
+		"japanese": "ぬるい",
+		"romaji": "nurui",
+		"english": "tepid, lukewarm"
+	},
+	{
+		"japanese": "風邪薬",
+		"romaji": "kazegusuri",
+		"english": "cold medicine"
+	},
+	{
+		"japanese": "靴下",
+		"romaji": "kutsushita",
+		"english": "socks"
+	},
+	{
+		"japanese": "タバコ",
+		"romaji": "tabako",
+		"english": "tobacco, cigarette"
+	},
+	{
+		"japanese": "アイスコーヒー",
+		"romaji": "aisuko-hi-",
+		"english": "iced coffee"
+	},
+	{
+		"japanese": "天ぷら",
+		"romaji": "tempura",
+		"english": "Japanese deep-fried food"
+	},
+	{
+		"japanese": "肉",
+		"romaji": "niku",
+		"english": "flesh, meat"
+	},
+	{
+		"japanese": "昨夜",
+		"romaji": "sakuya",
+		"english": "last night, last evening (colloquial)"
+	},
+	{
+		"japanese": "流行る",
+		"romaji": "hayaru",
+		"english": "be in fashion, be popular"
+	},
+	{
+		"japanese": "連れて来る",
+		"romaji": "tsuretekuru",
+		"english": "bring (a person)"
+	},
+	{
+		"japanese": "方",
+		"romaji": "kata",
+		"english": "person (polite form)"
+	},
+	{
+		"japanese": "零",
+		"romaji": "rei",
+		"english": "zero"
+	},
+	{
+		"japanese": "雲",
+		"romaji": "kumo",
+		"english": "cloud"
+	},
+	{
+		"japanese": "空",
+		"romaji": "sora",
+		"english": "sky"
+	},
+	{
+		"japanese": "人気",
+		"romaji": "ninki",
+		"english": "popularity"
+	},
+	{
+		"japanese": "兄さん",
+		"romaji": "niisan",
+		"english": "(one’s own) older brother (polite)"
+	},
+	{
+		"japanese": "姉さん",
+		"romaji": "neesan",
+		"english": "(one’s own) older sister (polite)"
+	},
+	{
+		"japanese": "平成",
+		"romaji": "heisei",
+		"english": "Heisei era"
+	},
+	{
+		"japanese": "毎月",
+		"romaji": "maitsuki",
+		"english": "every month"
+	},
+	{
+		"japanese": "半日",
+		"romaji": "hannichi",
+		"english": "half a day"
+	},
+	{
+		"japanese": "半月",
+		"romaji": "hantsuki",
+		"english": "half a month"
+	},
+	{
+		"japanese": "なるほど",
+		"romaji": "naruhodo",
+		"english": "I see, really"
+	},
+	{
+		"japanese": "つまり",
+		"romaji": "tsumari",
+		"english": "in short, that is to say"
+	},
+	{
+		"japanese": "そのまま",
+		"romaji": "sonomama",
+		"english": "as it is, just like that"
+	},
+	{
+		"japanese": "はっきり",
+		"romaji": "hakkiri",
+		"english": "clearly"
+	},
+	{
+		"japanese": "大変",
+		"romaji": "taihen",
+		"english": "awful, hard"
+	},
+	{
+		"japanese": "簡単",
+		"romaji": "kantan",
+		"english": "simple, easy"
+	},
+	{
+		"japanese": "似ている",
+		"romaji": "niteiru",
+		"english": "look like, resemble"
+	},
+	{
+		"japanese": "驚く",
+		"romaji": "odoroku",
+		"english": "be surprised, be startled"
+	},
+	{
+		"japanese": "嫌",
+		"romaji": "iya/ kira-i",
+		"english": "dislike (situational)"
+	},
+	{
+		"japanese": "喧嘩",
+		"romaji": "kenka",
+		"english": "fight, argument"
+	},
+	{
+		"japanese": "遅れる",
+		"romaji": "okureru",
+		"english": "be late"
+	},
+	{
+		"japanese": "にんじん",
+		"romaji": "ninjin",
+		"english": "carrot"
+	},
+	{
+		"japanese": "ジャガイモ",
+		"romaji": "jagaimo",
+		"english": "potato"
+	},
+	{
+		"japanese": "ナス",
+		"romaji": "nasu",
+		"english": "eggplant"
+	},
+	{
+		"japanese": "やかん",
+		"romaji": "yakan",
+		"english": "kettle"
+	},
+	{
+		"japanese": "話し合う",
+		"romaji": "hanashiau",
+		"english": "discuss, talk over"
+	},
+	{
+		"japanese": "残す",
+		"romaji": "nokosu",
+		"english": "leave, leave undone"
+	},
+	{
+		"japanese": "ごちそうする",
+		"romaji": "gochisousuru",
+		"english": "treat, host (a meal)"
+	},
+	{
+		"japanese": "合う",
+		"romaji": "au",
+		"english": "fit, match"
+	},
+	{
+		"japanese": "当たる",
+		"romaji": "ataru",
+		"english": "(go straight and) hit, strike"
+	},
+	{
+		"japanese": "集まる",
+		"romaji": "atsumaru",
+		"english": "gather, be collected"
+	},
+	{
+		"japanese": "場所",
+		"romaji": "basho",
+		"english": "place, space"
+	},
+	{
+		"japanese": "海",
+		"romaji": "umi",
+		"english": "sea, ocean"
+	},
+	{
+		"japanese": "少年",
+		"romaji": "shounen",
+		"english": "boy (between 7 and 18 years old)"
+	},
+	{
+		"japanese": "孫",
+		"romaji": "mago",
+		"english": "grandchild"
+	},
+	{
+		"japanese": "生徒",
+		"romaji": "seito",
+		"english": "pupil, student"
+	},
+	{
+		"japanese": "高校",
+		"romaji": "koukou",
+		"english": "high school (for short)"
+	},
+	{
+		"japanese": "年上",
+		"romaji": "toshiue",
+		"english": "older, senior"
+	},
+	{
+		"japanese": "卒業",
+		"romaji": "sotsugyou",
+		"english": "graduation"
+	},
+	{
+		"japanese": "運動",
+		"romaji": "undou",
+		"english": "movement, exercise"
+	},
+	{
+		"japanese": "選手",
+		"romaji": "senshu",
+		"english": "athlete, (sports) player"
+	},
+	{
+		"japanese": "映画",
+		"romaji": "eiga",
+		"english": "movie"
+	},
+	{
+		"japanese": "英語",
+		"romaji": "eigo",
+		"english": "English"
+	},
+	{
+		"japanese": "手紙",
+		"romaji": "tegami",
+		"english": "letter"
+	},
+	{
+		"japanese": "動物",
+		"romaji": "doubutsu",
+		"english": "animal"
+	},
+	{
+		"japanese": "音",
+		"romaji": "oto",
+		"english": "sound, noise"
+	},
+	{
+		"japanese": "海外",
+		"romaji": "kaigai",
+		"english": "overseas, abroad"
+	},
+	{
+		"japanese": "外国人",
+		"romaji": "gaikokujin",
+		"english": "foreigner"
+	},
+	{
+		"japanese": "帰国",
+		"romaji": "kikoku",
+		"english": "return to one’s country"
+	},
+	{
+		"japanese": "彼ら",
+		"romaji": "karera",
+		"english": "they"
+	},
+	{
+		"japanese": "機械",
+		"romaji": "kikai",
+		"english": "machine"
+	},
+	{
+		"japanese": "基本",
+		"romaji": "kihon",
+		"english": "basics"
+	},
+	{
+		"japanese": "今度",
+		"romaji": "kondo",
+		"english": "this time, next time"
+	},
+	{
+		"japanese": "最後",
+		"romaji": "saigo",
+		"english": "last"
+	},
+	{
+		"japanese": "最初",
+		"romaji": "saisho",
+		"english": "first, outset"
+	},
+	{
+		"japanese": "準備",
+		"romaji": "junbi",
+		"english": "preparation, arrangement"
+	},
+	{
+		"japanese": "進む",
+		"romaji": "susumu",
+		"english": "advance, move forward"
+	},
+	{
+		"japanese": "直接",
+		"romaji": "chokusetsu",
+		"english": "directly"
+	},
+	{
+		"japanese": "特に",
+		"romaji": "tokuni",
+		"english": "specially, particularly"
+	},
+	{
+		"japanese": "届く",
+		"romaji": "todoku",
+		"english": "reach, be received"
+	},
+	{
+		"japanese": "なぜ",
+		"romaji": "naze",
+		"english": "why"
+	},
+	{
+		"japanese": "並ぶ",
+		"romaji": "narabu",
+		"english": "line up, be parallel"
+	},
+	{
+		"japanese": "運ぶ",
+		"romaji": "hakobu",
+		"english": "carry, transport"
+	},
+	{
+		"japanese": "直す",
+		"romaji": "naosu",
+		"english": "repair, fix"
+	},
+	{
+		"japanese": "反対",
+		"romaji": "hantai",
+		"english": "oppose, object"
+	},
+	{
+		"japanese": "場合",
+		"romaji": "baai",
+		"english": "situation, case"
+	},
+	{
+		"japanese": "詳しい",
+		"romaji": "kuwashii",
+		"english": "detailed"
+	},
+	{
+		"japanese": "いたずら",
+		"romaji": "itazura",
+		"english": "mischief, prank"
+	},
+	{
+		"japanese": "お祝い",
+		"romaji": "oiwai",
+		"english": "celebrate"
+	},
+	{
+		"japanese": "くし",
+		"romaji": "kushi",
+		"english": "comb"
+	},
+	{
+		"japanese": "こぼれる",
+		"romaji": "koboreru",
+		"english": "spill, overflow"
+	},
+	{
+		"japanese": "伝える",
+		"romaji": "tsutaeru",
+		"english": "convey, transmit"
+	},
+	{
+		"japanese": "膝",
+		"romaji": "hiza",
+		"english": "knee"
+	},
+	{
+		"japanese": "肘",
+		"romaji": "hiji",
+		"english": "elbow"
+	},
+	{
+		"japanese": "枕",
+		"romaji": "makura",
+		"english": "pillow"
+	},
+	{
+		"japanese": "建物",
+		"romaji": "tatemono",
+		"english": "building, structure"
+	},
+	{
+		"japanese": "道路",
+		"romaji": "douro",
+		"english": "road"
+	},
+	{
+		"japanese": "四つ角",
+		"romaji": "yotsukado",
+		"english": "intersection"
+	},
+	{
+		"japanese": "曲がり角",
+		"romaji": "magarikado",
+		"english": "corner (to turn)"
+	},
+	{
+		"japanese": "警察",
+		"romaji": "keisatsu",
+		"english": "police"
+	},
+	{
+		"japanese": "空気",
+		"romaji": "kuuki",
+		"english": "air, atmosphere"
+	},
+	{
+		"japanese": "スポーツ",
+		"romaji": "supo-tsu",
+		"english": "sport"
+	},
+	{
+		"japanese": "チャンス",
+		"romaji": "chansu",
+		"english": "chance"
+	},
+	{
+		"japanese": "クリーニング",
+		"romaji": "kuri-ningu",
+		"english": "dry cleaning"
+	},
+	{
+		"japanese": "サービス",
+		"romaji": "sa-bisu",
+		"english": "service, on the house"
+	},
+	{
+		"japanese": "グループ",
+		"romaji": "guru-pu",
+		"english": "group"
+	},
+	{
+		"japanese": "自宅",
+		"romaji": "jitaku",
+		"english": "one’s house, one’s home"
+	},
+	{
+		"japanese": "家庭",
+		"romaji": "katei",
+		"english": "home, family"
+	},
+	{
+		"japanese": "期間",
+		"romaji": "kikan",
+		"english": "term, period"
+	},
+	{
+		"japanese": "年度",
+		"romaji": "nendo",
+		"english": "year, school year"
+	},
+	{
+		"japanese": "経験",
+		"romaji": "keiken",
+		"english": "experience, knowledge"
+	},
+	{
+		"japanese": "安全",
+		"romaji": "anzen",
+		"english": "safety, security"
+	},
+	{
+		"japanese": "危険",
+		"romaji": "kiken",
+		"english": "danger, dangerous"
+	},
+	{
+		"japanese": "注意",
+		"romaji": "chuui",
+		"english": "attention, care"
+	},
+	{
+		"japanese": "成功",
+		"romaji": "seikou",
+		"english": "success"
+	},
+	{
+		"japanese": "努力",
+		"romaji": "doryoku",
+		"english": "endeavor, effort"
+	},
+	{
+		"japanese": "説明",
+		"romaji": "setsumei",
+		"english": "explanation, description"
+	},
+	{
+		"japanese": "地震",
+		"romaji": "jishin",
+		"english": "earthquake"
+	},
+	{
+		"japanese": "手術",
+		"romaji": "shujutsu",
+		"english": "surgical operation"
+	},
+	{
+		"japanese": "火傷",
+		"romaji": "yakedo",
+		"english": "burn"
+	},
+	{
+		"japanese": "課題",
+		"romaji": "kadai",
+		"english": "task, assignment"
+	},
+	{
+		"japanese": "子",
+		"romaji": "ko",
+		"english": "young child, kid"
+	},
+	{
+		"japanese": "確認",
+		"romaji": "kakunin",
+		"english": "confirmation"
+	},
+	{
+		"japanese": "実際",
+		"romaji": "jissai",
+		"english": "reality, actual state"
+	},
+	{
+		"japanese": "国際",
+		"romaji": "kokusai",
+		"english": "international (used in compound nouns)"
+	},
+	{
+		"japanese": "会議",
+		"romaji": "kaigi",
+		"english": "conference, meeting"
+	},
+	{
+		"japanese": "提案",
+		"romaji": "teian",
+		"english": "proposition, proposal"
+	},
+	{
+		"japanese": "事務所",
+		"romaji": "jimusho",
+		"english": "office, one’s place of business"
+	},
+	{
+		"japanese": "教授",
+		"romaji": "kyouju",
+		"english": "professor"
+	},
+	{
+		"japanese": "世紀",
+		"romaji": "seiki",
+		"english": "century"
+	},
+	{
+		"japanese": "あちこち",
+		"romaji": "achikochi",
+		"english": "all over, here and there"
+	},
+	{
+		"japanese": "そちら",
+		"romaji": "sochira",
+		"english": "there, that way (polite)"
+	},
+	{
+		"japanese": "あちら",
+		"romaji": "achira",
+		"english": "over there, that way (polite)"
+	},
+	{
+		"japanese": "もし",
+		"romaji": "moshi",
+		"english": "if, in case of"
+	},
+	{
+		"japanese": "うるさい",
+		"romaji": "urusai",
+		"english": "noisy, annoying"
+	},
+	{
+		"japanese": "固い",
+		"romaji": "katai",
+		"english": "stiff, tight"
+	},
+	{
+		"japanese": "深い",
+		"romaji": "fukai",
+		"english": "deep, profound"
+	},
+	{
+		"japanese": "面白い",
+		"romaji": "omoshiroi",
+		"english": "interesting, amusing"
+	},
+	{
+		"japanese": "全く",
+		"romaji": "mattaku",
+		"english": "entirely, truly"
+	},
+	{
+		"japanese": "半分",
+		"romaji": "hanbun",
+		"english": "half"
+	},
+	{
+		"japanese": "普通",
+		"romaji": "futsuu",
+		"english": "normal, regular"
+	},
+	{
+		"japanese": "分",
+		"romaji": "bun",
+		"english": "amount, share"
+	},
+	{
+		"japanese": "文化",
+		"romaji": "bunka",
+		"english": "culture"
+	},
+	{
+		"japanese": "毎日",
+		"romaji": "mainichi",
+		"english": "every day"
+	},
+	{
+		"japanese": "気を付ける",
+		"romaji": "kiwotsukeru",
+		"english": "be careful about, pay attention to"
+	},
+	{
+		"japanese": "守る",
+		"romaji": "mamoru",
+		"english": "protect, observe"
+	},
+	{
+		"japanese": "もちろん",
+		"romaji": "mochiron",
+		"english": "of course"
+	},
+	{
+		"japanese": "やはり",
+		"romaji": "yahari",
+		"english": "as expected"
+	},
+	{
+		"japanese": "いくら",
+		"romaji": "ikura",
+		"english": "how much (money)"
+	},
+	{
+		"japanese": "よろしく",
+		"romaji": "yoroshiku",
+		"english": "one’s regards"
+	},
+	{
+		"japanese": "どなた",
+		"romaji": "donata",
+		"english": "who (polite)"
+	},
+	{
+		"japanese": "許す",
+		"romaji": "yurusu",
+		"english": "permit, forgive"
+	},
+	{
+		"japanese": "分ける",
+		"romaji": "wakeru",
+		"english": "divide, share"
+	},
+	{
+		"japanese": "自然",
+		"romaji": "shizen",
+		"english": "nature"
+	},
+	{
+		"japanese": "アパート",
+		"romaji": "apa-to",
+		"english": "apartment, flat"
+	},
+	{
+		"japanese": "ホテル",
+		"romaji": "hoteru",
+		"english": "hotel"
+	},
+	{
+		"japanese": "パソコン",
+		"romaji": "pasokon",
+		"english": "personal computer"
+	},
+	{
+		"japanese": "うまい",
+		"romaji": "umai",
+		"english": "good at"
+	},
+	{
+		"japanese": "明るい",
+		"romaji": "akarui",
+		"english": "bright, cheerful"
+	},
+	{
+		"japanese": "急ぐ",
+		"romaji": "isogu",
+		"english": "hurry, do quickly"
+	},
+	{
+		"japanese": "歌",
+		"romaji": "uta",
+		"english": "song"
+	},
+	{
+		"japanese": "中学校",
+		"romaji": "chuugakkou",
+		"english": "junior high school"
+	},
+	{
+		"japanese": "テスト",
+		"romaji": "tesuto",
+		"english": "test"
+	},
+	{
+		"japanese": "ポスト",
+		"romaji": "posuto",
+		"english": "postbox, mailbox"
+	},
+	{
+		"japanese": "ハンカチ",
+		"romaji": "hankachi",
+		"english": "handkerchief"
+	},
+	{
+		"japanese": "髪",
+		"romaji": "kami",
+		"english": "hair, hairstyle"
+	},
+	{
+		"japanese": "帽子",
+		"romaji": "boushi",
+		"english": "hat, cap"
+	},
+	{
+		"japanese": "被る",
+		"romaji": "kaburu",
+		"english": "wear, put on (on one’s head)"
+	},
+	{
+		"japanese": "ブラウス",
+		"romaji": "burausu",
+		"english": "blouse"
+	},
+	{
+		"japanese": "週末",
+		"romaji": "shuumatsu",
+		"english": "weekend"
+	},
+	{
+		"japanese": "先週",
+		"romaji": "senshuu",
+		"english": "last week"
+	},
+	{
+		"japanese": "再来週",
+		"romaji": "saraishuu",
+		"english": "the week after next"
+	},
+	{
+		"japanese": "いつか",
+		"romaji": "itsuka",
+		"english": "some time, some day"
+	},
+	{
+		"japanese": "宿題",
+		"romaji": "shukudai",
+		"english": "homework"
+	},
+	{
+		"japanese": "鍵",
+		"romaji": "kagi",
+		"english": "key, lock"
+	},
+	{
+		"japanese": "傘",
+		"romaji": "kasa",
+		"english": "umbrella, parasol"
+	},
+	{
+		"japanese": "乗り換える",
+		"romaji": "norikaeru",
+		"english": "change, transfer"
+	},
+	{
+		"japanese": "向かう",
+		"romaji": "mukau",
+		"english": "face, head toward"
+	},
+	{
+		"japanese": "本屋",
+		"romaji": "honya",
+		"english": "bookstore (colloquial)"
+	},
+	{
+		"japanese": "お茶",
+		"romaji": "ocha",
+		"english": "tea (polite)"
+	},
+	{
+		"japanese": "改札口",
+		"romaji": "kaisatsuguchi",
+		"english": "ticket gate"
+	},
+	{
+		"japanese": "晴れ",
+		"romaji": "hare",
+		"english": "fine weather, clear sky"
+	},
+	{
+		"japanese": "バス停",
+		"romaji": "basutei",
+		"english": "bus stop"
+	},
+	{
+		"japanese": "曇り",
+		"romaji": "kumori",
+		"english": "cloudy weather"
+	},
+	{
+		"japanese": "塩",
+		"romaji": "shio",
+		"english": "salt"
+	},
+	{
+		"japanese": "たくさん",
+		"romaji": "takusan",
+		"english": "a lot, in large quantity"
+	},
+	{
+		"japanese": "大嫌い",
+		"romaji": "daikirai",
+		"english": "hate"
+	},
+	{
+		"japanese": "中",
+		"romaji": "naka",
+		"english": "inside, middle"
+	},
+	{
+		"japanese": "二階",
+		"romaji": "nikai",
+		"english": "second floor, upstairs"
+	},
+	{
+		"japanese": "無くす",
+		"romaji": "nakusu",
+		"english": "lose, get rid of"
+	},
+	{
+		"japanese": "まあまあ",
+		"romaji": "maamaa",
+		"english": "OK, not bad"
+	},
+	{
+		"japanese": "黄色",
+		"romaji": "kiiro",
+		"english": "yellow color"
+	},
+	{
+		"japanese": "ランチ",
+		"romaji": "ranchi",
+		"english": "lunch (loan word)"
+	},
+	{
+		"japanese": "魚",
+		"romaji": "sakana",
+		"english": "fish"
+	},
+	{
+		"japanese": "味",
+		"romaji": "aji",
+		"english": "taste, flavor"
+	},
+	{
+		"japanese": "りんご",
+		"romaji": "ringo",
+		"english": "apple"
+	},
+	{
+		"japanese": "みかん",
+		"romaji": "mikan",
+		"english": "tangerine"
+	},
+	{
+		"japanese": "皿",
+		"romaji": "sara",
+		"english": "plate, counter (for plates or helpings)"
+	},
+	{
+		"japanese": "コーヒー",
+		"romaji": "ko-hi-",
+		"english": "coffee"
+	},
+	{
+		"japanese": "コップ",
+		"romaji": "koppu",
+		"english": "cup, glass"
+	},
+	{
+		"japanese": "二人",
+		"romaji": "futari",
+		"english": "two persons"
+	},
+	{
+		"japanese": "止む",
+		"romaji": "yamu",
+		"english": "stop, cease"
+	},
+	{
+		"japanese": "九",
+		"romaji": "kyuu",
+		"english": "nine"
+	},
+	{
+		"japanese": "昼間",
+		"romaji": "hiruma",
+		"english": "daytime, during the day"
+	},
+	{
+		"japanese": "いつ頃",
+		"romaji": "itsugoro",
+		"english": "about when, about what time"
+	},
+	{
+		"japanese": "字",
+		"romaji": "ji",
+		"english": "(individual) character, letter"
+	},
+	{
+		"japanese": "七",
+		"romaji": "nana",
+		"english": "seven (Chinese origin)"
+	},
+	{
+		"japanese": "お釣り",
+		"romaji": "otsuri",
+		"english": "change (of money)"
+	},
+	{
+		"japanese": "名字",
+		"romaji": "myouji",
+		"english": "surname, family name"
+	},
+	{
+		"japanese": "おじ",
+		"romaji": "oji",
+		"english": "(one’s own) uncle"
+	},
+	{
+		"japanese": "おば",
+		"romaji": "oba",
+		"english": "(one’s own) aunt"
+	},
+	{
+		"japanese": "祖父",
+		"romaji": "sofu",
+		"english": "grandfather (formal)"
+	},
+	{
+		"japanese": "祖母",
+		"romaji": "sobo",
+		"english": "grandmother (formal)"
+	},
+	{
+		"japanese": "大事",
+		"romaji": "daiji",
+		"english": "importance"
+	},
+	{
+		"japanese": "見方",
+		"romaji": "mikata",
+		"english": "view, perspective"
+	},
+	{
+		"japanese": "鳥",
+		"romaji": "tori",
+		"english": "bird, poultry"
+	},
+	{
+		"japanese": "犬",
+		"romaji": "inu",
+		"english": "dog"
+	},
+	{
+		"japanese": "返事",
+		"romaji": "henji",
+		"english": "reply, answer, response"
+	},
+	{
+		"japanese": "また",
+		"romaji": "mata",
+		"english": "again, also, or"
+	},
+	{
+		"japanese": "年間",
+		"romaji": "nenkan",
+		"english": "period of one year"
+	},
+	{
+		"japanese": "青",
+		"romaji": "ao",
+		"english": "blue, green"
+	},
+	{
+		"japanese": "赤",
+		"romaji": "aka",
+		"english": "red color"
+	},
+	{
+		"japanese": "信号",
+		"romaji": "shingou",
+		"english": "signal, traffic light"
+	},
+	{
+		"japanese": "円",
+		"romaji": "en",
+		"english": "circle"
+	},
+	{
+		"japanese": "非常に",
+		"romaji": "hijouni",
+		"english": "very, extremely"
+	},
+	{
+		"japanese": "複雑",
+		"romaji": "fukuzatsu",
+		"english": "complicated, intricate"
+	},
+	{
+		"japanese": "平和",
+		"romaji": "heiwa",
+		"english": "peace, harmony"
+	},
+	{
+		"japanese": "回る",
+		"romaji": "mawaru",
+		"english": "turn round, go around"
+	},
+	{
+		"japanese": "若者",
+		"romaji": "wakamono",
+		"english": "young person, youth"
+	},
+	{
+		"japanese": "雪",
+		"romaji": "yuki",
+		"english": "snow, snowfall"
+	},
+	{
+		"japanese": "うまい",
+		"romaji": "umai",
+		"english": "sweet, delicious"
+	},
+	{
+		"japanese": "思い出す",
+		"romaji": "omoidasu",
+		"english": "recollect, recall"
+	},
+	{
+		"japanese": "聞こえる",
+		"romaji": "kikoeru",
+		"english": "hear, be heard"
+	},
+	{
+		"japanese": "借りる",
+		"romaji": "kariru",
+		"english": "borrow"
+	},
+	{
+		"japanese": "返す",
+		"romaji": "kaesu",
+		"english": "return, repay"
+	},
+	{
+		"japanese": "受け取る",
+		"romaji": "uketoru",
+		"english": "receive, get"
+	},
+	{
+		"japanese": "捨てる",
+		"romaji": "suteru",
+		"english": "discard, abandon"
+	},
+	{
+		"japanese": "一緒",
+		"romaji": "issho",
+		"english": "together, same (colloquial)"
+	},
+	{
+		"japanese": "遊び",
+		"romaji": "asobi",
+		"english": "play, amusement"
+	},
+	{
+		"japanese": "移す",
+		"romaji": "utsusu",
+		"english": "move, transfer"
+	},
+	{
+		"japanese": "大きさ",
+		"romaji": "ookisa",
+		"english": "size, dimension"
+	},
+	{
+		"japanese": "考え",
+		"romaji": "kangae",
+		"english": "thought, idea"
+	},
+	{
+		"japanese": "空港",
+		"romaji": "kuukou",
+		"english": "airport (for public transportation)"
+	},
+	{
+		"japanese": "出発",
+		"romaji": "shuppatsu",
+		"english": "departure, starting"
+	},
+	{
+		"japanese": "地図",
+		"romaji": "chizu",
+		"english": "map, atlas"
+	},
+	{
+		"japanese": "運転",
+		"romaji": "unten",
+		"english": "drive"
+	},
+	{
+		"japanese": "降りる",
+		"romaji": "oriru",
+		"english": "get off, land"
+	},
+	{
+		"japanese": "ガス",
+		"romaji": "gasu",
+		"english": "gas (loan word)"
+	},
+	{
+		"japanese": "必ず",
+		"romaji": "kanarazu",
+		"english": "without exception, always"
+	},
+	{
+		"japanese": "カメラ",
+		"romaji": "kamera",
+		"english": "camera"
+	},
+	{
+		"japanese": "通う",
+		"romaji": "kayou",
+		"english": "go to and from, frequent a place"
+	},
+	{
+		"japanese": "急に",
+		"romaji": "kyuuni",
+		"english": "suddenly, unexpectedly"
+	},
+	{
+		"japanese": "サラリーマン",
+		"romaji": "sarari-man",
+		"english": "office worker, company employee"
+	},
+	{
+		"japanese": "給料",
+		"romaji": "kyuuryou",
+		"english": "salary, pay"
+	},
+	{
+		"japanese": "曲",
+		"romaji": "kyoku",
+		"english": "piece of music"
+	},
+	{
+		"japanese": "切れる",
+		"romaji": "kireru",
+		"english": "cut well, be sharp"
+	},
+	{
+		"japanese": "正しい",
+		"romaji": "tadashii",
+		"english": "correct, righteous"
+	},
+	{
+		"japanese": "苦しい",
+		"romaji": "kurushii",
+		"english": "painful, agonizing"
+	},
+	{
+		"japanese": "細かい",
+		"romaji": "komakai",
+		"english": "minute, fine"
+	},
+	{
+		"japanese": "静か",
+		"romaji": "shizuka",
+		"english": "quiet, tranquil"
+	},
+	{
+		"japanese": "健康",
+		"romaji": "kenkou",
+		"english": "health"
+	},
+	{
+		"japanese": "ゴルフ",
+		"romaji": "gorufu",
+		"english": "golf"
+	},
+	{
+		"japanese": "コース",
+		"romaji": "ko-su",
+		"english": "course, route"
+	},
+	{
+		"japanese": "頼む",
+		"romaji": "tanomu",
+		"english": "order, ask for"
+	},
+	{
+		"japanese": "困る",
+		"romaji": "komaru",
+		"english": "be in trouble, not know what to do"
+	},
+	{
+		"japanese": "ずっと",
+		"romaji": "zutto",
+		"english": "all the time, all through"
+	},
+	{
+		"japanese": "例えば",
+		"romaji": "tatoeba",
+		"english": "for example"
+	},
+	{
+		"japanese": "つもり",
+		"romaji": "tsumori",
+		"english": "intention, purpose"
+	},
+	{
+		"japanese": "しばらく",
+		"romaji": "shibaraku",
+		"english": "a little while, a while"
+	},
+	{
+		"japanese": "紹介",
+		"romaji": "shoukai",
+		"english": "introduction"
+	},
+	{
+		"japanese": "小学校",
+		"romaji": "shougakkou",
+		"english": "elementary school"
+	},
+	{
+		"japanese": "公園",
+		"romaji": "kouen",
+		"english": "park, public garden"
+	},
+	{
+		"japanese": "中学",
+		"romaji": "chuugaku",
+		"english": "junior high"
+	},
+	{
+		"japanese": "成績",
+		"romaji": "seiseki",
+		"english": "results, grade"
+	},
+	{
+		"japanese": "教科書",
+		"romaji": "kyoukasho",
+		"english": "textbook, schoolbook"
+	},
+	{
+		"japanese": "席",
+		"romaji": "seki",
+		"english": "seat, one’s place"
+	},
+	{
+		"japanese": "教室",
+		"romaji": "kyoushitsu",
+		"english": "classroom, class"
+	},
+	{
+		"japanese": "教師",
+		"romaji": "kyoushi",
+		"english": "teacher, instructor"
+	},
+	{
+		"japanese": "試験",
+		"romaji": "shiken",
+		"english": "exam"
+	},
+	{
+		"japanese": "合格",
+		"romaji": "goukaku",
+		"english": "pass an examination"
+	},
+	{
+		"japanese": "数学",
+		"romaji": "suugaku",
+		"english": "mathematics"
+	},
+	{
+		"japanese": "数字",
+		"romaji": "suuji",
+		"english": "numeric characters"
+	},
+	{
+		"japanese": "音楽",
+		"romaji": "ongaku",
+		"english": "music"
+	},
+	{
+		"japanese": "食事",
+		"romaji": "shokuji",
+		"english": "meal"
+	},
+	{
+		"japanese": "壁",
+		"romaji": "kabe",
+		"english": "wall, partition"
+	},
+	{
+		"japanese": "信じる",
+		"romaji": "shinjiru",
+		"english": "believe, trust"
+	},
+	{
+		"japanese": "育てる",
+		"romaji": "sodateru",
+		"english": "bring up, raise"
+	},
+	{
+		"japanese": "倒れる",
+		"romaji": "taoreru",
+		"english": "fall over"
+	},
+	{
+		"japanese": "落とす",
+		"romaji": "otosu",
+		"english": "drop"
+	},
+	{
+		"japanese": "代わる",
+		"romaji": "kawaru",
+		"english": "substitute, be substituted for"
+	},
+	{
+		"japanese": "タクシー",
+		"romaji": "takushi-",
+		"english": "taxi"
+	},
+	{
+		"japanese": "確か",
+		"romaji": "tashika",
+		"english": "for sure, for certain"
+	},
+	{
+		"japanese": "立てる",
+		"romaji": "tateru",
+		"english": "stand, set up"
+	},
+	{
+		"japanese": "中学生",
+		"romaji": "chuugakusei",
+		"english": "junior high school student"
+	},
+	{
+		"japanese": "売れる",
+		"romaji": "ureru",
+		"english": "sell, be in demand"
+	},
+	{
+		"japanese": "着く",
+		"romaji": "tsuku",
+		"english": "arrive at, reach"
+	},
+	{
+		"japanese": "決まる",
+		"romaji": "kimaru",
+		"english": "be decided"
+	},
+	{
+		"japanese": "飾る",
+		"romaji": "kazaru",
+		"english": "decorate"
+	},
+	{
+		"japanese": "殺す",
+		"romaji": "korosu",
+		"english": "kill"
+	},
+	{
+		"japanese": "下げる",
+		"romaji": "sageru",
+		"english": "lower, turn down"
+	}
+]
