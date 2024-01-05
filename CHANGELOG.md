@@ -2,17 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.1.8](https://github.com/shinokada/flexilexi/compare/v0.1.7...v0.1.8) (2024-01-05)
+### [0.1.9](https://github.com/shinokada/flexilexi/compare/v0.1.8...v0.1.9) (2024-01-05)
 
 
 ### Features
 
-* add meta and favicons ([2e2cf9d](https://github.com/shinokada/flexilexi/commit/2e2cf9d94673d29e0898d2b44c45a03bd030c889))
+* use an array of objects and an object for dictionary ([8845db3](https://github.com/shinokada/flexilexi/commit/8845db3cedd7921b4f7692a19f543fb97eaf7179))
 
+### [0.1.8](https://github.com/shinokada/flexilexi/compare/v0.1.7...v0.1.8) (2024-01-05)
+
+### Features
+
+- add meta and favicons ([2e2cf9d](https://github.com/shinokada/flexilexi/commit/2e2cf9d94673d29e0898d2b44c45a03bd030c889))
 
 ### Bug Fixes
 
-* favicons ([e1f724e](https://github.com/shinokada/flexilexi/commit/e1f724e51f4c0047aa126096e370c94504c03bb3))
+- favicons ([e1f724e](https://github.com/shinokada/flexilexi/commit/e1f724e51f4c0047aa126096e370c94504c03bb3))
 
 ### [0.1.7](https://github.com/shinokada/flexilexi/compare/v0.1.6...v0.1.7) (2024-01-04)
 
