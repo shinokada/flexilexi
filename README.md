@@ -2,20 +2,17 @@
 
 ## Description
 
-FlexiLexi is an npm package designed to facilitate dynamic and flexible searching within a dataset. Leveraging the Fuse.js library, it enables users to perform fuzzy searches with adjustable thresholds, providing relevant results even for partially matched queries. The package offers an interactive interface to fine-tune search parameters and display filtered results seamlessly.
+FlexiLexi is an npm package that enhances searching within datasets. It uses the Fuse.js library for fuzzy searches, allowing users to find relevant results even with partially matched queries. The package provides an interactive interface to fine-tune search settings and display filtered results seamlessly.
 
 ## Features
 
-- Fuzzy Searching: Utilizes the Fuse.js library for fuzzy searching within a provided dataset.
-- Customizable Threshold: Allows users to adjust the fuzziness threshold to control search sensitivity.
-- Dynamic Field Selection: Supports specifying custom fields for searching or defaults to provided keys.
-- Interactive Interface:
-  - Threshold Adjustment: Users can modify the threshold using a range input for real-time changes in search sensitivity.
-  - Search Input: Provides an input field for users to enter search queries dynamically.
-- Live Search Updates: Updates search results in real-time as users input or adjust their search queries.
-- Result Display:
-  - Presents search results in an unordered list.
-  - Supports display customization by iterating through selected fields for each result.
+- Fuzzy Searching: Uses Fuse.js for flexible searches within datasets.
+- Adjustable Threshold: Allows users to control search sensitivity by adjusting the fuzziness threshold.
+- Dynamic Field Selection: Supports customizing search fields or uses default keys.
+- Search Input: Allows dynamic entry of search queries.
+- Real-time Updates: Updates search results instantly as users type or modify their queries.
+- Shows results in an unordered list.
+- Supports customization by displaying selected fields for each result.
 
 ## Demo
 
