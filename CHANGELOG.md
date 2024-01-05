@@ -2,12 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.1.7](https://github.com/shinokada/flexilexi/compare/v0.1.6...v0.1.7) (2024-01-04)
+### [0.1.8](https://github.com/shinokada/flexilexi/compare/v0.1.7...v0.1.8) (2024-01-05)
 
 
 ### Features
 
-* add Footer ([7664bf2](https://github.com/shinokada/flexilexi/commit/7664bf2f570bdc7781ab580c638a835bb9d81424))
+* add meta and favicons ([2e2cf9d](https://github.com/shinokada/flexilexi/commit/2e2cf9d94673d29e0898d2b44c45a03bd030c889))
+
+
+### Bug Fixes
+
+* favicons ([e1f724e](https://github.com/shinokada/flexilexi/commit/e1f724e51f4c0047aa126096e370c94504c03bb3))
+
+### [0.1.7](https://github.com/shinokada/flexilexi/compare/v0.1.6...v0.1.7) (2024-01-04)
+
+### Features
+
+- add Footer ([7664bf2](https://github.com/shinokada/flexilexi/commit/7664bf2f570bdc7781ab580c638a835bb9d81424))
 
 ### [0.1.6](https://github.com/shinokada/flexilexi/compare/v0.1.5...v0.1.6) (2024-01-04)
 
