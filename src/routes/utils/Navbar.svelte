@@ -1,14 +1,21 @@
 <script>
 	import { page } from '$app/stores';
+	// let { currentUrl } = $props();
 	let navStatus = $state(false);
 	let navClass = $derived(navStatus ? 'block' : 'hidden');
-
 	const toggleNav = () => {
 		// console.log('clicked')
 		navStatus = !navStatus;
 		// console.log('navStatus', navStatus)
 	};
 
+	let currentUrl = $state()
+
+	$effect(()=>{
+		currentUrl = $page.url.pathname
+		// console.log('in effect',currentUrl)
+	})
+	
 	const closeNav = () => {
 		navStatus = false;
 	};
@@ -57,40 +64,40 @@
 					<a
 						href="/"
 						onclick={closeNav}
-						aria-current={$page.url.pathname === '/'}
-						class={$page.url.pathname === '/' ? activeStyle : linkStyle}>Home</a
+						aria-current={currentUrl === '/'}
+						class={currentUrl === '/' ? activeStyle : linkStyle}>Home</a
 					>
 				</li>
 				<li>
 					<a
 						href="/feilds"
 						onclick={closeNav}
-						aria-current={$page.url.pathname === '/feilds'}
-						class={$page.url.pathname === '/feilds' ? activeStyle : linkStyle}>Feilds</a
+						aria-current={currentUrl === '/feilds'}
+						class={currentUrl === '/feilds' ? activeStyle : linkStyle}>Feilds</a
 					>
 				</li>
 				<li>
 					<a
 						href="/keys"
 						onclick={closeNav}
-						aria-current={$page.url.pathname === '/keys'}
-						class={$page.url.pathname === '/keys' ? activeStyle : linkStyle}>Keys</a
+						aria-current={currentUrl === '/keys'}
+						class={currentUrl === '/keys' ? activeStyle : linkStyle}>Keys</a
 					>
 				</li>
 				<li>
 					<a
 						href="/threshold"
 						onclick={closeNav}
-						aria-current={$page.url.pathname === '/threshold'}
-						class={$page.url.pathname === '/threshold' ? activeStyle : linkStyle}>Threshold</a
+						aria-current={currentUrl === '/threshold'}
+						class={currentUrl === '/threshold' ? activeStyle : linkStyle}>Threshold</a
 					>
 				</li>
 				<li>
 					<a
 						href="/single-object"
 						onclick={closeNav}
-						aria-current={$page.url.pathname === '/single-object'}
-						class={$page.url.pathname === '/single-object' ? activeStyle : linkStyle}>Single object</a
+						aria-current={currentUrl === '/single-object'}
+						class={currentUrl === '/single-object' ? activeStyle : linkStyle}>Single object</a
 					>
 				</li>
 				<li>
