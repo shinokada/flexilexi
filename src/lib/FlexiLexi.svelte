@@ -9,7 +9,14 @@
 		thresholdValue?: number;
 		isObject?: boolean;
 	}
-	let { dictionary, keys = [], fields = [], thresholdValue = 0, isObject = false, ...attributes } = $props<Props>();
+	let {
+		dictionary,
+		keys = [],
+		fields = [],
+		thresholdValue = 0,
+		isObject = false,
+		...attributes
+	} = $props<Props>();
 	import Fuse from 'fuse.js';
 
 	let threshold = $state(thresholdValue);
@@ -21,10 +28,10 @@
 			keys = Object.keys(dictionary[0]);
 		} else {
 			// keys = Object.keys(dictionary);
-			dictionary = Object.keys(dictionary).map(key => ({ key, value: dictionary[key] }));
-			keys = ["key"];
-			fields = ['key', 'value']
-			console.log('dic: ', dictionary)
+			dictionary = Object.keys(dictionary).map((key) => ({ key, value: dictionary[key] }));
+			keys = ['key'];
+			fields = ['key', 'value'];
+			// console.log('dic: ', dictionary);
 		}
 	}
 
