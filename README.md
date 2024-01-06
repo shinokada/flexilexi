@@ -66,7 +66,7 @@ The FlexiLexi component accepts the following props:
 
 ### dictionary: (Required)
 
-A dataset for performing searches. This should be a link to a file or an array/object that represents the dataset.
+A dataset for performing searches. This should be a link to a file or an array/object that represents the dataset. Use an array of objects or an object as the following examples.
 
 example-data.json:
 
