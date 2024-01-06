@@ -2,12 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.1.9](https://github.com/shinokada/flexilexi/compare/v0.1.8...v0.1.9) (2024-01-05)
+### [0.1.10](https://github.com/shinokada/flexilexi/compare/v0.1.9...v0.1.10) (2024-01-06)
 
+
+### Bug Fixes
+
+* Navbar for currntUrl ([9239cf0](https://github.com/shinokada/flexilexi/commit/9239cf0139c6015fbbd98ed255159f88f3be735b))
+* update tailwind.config.cjs ([49efff5](https://github.com/shinokada/flexilexi/commit/49efff57856230b8117b4412c44a323900a42bb5))
+* use primary ([8dd9bf6](https://github.com/shinokada/flexilexi/commit/8dd9bf6ab5fc5a7ac313e1e1a9759a4776dad56d))
+
+### [0.1.9](https://github.com/shinokada/flexilexi/compare/v0.1.8...v0.1.9) (2024-01-05)
 
 ### Features
 
-* use an array of objects and an object for dictionary ([8845db3](https://github.com/shinokada/flexilexi/commit/8845db3cedd7921b4f7692a19f543fb97eaf7179))
+- use an array of objects and an object for dictionary ([8845db3](https://github.com/shinokada/flexilexi/commit/8845db3cedd7921b4f7692a19f543fb97eaf7179))
 
 ### [0.1.8](https://github.com/shinokada/flexilexi/compare/v0.1.7...v0.1.8) (2024-01-05)
 
