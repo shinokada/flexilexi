@@ -2,14 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.1.10](https://github.com/shinokada/flexilexi/compare/v0.1.9...v0.1.10) (2024-01-06)
+### [0.1.11](https://github.com/shinokada/flexilexi/compare/v0.1.10...v0.1.11) (2024-01-06)
 
 
 ### Bug Fixes
 
-* Navbar for currntUrl ([9239cf0](https://github.com/shinokada/flexilexi/commit/9239cf0139c6015fbbd98ed255159f88f3be735b))
-* update tailwind.config.cjs ([49efff5](https://github.com/shinokada/flexilexi/commit/49efff57856230b8117b4412c44a323900a42bb5))
-* use primary ([8dd9bf6](https://github.com/shinokada/flexilexi/commit/8dd9bf6ab5fc5a7ac313e1e1a9759a4776dad56d))
+* update english data ([5dff07c](https://github.com/shinokada/flexilexi/commit/5dff07c6dbf5f8b7a0075939c3f7faaecaf7ac89))
+
+### [0.1.10](https://github.com/shinokada/flexilexi/compare/v0.1.9...v0.1.10) (2024-01-06)
+
+### Bug Fixes
+
+- Navbar for currntUrl ([9239cf0](https://github.com/shinokada/flexilexi/commit/9239cf0139c6015fbbd98ed255159f88f3be735b))
+- update tailwind.config.cjs ([49efff5](https://github.com/shinokada/flexilexi/commit/49efff57856230b8117b4412c44a323900a42bb5))
+- use primary ([8dd9bf6](https://github.com/shinokada/flexilexi/commit/8dd9bf6ab5fc5a7ac313e1e1a9759a4776dad56d))
 
 ### [0.1.9](https://github.com/shinokada/flexilexi/compare/v0.1.8...v0.1.9) (2024-01-05)
 
