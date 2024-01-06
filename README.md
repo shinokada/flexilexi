@@ -170,7 +170,7 @@ An optional number (ranging from 0 to 1) that sets the fuzziness value for the s
 
 ## Sample data
 
-[example-data.json](https://github.com/shinokada/flexilexi/blob/main/src/routes/data/example-data.json)
+[Sample data](https://github.com/shinokada/flexilexi/tree/main/src/routes/data)
 
 ## Styling
 

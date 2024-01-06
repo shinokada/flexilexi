@@ -29,7 +29,8 @@
 <nav class="border-gray-200 bg-transparent dark:bg-gray-900">
 	<div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
 		<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-			<span class="self-center whitespace-nowrap text-2xl text-primary-900 font-semibold sm:text-3xl dark:text-white"
+			<span
+				class="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 sm:text-3xl dark:text-white"
 				>FlexiLexi</span
 			>
 		</a>
