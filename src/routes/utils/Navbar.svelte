@@ -21,9 +21,9 @@
 	};
 
 	const linkStyle =
-		'block py-2 px-3 text-md hover:underline text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent';
+		'block py-2 px-3 text-md hover:underline text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0 dark:text-white md:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent';
 	const activeStyle =
-		'block py-2 px-3 text-md hover:underline text-white bg-red-700 rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white md:dark:text-red-500';
+		'block py-2 px-3 text-md hover:underline text-white bg-primary-700 rounded md:bg-transparent md:text-primary-700 md:p-0 dark:text-white md:dark:text-primary-500';
 </script>
 
 <nav class="border-gray-200 bg-transparent dark:bg-gray-900">
