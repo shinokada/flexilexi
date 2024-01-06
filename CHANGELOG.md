@@ -2,12 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.1.11](https://github.com/shinokada/flexilexi/compare/v0.1.10...v0.1.11) (2024-01-06)
+### [0.1.12](https://github.com/shinokada/flexilexi/compare/v0.1.11...v0.1.12) (2024-01-06)
 
+### [0.1.11](https://github.com/shinokada/flexilexi/compare/v0.1.10...v0.1.11) (2024-01-06)
 
 ### Bug Fixes
 
-* update english data ([5dff07c](https://github.com/shinokada/flexilexi/commit/5dff07c6dbf5f8b7a0075939c3f7faaecaf7ac89))
+- update english data ([5dff07c](https://github.com/shinokada/flexilexi/commit/5dff07c6dbf5f8b7a0075939c3f7faaecaf7ac89))
 
 ### [0.1.10](https://github.com/shinokada/flexilexi/compare/v0.1.9...v0.1.10) (2024-01-06)
 
