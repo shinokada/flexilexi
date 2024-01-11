@@ -19,3 +19,8 @@ test('threshold page has expected h1', async ({ page }) => {
 	await page.goto('/threshold');
 	expect(await page.textContent('h1')).toBe('Threshold example');
 });
+
+test('single-object page has expected h1', async ({ page }) => {
+	await page.goto('/single-object');
+	expect(await page.textContent('h1')).toBe('Single Object data set');
+});
