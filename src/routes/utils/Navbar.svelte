@@ -14,7 +14,6 @@
 	});
 </script>
 
-
 <Navbar {toggleNav} {closeNav} {navStatus} breakPoint="lg">
 	{#snippet brand()}
 		<NavBrand siteName="FlexiLexi" {closeNav} />
@@ -26,6 +25,5 @@
 		<NavLi href="/threshold" {closeNav}>Threshold</NavLi>
 		<NavLi href="/single-object" {closeNav}>Single object</NavLi>
 		<NavLi href="https://github.com/shinokada/flexilexi" target="_blank" {closeNav}>GitHub</NavLi>
-		
 	</NavUl>
 </Navbar>

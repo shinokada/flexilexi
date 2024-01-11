@@ -4,15 +4,14 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.13](https://github.com/shinokada/flexilexi/compare/v0.1.9...v0.1.13) (2024-01-11)
 
-
 ### Bug Fixes
 
-* Nav update ([38447ba](https://github.com/shinokada/flexilexi/commit/38447bac958c792f326f278bee28d963a1a1ac41))
-* Navbar for currntUrl ([9239cf0](https://github.com/shinokada/flexilexi/commit/9239cf0139c6015fbbd98ed255159f88f3be735b))
-* revert Nav ([410224a](https://github.com/shinokada/flexilexi/commit/410224abd5f47ad5f5856d3e55f4f4f15f8c5da8))
-* update english data ([5dff07c](https://github.com/shinokada/flexilexi/commit/5dff07c6dbf5f8b7a0075939c3f7faaecaf7ac89))
-* update tailwind.config.cjs ([49efff5](https://github.com/shinokada/flexilexi/commit/49efff57856230b8117b4412c44a323900a42bb5))
-* use primary ([8dd9bf6](https://github.com/shinokada/flexilexi/commit/8dd9bf6ab5fc5a7ac313e1e1a9759a4776dad56d))
+- Nav update ([38447ba](https://github.com/shinokada/flexilexi/commit/38447bac958c792f326f278bee28d963a1a1ac41))
+- Navbar for currntUrl ([9239cf0](https://github.com/shinokada/flexilexi/commit/9239cf0139c6015fbbd98ed255159f88f3be735b))
+- revert Nav ([410224a](https://github.com/shinokada/flexilexi/commit/410224abd5f47ad5f5856d3e55f4f4f15f8c5da8))
+- update english data ([5dff07c](https://github.com/shinokada/flexilexi/commit/5dff07c6dbf5f8b7a0075939c3f7faaecaf7ac89))
+- update tailwind.config.cjs ([49efff5](https://github.com/shinokada/flexilexi/commit/49efff57856230b8117b4412c44a323900a42bb5))
+- use primary ([8dd9bf6](https://github.com/shinokada/flexilexi/commit/8dd9bf6ab5fc5a7ac313e1e1a9759a4776dad56d))
 
 ### [0.1.12](https://github.com/shinokada/flexilexi/compare/v0.1.11...v0.1.12) (2024-01-06)
 
