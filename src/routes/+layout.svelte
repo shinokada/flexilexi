@@ -7,7 +7,7 @@
 
 <Navbar />
 
-<section class="dark:bg-gray-900">
+<section class="border-b border-gray-300 dark:border-gray-500">
 	<div class="mx-auto max-w-screen-xl px-4 py-8 text-center">
 		{@render children()}
 	</div>
