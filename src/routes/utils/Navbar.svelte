@@ -34,7 +34,7 @@
 		{#snippet brand()}
 			<NavBrand siteName="FlexiLexi" {closeNav} />
 			<div class="ml-auto flex items-center lg:order-1">
-				<Darkmode class="inline-block hover:text-gray-900 dark:hover:text-white" />
+				<Darkmode btnclass="inline-block hover:text-gray-900 dark:hover:text-white" />
 			</div>
 		{/snippet}
 		<NavUl {ulclass}>

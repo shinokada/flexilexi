@@ -9,6 +9,7 @@
 		thresholdValue?: number;
 		isObject?: boolean;
 		divclass?: string;
+		autofocus?: boolean;
 	}
 
 	let {
@@ -18,6 +19,7 @@
 		thresholdValue = 0,
 		isObject = false,
 		divclass,
+		autofocus = true,
 		...attributes
 	} = $props<Props>();
 
@@ -77,7 +79,7 @@
 		class="rangeInputClass"
 	/>
 </div>
-<div>
+<div class="div2class">
 	<label for="default-input" class="searchLabelClass">Searching: {searchInput}</label>
 	<input
 		type="text"
@@ -85,6 +87,7 @@
 		oninput={handleSearch}
 		placeholder="Search..."
 		class="searchInputClass"
+		{autofocus}
 	/>
 </div>
 
