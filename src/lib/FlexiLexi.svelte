@@ -20,7 +20,7 @@
 		divclass,
 		...attributes
 	} = $props<Props>();
-		
+
 	import Fuse from 'fuse.js';
 
 	let threshold = $state(thresholdValue);
@@ -65,9 +65,7 @@
 </script>
 
 <div class="divclass">
-	<label for="minmax-range" class="rangeLabelClass"
-		>Fuzziness: {threshold}</label
-	>
+	<label for="minmax-range" class="rangeLabelClass">Fuzziness: {threshold}</label>
 	<input
 		id="minmax-range"
 		type="range"
@@ -80,9 +78,7 @@
 	/>
 </div>
 <div>
-	<label for="default-input" class="searchLabelClass"
-		>Searching: {searchInput}</label
-	>
+	<label for="default-input" class="searchLabelClass">Searching: {searchInput}</label>
 	<input
 		type="text"
 		bind:value={searchInput}

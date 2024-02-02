@@ -12,12 +12,11 @@
 		// without using effect
 		navStatus = nav.isOpen;
 	});
-	
+
 	const navclass =
 		'w-full divide-gray-200 border-gray-200 bg-white text-gray-500 dark:divide-gray-700 dark:border-gray-700 dark:bg-sky-950 sm:px-4';
 	const ulclass =
 		'mt-0 flex flex-col py-3 lg:flex-row lg:my-0 order-1 font-medium xl:gap-4 dark:lg:bg-transparent dark:bg-sky-950 lg:bg-white border-0';
-
 </script>
 
 <header
@@ -32,19 +31,19 @@
 		breakPoint="lg"
 		div2class="ml-auto w-full"
 	>
-	{#snippet brand()}
-		<NavBrand siteName="FlexiLexi" {closeNav} />
-		<div class="flex items-center ml-auto lg:order-1">
-            <Darkmode class="inline-block dark:hover:text-white hover:text-gray-900" />
-        </div>
-	{/snippet}
-	<NavUl {ulclass}>
-		<NavLi href="/" {closeNav}>Home</NavLi>
-		<NavLi href="/feilds" {closeNav}>Feilds</NavLi>
-		<NavLi href="/keys" {closeNav}>Keys</NavLi>
-		<NavLi href="/threshold" {closeNav}>Threshold</NavLi>
-		<NavLi href="/single-object" {closeNav}>Single object</NavLi>
-		<NavLi href="https://github.com/shinokada/flexilexi" target="_blank" {closeNav}>GitHub</NavLi>
-	</NavUl>
-</Navbar>
+		{#snippet brand()}
+			<NavBrand siteName="FlexiLexi" {closeNav} />
+			<div class="ml-auto flex items-center lg:order-1">
+				<Darkmode class="inline-block hover:text-gray-900 dark:hover:text-white" />
+			</div>
+		{/snippet}
+		<NavUl {ulclass}>
+			<NavLi href="/" {closeNav}>Home</NavLi>
+			<NavLi href="/feilds" {closeNav}>Feilds</NavLi>
+			<NavLi href="/keys" {closeNav}>Keys</NavLi>
+			<NavLi href="/threshold" {closeNav}>Threshold</NavLi>
+			<NavLi href="/single-object" {closeNav}>Single object</NavLi>
+			<NavLi href="https://github.com/shinokada/flexilexi" target="_blank" {closeNav}>GitHub</NavLi>
+		</NavUl>
+	</Navbar>
 </header>
