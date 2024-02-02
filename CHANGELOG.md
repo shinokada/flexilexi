@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.15](https://github.com/shinokada/flexilexi/compare/v0.1.14...v0.1.15) (2024-02-02)
+
+
+### Features
+
+* css update ([972762b](https://github.com/shinokada/flexilexi/commit/972762b069c1ce7d77624ad0dd3c60c7c9ec5ffa))
+
+
+### Bug Fixes
+
+* update Nav and Footer ([d71bb5b](https://github.com/shinokada/flexilexi/commit/d71bb5b9f7a48147e46b7e2ede9e166659cbe128))
+
 ### [0.1.14](https://github.com/shinokada/flexilexi/compare/v0.1.13...v0.1.14) (2024-01-11)
 
 ### [0.1.13](https://github.com/shinokada/flexilexi/compare/v0.1.9...v0.1.13) (2024-01-11)
