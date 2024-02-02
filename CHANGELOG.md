@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.17](https://github.com/shinokada/flexilexi/compare/v0.1.16...v0.1.17) (2024-02-02)
 
-
 ### Bug Fixes
 
-* add svelte-ignore a11y-autofocus ([3adcdfb](https://github.com/shinokada/flexilexi/commit/3adcdfb86ecc4585fa2f140d0e5adf2cef9595f8))
+- add svelte-ignore a11y-autofocus ([3adcdfb](https://github.com/shinokada/flexilexi/commit/3adcdfb86ecc4585fa2f140d0e5adf2cef9595f8))
 
 ### [0.1.16](https://github.com/shinokada/flexilexi/compare/v0.1.15...v0.1.16) (2024-02-02)
 
