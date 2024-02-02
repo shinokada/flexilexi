@@ -8,15 +8,19 @@
 		fields?: string[];
 		thresholdValue?: number;
 		isObject?: boolean;
+		divclass?: string;
 	}
+
 	let {
 		dictionary,
 		keys = [],
 		fields = [],
 		thresholdValue = 0,
 		isObject = false,
+		divclass,
 		...attributes
 	} = $props<Props>();
+		
 	import Fuse from 'fuse.js';
 
 	let threshold = $state(thresholdValue);
@@ -35,12 +39,6 @@
 		}
 	}
 
-	// if (Array.isArray(dictionary)){
-
-	// }
-
-	// $inspect('keys: ', keys, 'threshold', threshold, 'fields: ', fields);
-
 	let options = $derived({
 		keys,
 		threshold
@@ -50,10 +48,9 @@
 		fields = keys;
 	}
 
-	let fuse;
-	let searchInput = $state();
+	let searchInput = $state('');
 
-	fuse = new Fuse(dictionary, options);
+	let fuse = new Fuse(dictionary, options);
 
 	let searchResults = $state([]);
 
@@ -67,8 +64,8 @@
 	}
 </script>
 
-<div class="divClass {attributes.divClassName}">
-	<label for="minmax-range" class="rangeLabelClass {attributes.rangeLabelClassName}"
+<div class="divclass">
+	<label for="minmax-range" class="rangeLabelClass"
 		>Fuzziness: {threshold}</label
 	>
 	<input
@@ -79,11 +76,11 @@
 		step="0.2"
 		bind:value={threshold}
 		onchange={handleThreshold}
-		class="rangeInputClass {attributes.rangeInputClassName}"
+		class="rangeInputClass"
 	/>
 </div>
 <div>
-	<label for="default-input" class="searchLabelClass {attributes.searchLabelClassName}"
+	<label for="default-input" class="searchLabelClass"
 		>Searching: {searchInput}</label
 	>
 	<input
@@ -91,13 +88,13 @@
 		bind:value={searchInput}
 		oninput={handleSearch}
 		placeholder="Search..."
-		class="searchInputClass {attributes.searchInputClassName}"
+		class="searchInputClass"
 	/>
 </div>
 
-<ul class="ulClass {attributes.ulClassName}">
+<ul class="ulclass">
 	{#each searchResults as result}
-		<li class="liClass {attributes.liClassName}">
+		<li class="liclass">
 			{#each fields as field, index}
 				{result.item[field]}
 				{#if index < fields.length - 1}
