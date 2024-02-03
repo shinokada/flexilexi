@@ -8,7 +8,6 @@
 		fields?: string[];
 		thresholdValue?: number;
 		isObject?: boolean;
-		divclass?: string;
 		autofocus?: boolean;
 	}
 
@@ -18,7 +17,6 @@
 		fields = [],
 		thresholdValue = 0,
 		isObject = false,
-		divclass,
 		autofocus = true,
 		...attributes
 	} = $props<Props>();

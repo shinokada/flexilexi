@@ -176,64 +176,22 @@ An optional number (ranging from 0 to 1) that sets the fuzziness value for the s
 
 Use the following classes to style items in your style sheet:
 
-- `.divClass`
+- `.divclass`
+- `.div2class`
 - `.rangeLabelClass`
 - `.rangeInputClass`
 - `.searchLabelClass`
 - `.searchInputClass`
-- `.ulClass`
+- `.ulclass`
+- `.liclass`
 
-Use the following prop to add your custome class names:
-
-```
-- divClassName
-- rangeLabelClassName
-- rangeInputClassName
-- searchInputClassName
-- searchLabelClassName
-- ulClassName
-- liClassName
-```
-
-Example:
-
-```
-<FlexiLexi
-  {dictionary}
-  {keys}
-  divClassName="customDiv"
-  rangeLabelClassName="customRangeLabel"
-  rangeInputClassName="customRangeInput"
-  searchInputClassName="customSearchInput"
-  searchLabelClassName="customSearchLabel"
-  ulClassName="customUl"
-  liClassName="customLi"
-/>
-```
-
-The above example produces the following html:
-
-```
-<div class="divClass customDiv">
-  <label for="minmax-range" class="rangeLabelClass customRangeLabel">
-    Fuzziness: 0
-  </label>
-  <input id="minmax-range" type="range" min="0" max="1" step="0.2" value="0" class="rangeInputClass customRangeInput"></div>
-  <div>
-    <label for="default-input" class="searchLabelClass customSearchLabel">Searching: </label>
-    <input type="text" placeholder="Search..." class="searchInputClass customSearchInput">
-  </div>
-  <ul class="ulClass customUl">
-    <li class="liClass customLi"></li>
-  </ul>
-```
 
 ### CSS
 
 Create `static/css/style.css` and add the following example:
 
 ```
-.divClass {
+.divclass {
   margin: 1rem;
 }
 
@@ -274,7 +232,7 @@ Create `static/css/style.css` and add the following example:
   margin: auto;
 }
 
-.ulClass {
+.ulclass {
   max-width: 32rem;
   list-style-position: inside;
   list-style-type: disc;
@@ -307,7 +265,7 @@ Update `app.pcss` by adding the following example:
 @tailwind base;
 @tailwind components;
 
-.divClass {
+.divclass {
   @apply m-4;
 }
 .rangeLabelClass {
@@ -322,7 +280,7 @@ Update `app.pcss` by adding the following example:
 .searchInputClass {
   @apply block rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-lg text-gray-900 focus:border-blue-500 focus:ring-blue-500 w-80 m-auto dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500
 }
-.ulClass {
+.ulclass {
   @apply max-w-md list-inside list-disc space-y-1 text-gray-500 dark:text-gray-400 text-left w-96 m-auto
 }
 
