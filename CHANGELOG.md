@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.18](https://github.com/shinokada/flexilexi/compare/v0.1.17...v0.1.18) (2024-02-03)
+
+
+### Bug Fixes
+
+* svelte-5-ui-lib update ([1fb5cda](https://github.com/shinokada/flexilexi/commit/1fb5cda8c65ac14a4d0f7c27e5ca355e9378cb0e))
+
 ### [0.1.17](https://github.com/shinokada/flexilexi/compare/v0.1.16...v0.1.17) (2024-02-02)
 
 ### Bug Fixes
