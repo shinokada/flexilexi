@@ -26,8 +26,8 @@
 		"test:unit": "vitest",
 		"copy:package": "svelte-lib-helpers package",
 		"package:publish": "standard-version && npm run package && npm run copy:package && npm run format && git push --follow-tags origin main && npm publish",
-		"changeset:version": "changeset version && git add --all",
-    "changeset:publish": "changeset publish"
+		"changeset:version": "changeset version",
+		"changeset:publish": "changeset publish"
 	},
 	"exports": {
 		".": {
@@ -49,6 +49,7 @@
 		"svelte": "^5.0.0"
 	},
 	"devDependencies": {
+		"@changesets/changelog-github": "^0.5.0",
 		"@changesets/cli": "^2.27.1",
 		"@playwright/test": "^1.41.2",
 		"@sveltejs/adapter-auto": "^3.1.1",
