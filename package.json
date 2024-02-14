@@ -26,7 +26,7 @@
 		"test:unit": "vitest",
 		"copy:package": "svelte-lib-helpers package",
 		"package:publish": "standard-version && npm run package && npm run copy:package && npm run format && git push --follow-tags origin main && npm publish",
-		"changeset:version": "changeset version && pnpm -r generate:version && git add --all",
+		"changeset:version": "changeset version && git add --all",
     "changeset:publish": "changeset publish"
 	},
 	"exports": {
