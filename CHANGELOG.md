@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.20
+
+### Patch Changes
+
+- update .changeset/config.json by changing to @svitejs/changesets-changelog-github-compact ([`f945b395197fa247366f554013d76599a09d2a39`](https://github.com/shinokada/flexilexi/commit/f945b395197fa247366f554013d76599a09d2a39))
+
 ## 0.1.19
 
 ### Patch Changes
