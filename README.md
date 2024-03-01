@@ -16,8 +16,8 @@ FlexiLexi is an npm package that enhances searching within datasets. It uses the
 
 ## Demo
 
-- [FlexiLexi](https://flexilexi.vercel.app/)
-- [FlexiLexi-dictionary](https://flexilexi-dictionary.vercel.app/)
+- [FlexiLexi](https://flexilexi.codewithshin.com/)
+- [FlexiLexi-dictionary](https://flexilexi-dictionary.codewithshin.com/)
 
 ## Repo
 

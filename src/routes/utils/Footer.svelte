@@ -18,7 +18,7 @@
 		<FooterLi href="https://github.com/shinokada/flexilexi" target="_blank"
 				>Flexilexi: {version}</FooterLi
 			>
-			<FooterLi href="https://svelte-5-ui-lib.vercel.app/" target="_blank"
+			<FooterLi href="https://svelte-5-ui-lib.codewithshin.com/" target="_blank"
 				>Svelte 5 UI Lib: {svelte5uilibVersion}</FooterLi
 			>
 			<FooterLi href="https://svelte-5-preview.vercel.app/docs/introduction" target="_blank"
