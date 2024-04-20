@@ -43,6 +43,7 @@
 			<NavLi href="/keys" {closeNav}>Keys</NavLi>
 			<NavLi href="/threshold" {closeNav}>Threshold</NavLi>
 			<NavLi href="/single-object" {closeNav}>Single object</NavLi>
+			<NavLi href="/about" {closeNav}>About</NavLi>
 			<NavLi href="https://github.com/shinokada/flexilexi" target="_blank" {closeNav}>GitHub</NavLi>
 		</NavUl>
 	</Navbar>

@@ -4,7 +4,7 @@ const config = {
 		'./node_modules/svelte-5-ui-lib/**/*.{html,js,svelte,ts}'
 	],
 
-	darkMode: 'class',
+	darkMode: 'selector',
 
 	theme: {
 		extend: {

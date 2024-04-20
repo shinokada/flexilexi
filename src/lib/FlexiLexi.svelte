@@ -12,14 +12,14 @@
 	}
 
 	let {
-		dictionary,
+		dictionary = [],
 		keys = [],
 		fields = [],
 		thresholdValue = 0,
 		isObject = false,
 		autofocus = true,
 		...attributes
-	} = $props<Props>();
+	}: Props = $props();
 
 	import Fuse from 'fuse.js';
 

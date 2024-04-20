@@ -1,12 +1,41 @@
-const json = (r: Response) => r.json();
+import { ANALYTICS_ID } from '$env/static/private';
+import type { MetaProps } from 'runes-meta-tags';
+import { metaTitle, metaDescription, metaImg } from 'runes-meta-tags';
 
-/** @type {import('./$types').PageServerLoad} */
-export const load = async ({ fetch }) => {
-  try {
-    const SVELTEVERSION = await fetch('./node_modules/svelte/package.json').then(json);
-    const SVERSION = SVELTEVERSION.version;
-    return { SVERSION };
-  } catch (error) {
-    console.error(`Error in load function for /: ${error}`);
-  }
+export const load = ({ url }) => {
+
+  const title = metaTitle(url.pathname, __NAME__);
+  const basicDesc = 'Fuzzy dictionary'
+  const description = metaDescription(url.pathname, basicDesc);
+  const image = metaImg(url.pathname, __NAME__);
+
+  const layoutMetaTags: MetaProps = {
+    title,
+    description,
+    keywords: 'fuzzy, npm, package, dictionary',
+    twitter: {
+      card: 'summary_large_image',
+      site: '@shinokada',
+      handle: '@shinokada',
+      title,
+      description,
+      image,
+      imageAlt: title,
+    },
+    og: {
+      type: 'website',
+      title,
+      description,
+      url: url.href,
+      image,
+      imageAlt: title,
+      siteName: 'Flexilexi',
+      imageWidth: '1200',
+      imageHeight: '630'
+    }
+  };
+  return {
+		layoutMetaTags,
+		ANALYTICS_ID
+  };
 };
