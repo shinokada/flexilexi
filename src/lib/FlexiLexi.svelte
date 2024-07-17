@@ -113,3 +113,16 @@
 		</li>
 	{/each}
 </ul>
+
+<!--
+@component
+[Go to docs](https://flexilexi.codewithshin.com/)
+## Props
+@prop dictionary = []
+@prop keys = []
+@prop fields = []
+@prop thresholdValue = 0
+@prop isObject = false
+@prop autofocus = true
+@prop ...attributes
+-->
