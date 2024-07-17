@@ -1,0 +1,5 @@
+---
+'flexilexi': patch
+---
+
+fix: types
