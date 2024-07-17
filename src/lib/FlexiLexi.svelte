@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { FuseResult } from 'fuse.js';
 	interface DictionaryObject {
 		[key: string]: string;
 	}
@@ -24,20 +25,30 @@
 	import Fuse from 'fuse.js';
 
 	let threshold = $state(thresholdValue);
+	let dictionaryArray: DictionaryObject[];
 
 	// If keys are not provided, extract keys dynamically from the dictionary dataset
 	if (!keys || keys.length === 0) {
-		// Check if the dictionary is an object and extract keys from its first item
-		if (Array.isArray(dictionary) && dictionary.length > 0 && typeof dictionary[0] === 'object') {
-			keys = Object.keys(dictionary[0]);
-		} else {
-			// keys = Object.keys(dictionary);
-			dictionary = Object.keys(dictionary).map((key) => ({ key, value: dictionary[key] }));
-			keys = ['key'];
-			fields = ['key', 'value'];
-			// console.log('dic: ', dictionary);
-		}
-	}
+        // Check if the dictionary is an object and extract keys from its first item
+        if (Array.isArray(dictionary)) {
+            dictionaryArray = dictionary;
+            if (dictionary.length > 0 && typeof dictionary[0] === 'object') {
+                keys = Object.keys(dictionary[0]);
+            }
+        } else if (typeof dictionary === 'object') {
+            // Handle the case where dictionary is a single object
+            dictionaryArray = Object.keys(dictionary).map((key) => ({ 
+                key, 
+                value: (dictionary as DictionaryObject)[key] 
+            }));
+            keys = ['key'];
+            fields = ['key', 'value'];
+        } else {
+            dictionaryArray = [];
+        }
+    } else {
+        dictionaryArray = Array.isArray(dictionary) ? dictionary : [dictionary];
+    }
 
 	let options = $derived({
 		keys,
@@ -50,16 +61,16 @@
 
 	let searchInput = $state('');
 
-	let fuse = new Fuse(dictionary, options);
+	let fuse = $derived(new Fuse(dictionaryArray, options));
 
-	let searchResults = $state([]);
+	let searchResults = $state<FuseResult<DictionaryObject>[]>([]);
 
 	function handleSearch() {
 		searchResults = fuse.search(searchInput);
 	}
 
 	function handleThreshold() {
-		fuse = new Fuse(dictionary, options);
+		// fuse = new Fuse(dictionaryArray, options);
 		searchResults = fuse.search(searchInput);
 	}
 </script>

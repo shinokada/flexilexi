@@ -1,23 +1,25 @@
-<script>
-	import dictionary from '../data/english-data.json';
-	import { FlexiLexi } from '$lib';
-</script>
-
-<h1 class="text-4xl">Single Object data set</h1>
-
-<FlexiLexi {dictionary} />
-
 
 <h2 class="text-2xl mt-8 mb-4">Sample data</h2>
 <pre class="dark:text-white whitespace-pre-wrap overflow-x-auto text-left">
   <code>
-{`{
-  "abacus": "A counting device that uses beads on rods to perform arithmetic operations.",
-  "amiable": "Having or displaying a friendly and pleasant manner.",
-  "altruistic": "Showing a selfless concern for the well-being of others.",
-  "benevolent": "Well-meaning and kindly."
+{`[
+	{
+		"japanese": "行く",
+		"romaji": "iku",
+		"english": "go"
+	},
+	{
+		"japanese": "見る",
+		"romaji": "miru",
+		"english": "see, look at"
+	},
+	{
+		"japanese": "多い",
+		"romaji": "ooi",
+		"english": "a lot of, many"
+	},
 	...
-}`}
+]`}
   </code>
 </pre>
 

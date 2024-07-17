@@ -9,11 +9,11 @@
 	const fuseVersion = __FUSEVERSION__
 </script>
 
-<Footer footerclass="shadow-none dark:bg-sky-950" footerType="logo">
+<Footer class="shadow-none dark:bg-sky-950" footerType="logo">
 	<div class="sm:flex sm:items-center sm:justify-between">
 		<FooterBrand href="/" name="LexiLearn Hub" />
 		<FooterUl
-			ulclass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0 px-4"
+			class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0 px-4"
 		>
 		<FooterLi href="https://github.com/shinokada/flexilexi" target="_blank"
 				>Flexilexi: {version}</FooterLi
