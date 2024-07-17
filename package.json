@@ -1,6 +1,6 @@
 {
   "name": "flexilexi",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "description": "A library to facilitate dynamic and flexible searching within a dataset.",
   "main": "dist/index.js",
   "author": {
@@ -28,8 +28,8 @@
     "gen:exports": "svelte-lib-helpers exports",
     "gen:docs5": "svelte-lib-helpers docs5",
     "lib-helpers": "npm run gen:docs5 && npm run package && npm run gen:exports && npm run copy:packagejson",
-    "cv": "changeset version",
-    "cp": "changeset publish"
+    "cv": "npx changeset version",
+    "cp": "npx changeset publish"
   },
   "engines": {
     "npm": ">=7.0.0",

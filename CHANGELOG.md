@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.22
+
+### Patch Changes
+
+- fix: package.json update ([`235febc5edbcac0e53330c4ed706efb0c9035c8f`](https://github.com/shinokada/flexilexi/commit/235febc5edbcac0e53330c4ed706efb0c9035c8f))
+
 ## 0.1.21
 
 ### Patch Changes
