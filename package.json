@@ -1,6 +1,6 @@
 {
 	"name": "flexilexi",
-	"version": "0.1.20",
+	"version": "0.1.21",
 	"description": "A library to facilitate dynamic and flexible searching within a dataset.",
 	"main": "dist/index.js",
 	"author": {
@@ -24,10 +24,12 @@
 		"format": "prettier --write .",
 		"test:integration": "playwright test",
 		"test:unit": "vitest",
-		"copy:package": "svelte-lib-helpers package",
-		"package:publish": "standard-version && npm run package && npm run copy:package && npm run format && git push --follow-tags origin main && npm publish",
-		"changeset:version": "changeset version",
-		"changeset:publish": "changeset publish"
+		"copy:packagejson": "svelte-lib-helpers package",
+		"gen:exports": "svelte-lib-helpers exports",
+		"gen:docs5": "svelte-lib-helpers docs5",
+		"lib-helpers": "npm run gen:docs5 && npm run package && npm run gen:exports && npm run copy:packagejson",
+		"cv": "changeset version",
+		"cp": "changeset publish"
 	},
 	"exports": {
 		".": {

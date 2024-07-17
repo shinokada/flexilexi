@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.21
+
+### Patch Changes
+
+- add svelte-5-ui-lib version to Footer ([`cc113a455500de8d622bbd4921f73d346be6c3dc`](https://github.com/shinokada/flexilexi/commit/cc113a455500de8d622bbd4921f73d346be6c3dc))
+
+- fix: types ([`6afaf999935d8a1e7ebc2cf142542abe5ac525d9`](https://github.com/shinokada/flexilexi/commit/6afaf999935d8a1e7ebc2cf142542abe5ac525d9))
+
 ## 0.1.20
 
 ### Patch Changes
