@@ -185,7 +185,6 @@ Use the following classes to style items in your style sheet:
 - `.ulclass`
 - `.liclass`
 
-
 ### CSS
 
 Create `static/css/style.css` and add the following example:

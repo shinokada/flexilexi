@@ -1,21 +1,21 @@
-<script lang='ts'>
+<script lang="ts">
 	import { Footer, FooterBrand, FooterLi, FooterUl } from 'svelte-5-ui-lib';
-
-	const version = __VERSION__
-	const svelte5uilibVersion = __SVELTE_5_UI_LIB_VERSION__
-	const svelteVersion = __SVELTE_VERSION__
-	const svelteKitVersion = __SVELTEKIT_VERSION__
-	const viteVersion = __VITE_VERSION__
-	const fuseVersion = __FUSEVERSION__
+	/*eslint no-undef: "off"*/
+	const version = __VERSION__;
+	const svelte5uilibVersion = __SVELTE_5_UI_LIB_VERSION__;
+	const svelteVersion = __SVELTE_VERSION__;
+	const svelteKitVersion = __SVELTEKIT_VERSION__;
+	const viteVersion = __VITE_VERSION__;
+	const fuseVersion = __FUSEVERSION__;
 </script>
 
 <Footer class="shadow-none dark:bg-sky-950" footerType="logo">
 	<div class="sm:flex sm:items-center sm:justify-between">
 		<FooterBrand href="/" name="LexiLearn Hub" />
 		<FooterUl
-			class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0 px-4"
+			class="mt-3 flex flex-wrap items-center px-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-400"
 		>
-		<FooterLi href="https://github.com/shinokada/flexilexi" target="_blank"
+			<FooterLi href="https://github.com/shinokada/flexilexi" target="_blank"
 				>Flexilexi: {version}</FooterLi
 			>
 			<FooterLi href="https://svelte-5-ui-lib.codewithshin.com/" target="_blank"

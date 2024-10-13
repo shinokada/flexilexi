@@ -29,26 +29,26 @@
 
 	// If keys are not provided, extract keys dynamically from the dictionary dataset
 	if (!keys || keys.length === 0) {
-        // Check if the dictionary is an object and extract keys from its first item
-        if (Array.isArray(dictionary)) {
-            dictionaryArray = dictionary;
-            if (dictionary.length > 0 && typeof dictionary[0] === 'object') {
-                keys = Object.keys(dictionary[0]);
-            }
-        } else if (typeof dictionary === 'object') {
-            // Handle the case where dictionary is a single object
-            dictionaryArray = Object.keys(dictionary).map((key) => ({ 
-                key, 
-                value: (dictionary as DictionaryObject)[key] 
-            }));
-            keys = ['key'];
-            fields = ['key', 'value'];
-        } else {
-            dictionaryArray = [];
-        }
-    } else {
-        dictionaryArray = Array.isArray(dictionary) ? dictionary : [dictionary];
-    }
+		// Check if the dictionary is an object and extract keys from its first item
+		if (Array.isArray(dictionary)) {
+			dictionaryArray = dictionary;
+			if (dictionary.length > 0 && typeof dictionary[0] === 'object') {
+				keys = Object.keys(dictionary[0]);
+			}
+		} else if (typeof dictionary === 'object') {
+			// Handle the case where dictionary is a single object
+			dictionaryArray = Object.keys(dictionary).map((key) => ({
+				key,
+				value: (dictionary as DictionaryObject)[key]
+			}));
+			keys = ['key'];
+			fields = ['key', 'value'];
+		} else {
+			dictionaryArray = [];
+		}
+	} else {
+		dictionaryArray = Array.isArray(dictionary) ? dictionary : [dictionary];
+	}
 
 	let options = $derived({
 		keys,

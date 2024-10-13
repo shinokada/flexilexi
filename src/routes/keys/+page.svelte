@@ -11,5 +11,4 @@
 <pre><code>let keys = ['romaji', 'english']</code></pre>
 <FlexiLexi {dictionary} {keys} />
 
-
 <SampleDataJ />
