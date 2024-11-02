@@ -2,8 +2,6 @@
 	import dictionary from './data/japanese-data.json';
 	import { FlexiLexi } from '$lib';
 	import SampleDataJ from './utils/SampleDataJ.svelte';
-
-	let keys = ['japanese', 'english'];
 </script>
 
 <h1 class="text-4xl">Japanese dictionary</h1>

@@ -17,9 +17,7 @@
 		keys = [],
 		fields = [],
 		thresholdValue = 0,
-		isObject = false,
-		autofocus = true,
-		...attributes
+		autofocus = true
 	}: Props = $props();
 
 	import Fuse from 'fuse.js';
