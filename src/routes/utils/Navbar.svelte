@@ -1,11 +1,11 @@
 <script>
 	import { Navbar, NavLi, NavBrand, NavUl, uiHelpers, Darkmode } from 'svelte-5-ui-lib';
 	import { page } from '$app/stores';
-	
-  let activeUrl = $state($page.url.pathname);
-  $effect(() => {
-    activeUrl = $page.url.pathname;
-  });
+
+	let activeUrl = $state($page.url.pathname);
+	$effect(() => {
+		activeUrl = $page.url.pathname;
+	});
 
 	let nav = uiHelpers();
 
