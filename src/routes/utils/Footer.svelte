@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { Footer, FooterBrand, FooterLi, FooterUl } from 'svelte-5-ui-lib';
+	import { Footer, FooterBrand, FooterLi, FooterUl } from 'flowbite-svelte';
 	/*eslint no-undef: "off"*/
 	const version = __VERSION__;
-	const svelte5uilibVersion = __SVELTE_5_UI_LIB_VERSION__;
+	const flowbitesvelte = __FLOWBITE_SVELTE_VERSION__;
 	const svelteVersion = __SVELTE_VERSION__;
 	const svelteKitVersion = __SVELTEKIT_VERSION__;
 	const viteVersion = __VITE_VERSION__;
@@ -18,8 +18,8 @@
 			<FooterLi href="https://github.com/shinokada/flexilexi" target="_blank"
 				>Flexilexi: {version}</FooterLi
 			>
-			<FooterLi href="https://svelte-5-ui-lib.codewithshin.com/" target="_blank"
-				>Svelte 5 UI Lib: {svelte5uilibVersion}</FooterLi
+			<FooterLi href="https://preview.flowbite-svelte.com/" target="_blank"
+				>Flowbite Svelte: {flowbitesvelte}</FooterLi
 			>
 			<FooterLi href="https://svelte-5-preview.vercel.app/docs/introduction" target="_blank"
 				>Svelte: {svelteVersion}</FooterLi
