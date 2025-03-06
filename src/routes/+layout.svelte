@@ -1,5 +1,5 @@
 <script>
-	import '../app.pcss';
+	import '../app.css';
 	import { Runatics } from 'runatics';
 	// import Analytics from './utils/Analytics.svelte';
 	import { RunesMetaTags, deepMerge } from 'runes-meta-tags';

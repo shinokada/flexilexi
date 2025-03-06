@@ -1,6 +1,8 @@
-/* Write your global styles here, in PostCSS syntax */
-@tailwind base;
-@tailwind components;
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@source "../node_modules/flowbite-svelte/dist";
 
 @layer components {
 	.divclass {
@@ -22,5 +24,3 @@
 		@apply m-auto w-auto max-w-md list-inside list-disc space-y-1 text-left text-gray-700 dark:text-gray-200;
 	}
 }
-
-@tailwind utilities;

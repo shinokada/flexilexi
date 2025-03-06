@@ -11,75 +11,31 @@
 	"bugs": "https://github.com/shinokada/flexilexi/issues",
 	"homepage": "https://flexilexi.codewithshin.com/",
 	"license": "MIT",
+	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && npm run package",
+		"build": "vite build && npm run prepack",
 		"preview": "vite preview",
-		"package": "svelte-kit sync && svelte-package && publint",
-		"prepublishOnly": "npm run package",
-		"test": "npm run test:integration && npm run test:unit",
+		"prepare": "svelte-kit sync || echo ''",
+		"prepack": "svelte-kit sync && svelte-package && publint",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"test:e2e": "playwright test",
+		"lint": "prettier --check . && eslint .",
 		"test:unit": "vitest",
-		"copy:packagejson": "svelte-lib-helpers package",
-		"gen:exports": "svelte-lib-helpers exports",
-		"gen:docs5": "svelte-lib-helpers docs5",
-		"lib-helpers": "npm run gen:docs5 && npm run package && npm run gen:exports && npm run copy:packagejson",
-		"ch": "npx changeset",
-		"cv": "npx changeset version",
-		"cp": "npx changeset publish"
+		"test": "npm run test:unit -- --run && npm run test:e2e",
+		"test:e2e": "playwright test"
 	},
 	"files": [
 		"dist",
 		"!dist/**/*.test.*",
 		"!dist/**/*.spec.*"
 	],
-	"peerDependencies": {
-		"fuse.js": "^7.0.0",
-		"svelte": "^5.0.0"
-	},
-	"devDependencies": {
-		"@changesets/changelog-github": "^0.5.0",
-		"@changesets/cli": "^2.27.12",
-		"@playwright/test": "^1.50.1",
-		"@sveltejs/adapter-auto": "^3.3.1",
-		"@sveltejs/kit": "^2.17.1",
-		"@sveltejs/package": "^2.3.10",
-		"@sveltejs/vite-plugin-svelte": "^5.0.3",
-		"@svitejs/changesets-changelog-github-compact": "^1.2.0",
-		"@types/eslint": "^9.6.1",
-		"autoprefixer": "^10.4.20",
-		"eslint": "^9.20.1",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-svelte": "^2.46.1",
-		"flowbite-svelte": "1.0.0-next.1",
-		"fuse.js": "^7.1.0",
-		"globals": "^15.15.0",
-		"postcss": "^8.5.2",
-		"prettier": "^3.5.0",
-		"prettier-plugin-svelte": "^3.3.3",
-		"prettier-plugin-tailwindcss": "^0.6.11",
-		"publint": "^0.2.12",
-		"runatics": "^0.1.3",
-		"runes-meta-tags": "^0.4.2",
-		"runes-webkit": "^0.9.48",
-		"svelte": "^5.20.0",
-		"svelte-check": "^4.1.4",
-		"svelte-lib-helpers": "^0.4.16",
-		"tailwind-merge": "^2.6.0",
-		"tailwindcss": "^3.4.17",
-		"tslib": "^2.8.1",
-		"typescript": "^5.7.3",
-		"typescript-eslint": "^8.24.0",
-		"vite": "^6.1.0",
-		"vitest": "^2.1.9"
-	},
+	"sideEffects": [
+		"**/*.css"
+	],
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module",
 	"keywords": [
 		"svelte 5",
 		"fuse.js",
@@ -101,5 +57,53 @@
 			"svelte": "./dist/FlexiLexi.svelte"
 		},
 		"./package.json": "./package.json"
+	},
+	"peerDependencies": {
+		"svelte": "^5.0.0"
+	},
+	"devDependencies": {
+		"@changesets/changelog-github": "^0.5.1",
+		"@changesets/cli": "^2.28.1",
+		"@eslint/compat": "^1.2.5",
+		"@eslint/js": "^9.18.0",
+		"@playwright/test": "^1.49.1",
+		"@sveltejs/adapter-auto": "^4.0.0",
+		"@sveltejs/kit": "^2.16.0",
+		"@sveltejs/package": "^2.3.10",
+		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"@tailwindcss/vite": "^4.0.0",
+		"@testing-library/jest-dom": "^6.6.3",
+		"@testing-library/svelte": "^5.2.4",
+		"eslint": "^9.18.0",
+		"eslint-config-prettier": "^10.0.1",
+		"eslint-plugin-svelte": "^3.0.0",
+		"flowbite-svelte": "1.0.0-next.1",
+		"fuse.js": "^7.1.0",
+		"globals": "^16.0.0",
+		"jsdom": "^26.0.0",
+		"prettier": "^3.4.2",
+		"prettier-plugin-svelte": "^3.3.3",
+		"prettier-plugin-tailwindcss": "^0.6.11",
+		"publint": "^0.3.8",
+		"runatics": "^0.1.3",
+		"runes-meta-tags": "^0.4.2",
+		"runes-webkit": "^0.9.48",
+		"svelte": "^5.0.0",
+		"svelte-check": "^4.0.0",
+		"svelte-lib-helpers": "^0.4.16",
+		"tailwind-merge": "^3.0.2",
+		"tailwindcss": "^4.0.0",
+		"typescript": "^5.0.0",
+		"typescript-eslint": "^8.20.0",
+		"vite": "^6.0.0",
+		"vitest": "^3.0.0"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
+	},
+	"dependencies": {
+		"-": "^0.0.1"
 	}
 }
