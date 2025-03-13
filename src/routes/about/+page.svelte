@@ -4,7 +4,7 @@
 	const name = __NAME__;
 	const version = __VERSION__;
 	const githuburl = __GITHUBURL__;
-	const flowbitesvelte = __FLOWBITE_SVELTE_VERSION__;
+	const svelte5uilibVersion = __SVELTE_5_UI_LIB_VERSION__;    
 	const svelteVersion = __SVELTE_VERSION__;
 	const svelteKitVersion = __SVELTEKIT_VERSION__;
 	const viteVersion = __VITE_VERSION__;
@@ -60,8 +60,8 @@
 			>
 		</li>
 		<li>
-			<a href="https://prefiew.flowbite-svelte.com/" class="me-4 hover:underline md:me-6"
-				>Flowbite Svelte: {flowbitesvelte}</a
+			<a href="https://prefiew.svelte-5-ui-lib.com/" class="me-4 hover:underline md:me-6"
+				>Svelte 5 UI Lib: {svelte5uilibVersion}</a
 			>
 		</li>
 		<li>
