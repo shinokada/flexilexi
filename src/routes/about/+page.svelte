@@ -49,7 +49,7 @@
 	<ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
 		<li class="hover:text-red-700 hover:underline">
 			<a
-				href="https://svelte-5-preview.codewithshin.com/docs/introduction"
+				href="https://flexilexi.codewithshin.com/"
 				class="me-4 hover:underline md:me-6">{removeHyphensAndCapitalize(name)} : {version}</a
 			>
 		</li>
@@ -60,7 +60,7 @@
 			>
 		</li>
 		<li>
-			<a href="https://prefiew.svelte-5-ui-lib.com/" class="me-4 hover:underline md:me-6"
+			<a href="https://svelte-5-ui-lib.codewithshin.com/" class="me-4 hover:underline md:me-6"
 				>Svelte 5 UI Lib: {svelte5uilibVersion}</a
 			>
 		</li>
