@@ -8,9 +8,6 @@ importers:
 
   .:
     devDependencies:
-      '@changesets/changelog-github':
-        specifier: ^0.5.1
-        version: 0.5.1
       '@changesets/cli':
         specifier: ^2.29.5
         version: 2.29.6
@@ -35,6 +32,9 @@ importers:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.1.0
         version: 6.1.2(svelte@5.38.1)(vite@6.3.5(jiti@2.5.1)(lightningcss@1.30.1))
+      '@svitejs/changesets-changelog-github-compact':
+        specifier: ^1.2.0
+        version: 1.2.0
       '@tailwindcss/vite':
         specifier: ^4.1.11
         version: 4.1.12(vite@6.3.5(jiti@2.5.1)(lightningcss@1.30.1))
@@ -145,9 +145,6 @@ packages:
 
   '@changesets/changelog-git@0.2.1':
     resolution: {integrity: sha512-x/xEleCFLH28c3bQeQIyeZf8lFXyDFVn1SgcBiR2Tw/r4IAWlk1fzxCEZ6NxQAjF2Nwtczoen3OA2qR+UawQ8Q==}
-
-  '@changesets/changelog-github@0.5.1':
-    resolution: {integrity: sha512-BVuHtF+hrhUScSoHnJwTELB4/INQxVFc+P/Qdt20BLiBFIHFJDDUaGsZw+8fQeJTRP5hJZrzpt3oZWh0G19rAQ==}
 
   '@changesets/cli@2.29.6':
     resolution: {integrity: sha512-6qCcVsIG1KQLhpQ5zE8N0PckIx4+9QlHK3z6/lwKnw7Tir71Bjw8BeOZaxA/4Jt00pcgCnCSWZnyuZf5Il05QQ==}
@@ -711,6 +708,10 @@ packages:
     peerDependencies:
       '@svgdotjs/svg.js': ^3.2.4
 
+  '@svitejs/changesets-changelog-github-compact@1.2.0':
+    resolution: {integrity: sha512-08eKiDAjj4zLug1taXSIJ0kGL5cawjVCyJkBb6EWSg5fEPX6L+Wtr0CH2If4j5KYylz85iaZiFlUItvgJvll5g==}
+    engines: {node: ^14.13.1 || ^16.0.0 || >=18}
+
   '@tailwindcss/node@4.1.12':
     resolution: {integrity: sha512-3hm9brwvQkZFe++SBt+oLjo4OLDtkvlE8q2WalaD/7QWaeM7KEJbAiY/LJZUaCs7Xa8aUu4xy3uoyX4q54UVdQ==}
 
@@ -1149,9 +1150,9 @@ packages:
   dom-accessibility-api@0.6.3:
     resolution: {integrity: sha512-7ZgogeTnjuHbo+ct10G9Ffp0mif17idi0IyWNVA/wcwcm7NPOD/WEHVP3n7n3MhXqxoIYm8d6MuZohYWIZ4T3w==}
 
-  dotenv@8.6.0:
-    resolution: {integrity: sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==}
-    engines: {node: '>=10'}
+  dotenv@16.6.1:
+    resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
+    engines: {node: '>=12'}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2458,14 +2459,6 @@ snapshots:
     dependencies:
       '@changesets/types': 6.1.0
 
-  '@changesets/changelog-github@0.5.1':
-    dependencies:
-      '@changesets/get-github-info': 0.6.0
-      '@changesets/types': 6.1.0
-      dotenv: 8.6.0
-    transitivePeerDependencies:
-      - encoding
-
   '@changesets/cli@2.29.6':
     dependencies:
       '@changesets/apply-release-plan': 7.0.12
@@ -2983,6 +2976,13 @@ snapshots:
     dependencies:
       '@svgdotjs/svg.js': 3.2.4
 
+  '@svitejs/changesets-changelog-github-compact@1.2.0':
+    dependencies:
+      '@changesets/get-github-info': 0.6.0
+      dotenv: 16.6.1
+    transitivePeerDependencies:
+      - encoding
+
   '@tailwindcss/node@4.1.12':
     dependencies:
       '@jridgewell/remapping': 2.3.5
@@ -3409,7 +3409,7 @@ snapshots:
 
   dom-accessibility-api@0.6.3: {}
 
-  dotenv@8.6.0: {}
+  dotenv@16.6.1: {}
 
   emoji-regex@8.0.0: {}
 

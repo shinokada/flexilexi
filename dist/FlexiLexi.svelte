@@ -120,7 +120,5 @@
 @prop keys = []
 @prop fields = []
 @prop thresholdValue = 0
-@prop isObject = false
 @prop autofocus = true
-@prop ...attributes
 -->

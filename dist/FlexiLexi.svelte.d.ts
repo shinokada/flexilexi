@@ -16,9 +16,7 @@ interface Props {
  * @prop keys = []
  * @prop fields = []
  * @prop thresholdValue = 0
- * @prop isObject = false
  * @prop autofocus = true
- * @prop ...attributes
  */
 declare const FlexiLexi: import("svelte").Component<Props, {}, "">;
 type FlexiLexi = ReturnType<typeof FlexiLexi>;

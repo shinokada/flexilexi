@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.23
+
+### Patch Changes
+
+- fix: change svelte-5-ui-lib with flowbite-svelte
+
 ## 0.1.22
 
 ### Patch Changes
@@ -25,7 +31,6 @@
 ### Patch Changes
 
 - [`0d28201`](https://github.com/shinokada/flexilexi/commit/0d282015b147e83c204ef2166c4274e108bf1df2) Thanks [@shinokada](https://github.com/shinokada)! - - add changeset
-
   - update scripts to add changeset in package.json
 
 - [`4aacf97`](https://github.com/shinokada/flexilexi/commit/4aacf9772a2a3b2636dd17ad7e2d98c13de39ee8) Thanks [@shinokada](https://github.com/shinokada)! - - add define to vite.config.ts
