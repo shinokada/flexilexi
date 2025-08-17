@@ -6,7 +6,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('about page has expected h1, meta title', async ({ page }) => {
-	await expect(page.getByRole('heading', { name: 'About' })).toBeVisible();
+	await expect(page.getByRole('heading', { name: 'LexiLearn Hub Apps' })).toBeVisible();
 });
 
 test('about page has expected meta title', async ({ page }) => {

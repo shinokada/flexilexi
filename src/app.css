@@ -2,7 +2,23 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@source "../node_modules/svelte-5-ui-lib/dist";
+@source "../node_modules/flowbite-svelte/dist";
+
+
+@theme {
+	--z-index-100: 100;
+
+	--color-primary-50: #f5f1ff;
+	--color-primary-100: #e9e4ff;
+	--color-primary-200: #d8cdfe;
+	--color-primary-300: #b1a4fd;
+	--color-primary-400: #8871fb;
+	--color-primary-500: #573ff4;
+	--color-primary-600: #4b1de1;
+	--color-primary-700: #3412be;
+	--color-primary-800: #38129f;
+	--color-primary-900: #381388;
+}
 
 @layer components {
 	.divclass {

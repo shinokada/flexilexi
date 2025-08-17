@@ -1,34 +1,34 @@
-<script>
-	import '../app.css';
-	import { Runatics } from 'runatics';
-	// import Analytics from './utils/Analytics.svelte';
-	import { RunesMetaTags, deepMerge } from 'runes-meta-tags';
-	import { page } from '$app/stores';
-	let { children, data } = $props();
-	import Navbar from './utils/Navbar.svelte';
-	import Footer from './utils/Footer.svelte';
-	let metaTags = $state(
-		$page.data.pageMetaTags
-			? deepMerge($page.data.layoutMetaTags, $page.data.pageMetaTags)
-			: data.layoutMetaTags
-	);
-	$effect(() => {
-		metaTags = $page.data.pageMetaTags
-			? deepMerge($page.data.layoutMetaTags, $page.data.pageMetaTags)
-			: data.layoutMetaTags;
-	});
-	const analyticsId = data.ANALYTICS_ID;
+<script lang="ts">
+  import '../app.css';
+  import { Runatics } from 'runatics';
+  import { RunesMetaTags, type MetaProps, deepMerge } from 'runes-meta-tags';
+  import { page } from '$app/state';
+  // import { Footer } from 'runes-webkit';
+  import Footer from "./utils/Footer.svelte";
+  import Nav from './utils/Nav.svelte';
+
+  let { children, data } = $props();
+  const analyticsId = data.ANALYTICS_ID;
+
+  let metaTags = $state<MetaProps>(page.data.pageMetaTags ? deepMerge<MetaProps>(data.layoutMetaTags, page.data.pageMetaTags) : data.layoutMetaTags);
+
+  $effect(() => {
+    metaTags = page.data.pageMetaTags ? deepMerge<MetaProps>(data.layoutMetaTags, page.data.pageMetaTags) : data.layoutMetaTags;
+  });
+
+  const lis = [{ name: 'About', href: '/about' }];
+  const brand = {
+    name: 'codewithshin.com',
+    href: 'https://codewithshin.com'
+  };
 </script>
 
 <Runatics {analyticsId} />
 <RunesMetaTags {...metaTags} />
-
-<Navbar />
-
-<section class="min-h-screen border-b border-gray-300 dark:border-gray-500">
-	<div class="mx-auto max-w-screen-xl px-4 py-8 text-center">
-		{@render children()}
-	</div>
-</section>
-
+<Nav />
+<div class="mx-auto mb-16 max-w-5xl lg:flex">
+  <div class="mx-auto max-w-screen-xl px-4 py-8 text-center">
+    {@render children()}
+  </div>
+</div>
 <Footer />

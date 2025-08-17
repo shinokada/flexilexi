@@ -3,20 +3,16 @@
 	/*eslint no-undef: "off"*/
 	const name = __NAME__;
 	const version = __VERSION__;
-	const githuburl = __GITHUBURL__;
-	const svelte5uilibVersion = __SVELTE_5_UI_LIB_VERSION__;    
+	const githuburl = __GITHUBURL__; 
 	const svelteVersion = __SVELTE_VERSION__;
 	const svelteKitVersion = __SVELTEKIT_VERSION__;
 	const viteVersion = __VITE_VERSION__;
 </script>
 
 <div class="mx-auto max-w-4xl p-8 text-left">
-	<h1 class="text-3xl">About</h1>
-	<p>Fuzzy dictionary.</p>
+	<h1 class="text-3xl">LexiLearn Hub Apps</h1>
 
-	<h2 class="my-8 text-2xl">LexiLearn Hub Apps</h2>
-
-	<ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
+	<ul class="list-disc p-4 text-left text-lg dark:text-gray-400">
 		<li class="hover:text-red-700 hover:underline">
 			<a href="https://gjett-norsk.codewithshin.com/" class="me-4 hover:underline md:me-6"
 				>Gjett Norsk</a
@@ -45,8 +41,8 @@
 		</li>
 	</ul>
 
-	<h2>Technical info</h2>
-	<ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
+	<h2 class="my-2 text-2xl">Technical info</h2>
+	<ul class="list-disc p-4 text-left text-lg dark:text-gray-400">
 		<li class="hover:text-red-700 hover:underline">
 			<a
 				href="https://flexilexi.codewithshin.com/"
@@ -60,11 +56,6 @@
 			>
 		</li>
 		<li>
-			<a href="https://svelte-5-ui-lib.codewithshin.com/" class="me-4 hover:underline md:me-6"
-				>Svelte 5 UI Lib: {svelte5uilibVersion}</a
-			>
-		</li>
-		<li>
 			<a href="https://kit.svelte.dev/docs/introduction" class="me-4 hover:underline md:me-6"
 				>SvelteKit: {svelteKitVersion}</a
 			>
@@ -74,8 +65,8 @@
 		</li>
 	</ul>
 
-	<h2 class="m-4 text-left text-2xl font-bold dark:text-white">Repo</h2>
-	<ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
+	<h2 class="my-2 text-2xl">Repo</h2>
+	<ul class="list-disc p-4 text-left text-lg dark:text-gray-400">
 		<li class="hover:text-red-700 hover:underline">
 			<a href={githuburl} class="me-4 hover:underline md:me-6">Github repo</a>
 		</li>
