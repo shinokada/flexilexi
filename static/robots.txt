@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://flexilexi.codewithshin.com/sitemap.xml
