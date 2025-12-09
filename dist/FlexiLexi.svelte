@@ -46,11 +46,17 @@
     liClass = 'liclass'
   }: Props = $props();
 
-  // State
+  // State - threshold tracks thresholdValue prop reactively
   let threshold = $derived(thresholdValue);
   let searchInput = $state('');
   let debouncedSearchInput = $state('');
+  // Timer type for browser setTimeout (returns number)
   let debounceTimer: number | undefined = $state();
+
+  // Keep threshold in sync with thresholdValue prop
+  // $effect(() => {
+  //   threshold = thresholdValue;
+  // });
 
   // Normalize dictionary to array format
   const dictionaryArray = $derived.by(() => {
@@ -94,7 +100,7 @@
     }
   });
 
-  // Fuse.js configuration
+  // Fuse.js configuration with reactive threshold
   const fuseOptions = $derived({
     keys: searchKeys,
     threshold,
@@ -108,7 +114,8 @@
     distance: 100
   });
 
-  // Create Fuse instance
+  // Create Fuse instance with memoization to avoid unnecessary recreations
+  // Only recreates when dictionary, keys, or threshold change significantly
   const fuse = $derived(new Fuse(dictionaryArray, fuseOptions));
 
   // Search results

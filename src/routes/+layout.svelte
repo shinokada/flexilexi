@@ -10,17 +10,11 @@
   let { children, data } = $props();
   const analyticsId = $derived(data.ANALYTICS_ID);
 
-  let metaTags = $derived<MetaProps>(
+  const metaTags = $derived<MetaProps>(
     page.data.pageMetaTags
       ? deepMerge<MetaProps>(data.layoutMetaTags, page.data.pageMetaTags)
       : data.layoutMetaTags
   );
-
-  $effect(() => {
-    metaTags = page.data.pageMetaTags
-      ? deepMerge<MetaProps>(data.layoutMetaTags, page.data.pageMetaTags)
-      : data.layoutMetaTags;
-  });
 </script>
 
 <Runatics {analyticsId} />

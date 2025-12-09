@@ -33,11 +33,7 @@ export default defineConfig(
     rules: {
       // typescript-eslint strongly recommend that you do not use the no-undef lint rule on TypeScript projects.
       // see: https://typescript-eslint.io/troubleshooting/faqs/eslint/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
-      'no-undef': 'off',
-      // Allow external links without resolve() - they open in new tab
-      'svelte/no-navigation-without-resolve': 'off',
-      // Disable unused vars rule from TypeScript ESLint since we handle it with Svelte
-      '@typescript-eslint/no-unused-vars': 'off'
+      'no-undef': 'off'
     }
   },
   {
