@@ -10,5 +10,6 @@
     "sourceMap": true,
     "strict": true,
     "moduleResolution": "bundler"
-  }
+  },
+  "exclude": ["dist", "build", "node_modules"]
 }

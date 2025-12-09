@@ -46,17 +46,14 @@
     liClass = 'liclass'
   }: Props = $props();
 
-  // State - threshold tracks thresholdValue prop reactively
-  let threshold = $derived(thresholdValue);
+  // State - threshold is initialized from thresholdValue prop
+  // The slider can modify it locally without syncing back to the prop
+  /* svelte-ignore state_referenced_locally */
+  let threshold = $state(thresholdValue);
   let searchInput = $state('');
   let debouncedSearchInput = $state('');
-  // Timer type for browser setTimeout (returns number)
-  let debounceTimer: number | undefined = $state();
-
-  // Keep threshold in sync with thresholdValue prop
-  // $effect(() => {
-  //   threshold = thresholdValue;
-  // });
+  // Timer handle for setTimeout; undefined when no pending timer
+  let debounceTimer = $state<number | undefined>(undefined);
 
   // Normalize dictionary to array format
   const dictionaryArray = $derived.by(() => {
@@ -90,12 +87,15 @@
   // Fields to display (defaults to searchKeys)
   const displayFields = $derived(fields.length > 0 ? fields : searchKeys);
 
-  // Validate that displayFields is a subset of searchKeys
+  // Optional sanity-check: warn when displayFields don't exist on the data itself
   $effect(() => {
-    const invalidFields = displayFields.filter((field) => !searchKeys.includes(field));
+    if (dictionaryArray.length === 0) return;
+
+    const sample = dictionaryArray[0];
+    const invalidFields = displayFields.filter((field) => !(field in sample));
     if (invalidFields.length > 0) {
       console.warn(
-        `FlexiLexi: Display fields ${invalidFields.join(', ')} are not in search keys. They will be ignored.`
+        `FlexiLexi: Display fields ${invalidFields.join(', ')} are not present on dictionary items and will render empty.`
       );
     }
   });
@@ -199,9 +199,9 @@
   />
 </div>
 
-{#if searchInput && searchResults.length === 0}
+{#if debouncedSearchInput && searchResults.length === 0}
   <div class="empty-state" role="status">
-    <p>No results found for "{searchInput}"</p>
+    <p>No results found for "{debouncedSearchInput}"</p>
   </div>
 {:else if searchResults.length > 0}
   <ul class={ulClass} role="list">
