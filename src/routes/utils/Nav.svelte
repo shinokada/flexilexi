@@ -1,12 +1,18 @@
 <script lang="ts">
-  import { Navbar, NavLi, NavBrand, NavUl, DarkMode, Dropdown, NavHamburger, DropdownItem } from 'flowbite-svelte';
+  import {
+    Navbar,
+    NavLi,
+    NavBrand,
+    NavUl,
+    DarkMode,
+    Dropdown,
+    NavHamburger,
+    DropdownItem
+  } from 'flowbite-svelte';
   import { page } from '$app/state';
   import { GithubSolid, DotsHorizontalOutline, XSolid, Bluesky } from 'runes-webkit';
 
-  let activeUrl = $state(page.url.pathname);
-  $effect(() => {
-    activeUrl = page.url.pathname;
-  });
+  let activeUrl = $derived(page.url.pathname);
 
   const githubUrl = `https://github.com/shinokada/${__NAME__}`;
   const twitterUrl = 'https://twitter.com/shinokada';
@@ -15,9 +21,16 @@
   let nonActiveClass = 'p-2 text-base hover:text-gray-600';
 </script>
 
-<Navbar fluid class="sticky top-0 z-40 mx-auto w-full flex-none border-b border-gray-200 bg-gray-100 dark:border-gray-600 dark:bg-sky-950" navContainerClass="md:justify-between">
+<Navbar
+  fluid
+  class="sticky top-0 z-40 mx-auto w-full flex-none border-b border-gray-200 bg-gray-100 dark:border-gray-600 dark:bg-sky-950"
+  navContainerClass="md:justify-between"
+>
   <NavBrand href="/">
-    <span class="text-primary-900 dark:text-primary-500 self-center text-2xl font-semibold whitespace-nowrap lg:text-3xl">Flexilexi</span>
+    <span
+      class="text-primary-900 dark:text-primary-500 self-center text-2xl font-semibold whitespace-nowrap lg:text-3xl"
+      >Flexilexi</span
+    >
   </NavBrand>
   <div class="flex justify-end md:order-2">
     <NavHamburger class="order-3" />
@@ -39,13 +52,18 @@
     </Dropdown>
     <DarkMode class="m-0 p-2" />
   </div>
-  <NavUl breakpoint="lg" {activeUrl} class="order-2 md:order-1" classes={{ active: activeClass, nonActive: nonActiveClass, ul: 'p-0' }}>
+  <NavUl
+    breakpoint="lg"
+    {activeUrl}
+    class="order-2 md:order-1"
+    classes={{ active: activeClass, nonActive: nonActiveClass, ul: 'p-0' }}
+  >
     <NavLi href="/">Home</NavLi>
-			<NavLi href="/feilds">Feilds</NavLi>
-			<NavLi href="/keys">Keys</NavLi>
-			<NavLi href="/threshold">Threshold</NavLi>
-			<NavLi href="/single-object">Single object</NavLi>
-			<NavLi href="/about">About</NavLi>
-			<NavLi href="https://github.com/shinokada/flexilexi" target="_blank">GitHub</NavLi>
+    <NavLi href="/feilds">Feilds</NavLi>
+    <NavLi href="/keys">Keys</NavLi>
+    <NavLi href="/threshold">Threshold</NavLi>
+    <NavLi href="/single-object">Single object</NavLi>
+    <NavLi href="/about">About</NavLi>
+    <NavLi href="https://github.com/shinokada/flexilexi" target="_blank">GitHub</NavLi>
   </NavUl>
 </Navbar>

@@ -1,9 +1,9 @@
 <script>
-	import dictionary from '../data/japanese-data.json';
-	import { FlexiLexi } from '$lib';
-	import SampleDataJ from '../utils/SampleDataJ.svelte';
+  import dictionary from '../data/japanese-data.json';
+  import { FlexiLexi } from '$lib';
+  import SampleDataJ from '../utils/SampleDataJ.svelte';
 
-	let fields = ['japanese', 'english'];
+  let fields = ['japanese', 'english'];
 </script>
 
 <h1 class="text-4xl">Feilds props example</h1>
