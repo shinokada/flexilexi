@@ -48,7 +48,6 @@
 
   // State - threshold is initialized from thresholdValue prop
   // The slider can modify it locally without syncing back to the prop
-  /* svelte-ignore state_referenced_locally */
   let threshold = $state(thresholdValue);
   let searchInput = $state('');
   let debouncedSearchInput = $state('');
@@ -130,11 +129,20 @@
     // Search with permissive threshold, then filter by user's preference
     const allResults = fuse.search(debouncedSearchInput);
 
+    // Capture threshold in closure to ensure reactivity
+    const userThreshold = threshold;
+
+    // Debug logging
+    console.log(`Filtering with threshold: ${userThreshold}, total results: ${allResults.length}`);
+
     // Filter results where score is within user's threshold
     // Lower score = better match (0 = perfect, 1 = worst)
-    return allResults.filter((result) => {
-      return result.score !== undefined && result.score <= threshold;
+    const filtered = allResults.filter((result) => {
+      return result.score !== undefined && result.score <= userThreshold;
     });
+
+    console.log(`Filtered to: ${filtered.length} results`);
+    return filtered;
   });
 
   // Debounced search handler

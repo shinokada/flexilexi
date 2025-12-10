@@ -1,5 +1,5 @@
 <script>
-  import dictionary from '../data/japanese-data.json';
+  import data from '../data/japanese-data.json';
   import { FlexiLexi } from '$lib';
   import { P, Heading, List, Li } from 'flowbite-svelte';
   import SampleDataJ from '../utils/SampleDataJ.svelte';
@@ -39,7 +39,7 @@
 </div>
 
 <div class="mt-16">
-  <FlexiLexi {dictionary} thresholdValue={0.6} />
+  <FlexiLexi {data} thresholdValue={0.6} />
 </div>
 
 <SampleDataJ />

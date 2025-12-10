@@ -12,10 +12,13 @@ FlexiLexi is a feature-rich search component built for Svelte 5 that leverages F
 **Perfect for:**
 
 - 📚 Dictionaries and glossaries
-- 🛍️ Product catalogs and e-commerce search
-- 📖 Documentation and knowledge bases
+- 🛍️ Product catalogs and e-commerce search  
+- 📋 Static data lists and reference tables
 - 🔍 Data exploration tools
 - 📊 Dashboard filtering
+- 🗂️ Configuration browsers and setting explorers
+
+> **Note:** For large-scale documentation sites with many pages, consider dedicated solutions like [Algolia DocSearch](https://docsearch.algolia.com/) or [Pagefind](https://pagefind.app/). FlexiLexi works best with datasets that can be loaded as JSON (typically under 10,000 items).
 
 **Key Highlights:**
 
@@ -66,16 +69,16 @@ yarn add -D flexilexi // yarn
 
 ## Usage
 
-```
+```svelte
 <script>
-  import dictionary from './data/example-data.json'
+  import data from './data/example-data.json'
   import {FlexiLexi} from 'flexilexi'
 </script>
 
 <div class="wrapper">
-  <h1 class="text-4xl">Japanese dictionary</h1>
-  <h2 class="text-3xl">You can search Japanese, Romaji, and English.</h2>
-  <FlexiLexi {dictionary} />
+  <h1 class="text-4xl">Search Example</h1>
+  <h2 class="text-3xl">Type to search through your data</h2>
+  <FlexiLexi {data} />
 </div>
 
 <style>
@@ -85,13 +88,79 @@ yarn add -D flexilexi // yarn
 </style>
 ```
 
+## Example Use Cases
+
+### Product Catalog
+
+```svelte
+<script>
+  const products = [
+    { name: "Laptop Pro", category: "Electronics", price: 999, brand: "TechCorp" },
+    { name: "Wireless Mouse", category: "Accessories", price: 29, brand: "TechCorp" },
+    { name: "USB-C Cable", category: "Accessories", price: 12, brand: "CableCo" }
+  ];
+</script>
+
+<FlexiLexi 
+  data={products} 
+  keys={['name', 'category', 'brand']}
+  fields={['name', 'price']}
+  thresholdValue={0.4}
+/>
+```
+
+### API Documentation Index
+
+```svelte
+<script>
+  const apiDocs = [
+    { 
+      method: "GET /api/users", 
+      description: "Retrieve list of all users",
+      category: "Users"
+    },
+    { 
+      method: "POST /api/users", 
+      description: "Create a new user account",
+      category: "Users"
+    },
+    { 
+      method: "DELETE /api/users/:id", 
+      description: "Delete user by ID",
+      category: "Users"
+    }
+  ];
+</script>
+
+<FlexiLexi 
+  data={apiDocs} 
+  keys={['method', 'description']}
+  thresholdValue={0.3}
+/>
+```
+
+### Dictionary/Glossary
+
+```svelte
+<script>
+  // Single object format
+  const glossary = {
+    "API": "Application Programming Interface",
+    "REST": "Representational State Transfer",
+    "CRUD": "Create, Read, Update, Delete"
+  };
+</script>
+
+<FlexiLexi data={glossary} />
+```
+
 ## Props
 
 The FlexiLexi component accepts the following props:
 
-### dictionary: (Required)
+### data: (Required)
 
-A dataset for performing searches. This should be a link to a file or an array/object that represents the dataset. Use an array of objects or an object as the following examples.
+The dataset to search through. Accepts either an array of objects or a single object (for key-value pairs). This should be your JSON data or imported from a file.
 
 example-data.json:
 
@@ -121,22 +190,18 @@ Or an object:
 }
 ```
 
-### keys=[]:
+### keys=[]: (Optional)
 
-An optional array of strings representing the fields to search within the dataset. If specified, the search will be limited to these fields. If not provided, the default behavior is to search in all available fields.
+An array of field names that should be searchable. If specified, only these fields will be searched. If not provided, all fields in your data will be searchable.
 
-```
+```svelte
 <script>
-  import dictionary from './data/example-data.json'
+  import data from './data/example-data.json'
   import {FlexiLexi} from 'flexilexi'
-  let keys = ['japanese', 'english']
+  let keys = ['name', 'description']
 </script>
 
-<div class="wrapper">
-  <h1 class="text-4xl">Japanese dictionary</h1>
-  <h2 class="text-3xl">You can search Japanese and English.</h2>
-  <FlexiLexi {dictionary} {keys}/>
-</div>
+<FlexiLexi {data} {keys} />
 
 <style>
   .wrapper {
@@ -145,22 +210,18 @@ An optional array of strings representing the fields to search within the datase
 </style>
 ```
 
-### fields=[]:
+### fields=[]: (Optional)
 
-An optional array of strings determining which fields from the dataset should be displayed as search results. If not specified, it defaults to the keys provided.
+An array of field names to display in search results. If not specified, defaults to the same fields as `keys`. Use this when you want to search through certain fields but only display others.
 
-```
+```svelte
 <script>
-  import dictionary from './data/example-data.json'
+  import data from './data/example-data.json'
   import {FlexiLexi} from 'flexilexi'
-  let feilds = ['japanese', 'english']
+  let fields = ['title', 'category']
 </script>
 
-<div class="wrapper">
-  <h1 class="text-4xl">Japanese dictionary</h1>
-  <h2 class="text-3xl">You can search Japanese and English.</h2>
-  <FlexiLexi {dictionary} {feilds}/>
-</div>
+<FlexiLexi {data} {fields} />
 
 <style>
   .wrapper {
@@ -169,21 +230,17 @@ An optional array of strings determining which fields from the dataset should be
 </style>
 ```
 
-### thresholdValue=0:
+### thresholdValue=0.6: (Optional)
 
-An optional number (ranging from 0 to 1) that sets the fuzziness value for the search. A value of 0 signifies an exact match, while 1 represents the most flexible/fuzzy search.
+A number between 0 and 1 that controls search fuzziness. Lower values (0.0-0.3) require closer matches, higher values (0.6-1.0) are more forgiving of typos and variations.
 
-```
+```svelte
 <script>
-  import dictionary from './data/example-data.json'
+  import data from './data/example-data.json'
   import {FlexiLexi} from 'flexilexi'
 </script>
 
-<div class="wrapper">
-  <h1 class="text-4xl">Japanese dictionary</h1>
-  <h2 class="text-3xl">You can search Japanese and English.</h2>
-  <FlexiLexi {dictionary} threshold={0.6}/>
-</div>
+<FlexiLexi {data} thresholdValue={0.3} />
 
 <style>
   .wrapper {

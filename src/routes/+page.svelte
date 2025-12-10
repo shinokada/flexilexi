@@ -1,5 +1,5 @@
 <script>
-  import dictionary from './data/japanese-data.json';
+  import data from './data/japanese-data.json';
   import { FlexiLexi } from '$lib';
   import { P, Heading } from 'flowbite-svelte';
   import SampleDataJ from './utils/SampleDataJ.svelte';
@@ -17,7 +17,7 @@
 </div>
 
 <div class="mt-16">
-  <FlexiLexi {dictionary} />
+  <FlexiLexi {data} />
 </div>
 
 <SampleDataJ />

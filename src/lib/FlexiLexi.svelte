@@ -3,11 +3,11 @@
   import Fuse from 'fuse.js';
 
   // Type Definitions
-  type DictionaryItem = Record<string, string | number | boolean>;
+  type DataItem = Record<string, string | number | boolean>;
 
   interface Props {
     /** Array of objects or single object to search through */
-    dictionary: DictionaryItem[] | DictionaryItem;
+    data: DataItem[] | DataItem;
     /** Fields to search in (defaults to all keys in first dictionary item) */
     keys?: string[];
     /** Fields to display in results (defaults to keys) */
@@ -30,7 +30,7 @@
   }
 
   let {
-    dictionary = [],
+    data = [],
     keys = [],
     fields = [],
     thresholdValue = 0.6,
@@ -54,13 +54,13 @@
   // Timer handle for setTimeout; undefined when no pending timer
   let debounceTimer = $state<number | undefined>(undefined);
 
-  // Normalize dictionary to array format
-  const dictionaryArray = $derived.by(() => {
-    if (Array.isArray(dictionary)) {
-      return dictionary as DictionaryItem[];
-    } else if (typeof dictionary === 'object' && dictionary !== null) {
+  // Normalize data to array format
+  const dataArray = $derived.by(() => {
+    if (Array.isArray(data)) {
+      return data as DataItem[];
+    } else if (typeof data === 'object' && data !== null) {
       // Convert object to array of {key, value} pairs
-      return Object.entries(dictionary).map(([key, value]) => ({
+      return Object.entries(data).map(([key, value]) => ({
         key,
         value: String(value)
       }));
@@ -74,12 +74,12 @@
       return keys;
     }
 
-    // Extract from first item in dictionary
-    if (dictionaryArray.length > 0) {
-      return Object.keys(dictionaryArray[0]);
+    // Extract from first item in data
+    if (dataArray.length > 0) {
+      return Object.keys(dataArray[0]);
     }
 
-    // Fallback for object dictionaries
+    // Fallback for object data
     return ['key', 'value'];
   });
 
@@ -88,13 +88,13 @@
 
   // Optional sanity-check: warn when displayFields don't exist on the data itself
   $effect(() => {
-    if (dictionaryArray.length === 0) return;
+    if (dataArray.length === 0) return;
 
-    const sample = dictionaryArray[0];
+    const sample = dataArray[0];
     const invalidFields = displayFields.filter((field) => !(field in sample));
     if (invalidFields.length > 0) {
       console.warn(
-        `FlexiLexi: Display fields ${invalidFields.join(', ')} are not present on dictionary items and will render empty.`
+        `FlexiLexi: Display fields ${invalidFields.join(', ')} are not present on data items and will render empty.`
       );
     }
   });
@@ -115,13 +115,13 @@
     distance: 100
   });
 
-  // Create Fuse instance only when dictionary or keys change
+  // Create Fuse instance only when data or keys change
   // This avoids expensive recreation when threshold slider is adjusted
-  const fuse = $derived(new Fuse(dictionaryArray, baseFuseOptions));
+  const fuse = $derived(new Fuse(dataArray, baseFuseOptions));
 
   // Search results filtered by user's threshold preference
   // This approach allows real-time threshold adjustments without recreating the Fuse index
-  const searchResults = $derived.by((): FuseResult<DictionaryItem>[] => {
+  const searchResults = $derived.by((): FuseResult<DataItem>[] => {
     if (!debouncedSearchInput.trim()) {
       return [];
     }
@@ -131,7 +131,7 @@
 
     // Capture threshold in closure to ensure reactivity
     const userThreshold = threshold;
-    
+
     // Debug logging
     console.log(`Filtering with threshold: ${userThreshold}, total results: ${allResults.length}`);
 
@@ -140,7 +140,7 @@
     const filtered = allResults.filter((result) => {
       return result.score !== undefined && result.score <= userThreshold;
     });
-    
+
     console.log(`Filtered to: ${filtered.length} results`);
     return filtered;
   });
@@ -166,7 +166,7 @@
   });
 
   // Format display value
-  function getDisplayValue(item: DictionaryItem, field: string): string {
+  function getDisplayValue(item: DataItem, field: string): string {
     const value = item[field];
     if (value === undefined || value === null) {
       return '';
@@ -280,7 +280,7 @@ FlexiLexi - A flexible fuzzy search component powered by Fuse.js
 ```
 
 ## Props
-@prop dictionary - Data to search (array or object)
+@prop data - Data to search (array or object)
 @prop keys - Fields to search in (auto-detected if omitted)
 @prop fields - Fields to display (defaults to keys)
 @prop thresholdValue - Initial fuzziness (0.0-1.0, default 0.6)

@@ -1,5 +1,5 @@
 <script>
-  import dictionary from '../data/english-data.json';
+  import data from '../data/english-data.json';
   import { FlexiLexi } from '$lib';
   import { P, Heading, List, Li } from 'flowbite-svelte';
   const codeLine = 'bg-gray-200 px-1 py-0.5 rounded text-sm font-mono text-gray-800';
@@ -34,7 +34,7 @@
 </div>
 
 <div class="mt-16">
-  <FlexiLexi {dictionary} />
+  <FlexiLexi {data} />
 </div>
 
 <Heading tag="h2" class="mt-8 mb-4 text-2xl">Sample data</Heading>
