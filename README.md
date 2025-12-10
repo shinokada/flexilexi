@@ -1,18 +1,42 @@
-# flexilexi
+# FlexiLexi
+
+[![npm version](https://img.shields.io/npm/v/flexilexi.svg)](https://www.npmjs.com/package/flexilexi)
+[![license](https://img.shields.io/npm/l/flexilexi.svg)](https://github.com/shinokada/flexilexi/blob/main/LICENSE)
+
+> A powerful, performance-optimized Svelte 5 component for fuzzy search with real-time results and adjustable sensitivity.
 
 ## Description
 
-FlexiLexi is an npm package that enhances searching within datasets. It uses the Fuse.js library for fuzzy searches, allowing users to find relevant results even with partially matched queries. The package provides an interactive interface to fine-tune search settings and display filtered results seamlessly.
+FlexiLexi is a feature-rich search component built for Svelte 5 that leverages Fuse.js to provide intelligent fuzzy searching. Whether you're building a dictionary, product catalog, documentation search, or any searchable dataset, FlexiLexi delivers fast, relevant results with a customizable user interface.
+
+**Perfect for:**
+
+- 📚 Dictionaries and glossaries
+- 🛍️ Product catalogs and e-commerce search
+- 📖 Documentation and knowledge bases
+- 🔍 Data exploration tools
+- 📊 Dashboard filtering
+
+**Key Highlights:**
+
+- ⚡ **Performance-optimized**: Intelligent search index caching prevents unnecessary re-indexing
+- 🎯 **Real-time adjustable threshold**: Live sensitivity slider from exact to fuzzy matching
+- 🔄 **Instant results**: Debounced search with smooth UX
+- ♿ **Accessible**: Full ARIA support and keyboard navigation
+- 🎨 **Fully customizable**: Style with CSS or Tailwind
+- 📱 **Responsive**: Works great on all screen sizes
 
 ## Features
 
-- Fuzzy Searching: Uses Fuse.js for flexible searches within datasets.
-- Adjustable Threshold: Allows users to control search sensitivity by adjusting the fuzziness threshold.
-- Dynamic Field Selection: Supports customizing search fields or uses default keys.
-- Search Input: Allows dynamic entry of search queries.
-- Real-time Updates: Updates search results instantly as users type or modify their queries.
-- Shows results in an unordered list.
-- Supports customization by displaying selected fields for each result.
+- **Fuzzy Searching**: Uses Fuse.js for flexible searches within datasets
+- **Adjustable Threshold**: Live slider to control search sensitivity (0.0 = exact, 1.0 = very fuzzy)
+- **Performance Optimized**: Search index is cached and only rebuilt when data changes, not on threshold adjustments
+- **Dynamic Field Selection**: Customize which fields to search or let it auto-detect
+- **Debounced Search**: Smooth typing experience with configurable debounce delay
+- **Real-time Updates**: Instant results as you type or adjust settings
+- **Match Scoring**: Shows relevance scores for each result
+- **Flexible Display**: Choose which fields to show in results
+- **Type-safe**: Built with TypeScript for excellent IDE support
 
 ## Demo
 

@@ -6,7 +6,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('index page has expected h1', async ({ page }) => {
-  await expect(page.getByRole('heading', { name: 'Japanese dictionary', level: 1 })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'FlexiLexi', level: 1 })).toBeVisible();
 });
 
 test('index page has expected meta title', async ({ page }) => {

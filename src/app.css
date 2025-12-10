@@ -39,3 +39,7 @@
     @apply m-auto w-auto max-w-md list-inside list-disc space-y-1 text-left text-gray-700 dark:text-gray-200;
   }
 }
+
+p {
+  @apply text-center
+}

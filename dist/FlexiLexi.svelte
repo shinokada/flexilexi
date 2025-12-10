@@ -100,10 +100,12 @@
     }
   });
 
-  // Fuse.js configuration with reactive threshold
-  const fuseOptions = $derived({
+  // Fuse.js configuration with a permissive threshold for the index
+  // We use a high threshold (0.9) to catch all potential matches,
+  // then filter by the user's threshold preference client-side
+  const baseFuseOptions = $derived({
     keys: searchKeys,
-    threshold,
+    threshold: 0.9, // Permissive - catch everything, filter later
     includeScore: true,
     includeMatches: true,
     minMatchCharLength: 1,
@@ -114,16 +116,25 @@
     distance: 100
   });
 
-  // Create Fuse instance with memoization to avoid unnecessary recreations
-  // Only recreates when dictionary, keys, or threshold change significantly
-  const fuse = $derived(new Fuse(dictionaryArray, fuseOptions));
+  // Create Fuse instance only when dictionary or keys change
+  // This avoids expensive recreation when threshold slider is adjusted
+  const fuse = $derived(new Fuse(dictionaryArray, baseFuseOptions));
 
-  // Search results
+  // Search results filtered by user's threshold preference
+  // This approach allows real-time threshold adjustments without recreating the Fuse index
   const searchResults = $derived.by((): FuseResult<DictionaryItem>[] => {
     if (!debouncedSearchInput.trim()) {
       return [];
     }
-    return fuse.search(debouncedSearchInput);
+
+    // Search with permissive threshold, then filter by user's preference
+    const allResults = fuse.search(debouncedSearchInput);
+
+    // Filter results where score is within user's threshold
+    // Lower score = better match (0 = perfect, 1 = worst)
+    return allResults.filter((result) => {
+      return result.score !== undefined && result.score <= threshold;
+    });
   });
 
   // Debounced search handler
