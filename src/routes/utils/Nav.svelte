@@ -59,10 +59,9 @@
     classes={{ active: activeClass, nonActive: nonActiveClass, ul: 'p-0' }}
   >
     <NavLi href="/">Home</NavLi>
-    <NavLi href="/feilds">Feilds</NavLi>
-    <NavLi href="/keys">Keys</NavLi>
-    <NavLi href="/threshold">Threshold</NavLi>
-    <NavLi href="/single-object">Single object</NavLi>
+    <NavLi href="/fuzzy">Fuzzy</NavLi>
+    <NavLi href="/fuse">Fuse</NavLi>
+    <NavLi href="/examples">Examples</NavLi>
     <NavLi href="/about">About</NavLi>
     <NavLi href="https://github.com/shinokada/flexilexi" target="_blank">GitHub</NavLi>
   </NavUl>

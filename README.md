@@ -12,7 +12,7 @@ FlexiLexi is a feature-rich search component built for Svelte 5 that leverages F
 **Perfect for:**
 
 - 📚 Dictionaries and glossaries
-- 🛍️ Product catalogs and e-commerce search  
+- 🛍️ Product catalogs and e-commerce search
 - 📋 Static data lists and reference tables
 - 🔍 Data exploration tools
 - 📊 Dashboard filtering
@@ -71,14 +71,14 @@ yarn add -D flexilexi // yarn
 
 ```svelte
 <script>
-  import data from './data/example-data.json'
-  import {FlexiLexi} from 'flexilexi'
+  import data from './data/example-data.json';
+  import { Fuzzy } from 'flexilexi';
 </script>
 
 <div class="wrapper">
   <h1 class="text-4xl">Search Example</h1>
   <h2 class="text-3xl">Type to search through your data</h2>
-  <FlexiLexi {data} />
+  <Fuzzy {data} />
 </div>
 
 <style>
@@ -95,14 +95,14 @@ yarn add -D flexilexi // yarn
 ```svelte
 <script>
   const products = [
-    { name: "Laptop Pro", category: "Electronics", price: 999, brand: "TechCorp" },
-    { name: "Wireless Mouse", category: "Accessories", price: 29, brand: "TechCorp" },
-    { name: "USB-C Cable", category: "Accessories", price: 12, brand: "CableCo" }
+    { name: 'Laptop Pro', category: 'Electronics', price: 999, brand: 'TechCorp' },
+    { name: 'Wireless Mouse', category: 'Accessories', price: 29, brand: 'TechCorp' },
+    { name: 'USB-C Cable', category: 'Accessories', price: 12, brand: 'CableCo' }
   ];
 </script>
 
-<FlexiLexi 
-  data={products} 
+<Fuzzy
+  data={products}
   keys={['name', 'category', 'brand']}
   fields={['name', 'price']}
   thresholdValue={0.4}
@@ -114,29 +114,25 @@ yarn add -D flexilexi // yarn
 ```svelte
 <script>
   const apiDocs = [
-    { 
-      method: "GET /api/users", 
-      description: "Retrieve list of all users",
-      category: "Users"
+    {
+      method: 'GET /api/users',
+      description: 'Retrieve list of all users',
+      category: 'Users'
     },
-    { 
-      method: "POST /api/users", 
-      description: "Create a new user account",
-      category: "Users"
+    {
+      method: 'POST /api/users',
+      description: 'Create a new user account',
+      category: 'Users'
     },
-    { 
-      method: "DELETE /api/users/:id", 
-      description: "Delete user by ID",
-      category: "Users"
+    {
+      method: 'DELETE /api/users/:id',
+      description: 'Delete user by ID',
+      category: 'Users'
     }
   ];
 </script>
 
-<FlexiLexi 
-  data={apiDocs} 
-  keys={['method', 'description']}
-  thresholdValue={0.3}
-/>
+<Fuzzy data={apiDocs} keys={['method', 'description']} thresholdValue={0.3} />
 ```
 
 ### Dictionary/Glossary
@@ -145,18 +141,18 @@ yarn add -D flexilexi // yarn
 <script>
   // Single object format
   const glossary = {
-    "API": "Application Programming Interface",
-    "REST": "Representational State Transfer",
-    "CRUD": "Create, Read, Update, Delete"
+    API: 'Application Programming Interface',
+    REST: 'Representational State Transfer',
+    CRUD: 'Create, Read, Update, Delete'
   };
 </script>
 
-<FlexiLexi data={glossary} />
+<Fuzzy data={glossary} />
 ```
 
 ## Props
 
-The FlexiLexi component accepts the following props:
+The Fuzzy component accepts the following props:
 
 ### data: (Required)
 
@@ -196,12 +192,12 @@ An array of field names that should be searchable. If specified, only these fiel
 
 ```svelte
 <script>
-  import data from './data/example-data.json'
-  import {FlexiLexi} from 'flexilexi'
-  let keys = ['name', 'description']
+  import data from './data/example-data.json';
+  import { Fuzzy } from 'flexilexi';
+  let keys = ['name', 'description'];
 </script>
 
-<FlexiLexi {data} {keys} />
+<Fuzzy {data} {keys} />
 
 <style>
   .wrapper {
@@ -216,12 +212,12 @@ An array of field names to display in search results. If not specified, defaults
 
 ```svelte
 <script>
-  import data from './data/example-data.json'
-  import {FlexiLexi} from 'flexilexi'
-  let fields = ['title', 'category']
+  import data from './data/example-data.json';
+  import { Fuzzy } from 'flexilexi';
+  let fields = ['title', 'category'];
 </script>
 
-<FlexiLexi {data} {fields} />
+<Fuzzy {data} {fields} />
 
 <style>
   .wrapper {
@@ -236,11 +232,11 @@ A number between 0 and 1 that controls search fuzziness. Lower values (0.0-0.3) 
 
 ```svelte
 <script>
-  import data from './data/example-data.json'
-  import {FlexiLexi} from 'flexilexi'
+  import data from './data/example-data.json';
+  import { Fuzzy } from 'flexilexi';
 </script>
 
-<FlexiLexi {data} thresholdValue={0.3} />
+<Fuzzy {data} thresholdValue={0.3} />
 
 <style>
   .wrapper {
@@ -358,4 +354,63 @@ If you are using TailwindCSS, update `app.css` by adding the following example:
   }
 }
 
+```
+
+## Recipes
+
+### Searching Through Markdown Documentation
+
+If you want to search through markdown files, you'll need to convert them to JSON at build time. Here's a simple approach:
+
+**1. Create a build script** (`scripts/generate-search-data.js`):
+
+```javascript
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter'; // npm install gray-matter
+
+const docsDir = './src/docs';
+const output = './src/lib/search-data.json';
+
+const files = fs.readdirSync(docsDir);
+const searchData = files
+  .filter((f) => f.endsWith('.md'))
+  .map((file) => {
+    const content = fs.readFileSync(path.join(docsDir, file), 'utf8');
+    const { data, content: body } = matter(content);
+
+    return {
+      title: data.title,
+      description: data.description,
+      url: `/docs/${file.replace('.md', '')}`,
+      content: body.slice(0, 200) // First 200 chars
+    };
+  });
+
+fs.writeFileSync(output, JSON.stringify(searchData, null, 2));
+```
+
+**2. Add to package.json**:
+
+```json
+{
+  "scripts": {
+    "prebuild": "node scripts/generate-search-data.js"
+  }
+}
+```
+
+**3. Use in your app**:
+
+```svelte
+<script>
+  import searchData from '$lib/search-data.json';
+  import { Fuzzy } from 'flexilexi';
+</script>
+
+<Fuzzy
+  data={searchData}
+  keys={['title', 'description', 'content']}
+  fields={['title', 'description']}
+/>
 ```

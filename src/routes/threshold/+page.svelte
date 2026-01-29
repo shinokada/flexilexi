@@ -1,6 +1,6 @@
 <script>
   import data from '../data/japanese-data.json';
-  import { FlexiLexi } from '$lib';
+  import { Fuzzy } from '$lib';
   import { P, Heading, List, Li } from 'flowbite-svelte';
   import SampleDataJ from '../utils/SampleDataJ.svelte';
   const codeLine = 'bg-gray-200 px-1 py-0.5 rounded text-sm font-mono text-gray-800';
@@ -39,7 +39,7 @@
 </div>
 
 <div class="mt-16">
-  <FlexiLexi {data} thresholdValue={0.6} />
+  <Fuzzy {data} thresholdValue={0.6} />
 </div>
 
 <SampleDataJ />

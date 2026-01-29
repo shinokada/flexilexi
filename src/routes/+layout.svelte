@@ -21,7 +21,7 @@
 <MetaTags {...metaTags} />
 <Nav />
 <div class="mx-auto mb-16 max-w-5xl lg:flex">
-  <div class="mx-auto max-w-screen-xl px-4 py-8 text-center">
+  <div class="mx-auto max-w-screen-xl px-4 py-8">
     {@render children()}
   </div>
 </div>

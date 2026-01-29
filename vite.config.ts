@@ -1,7 +1,9 @@
 import tailwindcss from '@tailwindcss/vite';
 import { svelteTesting } from '@testing-library/svelte/vite';
 import { sveltekit } from '@sveltejs/kit/vite';
+import path from 'path';
 import { defineConfig } from 'vitest/config';
+import devtoolsJson from 'vite-plugin-devtools-json';
 import pkg from './package.json' with { type: 'json' };
 import sveltePackage from './node_modules/svelte/package.json' with { type: 'json' };
 import svelteKitPackage from './node_modules/@sveltejs/kit/package.json' with { type: 'json' };
@@ -9,7 +11,12 @@ import vitePackage from './node_modules/vite/package.json' with { type: 'json' }
 import fusePackage from './node_modules/fuse.js/package.json' with { type: 'json' };
 
 export default defineConfig({
-  plugins: [sveltekit(), tailwindcss()],
+  plugins: [sveltekit(), tailwindcss(), devtoolsJson()],
+  resolve: {
+    alias: {
+      flexilexi: path.resolve(process.cwd(), './src/lib/index.ts')
+    }
+  },
   define: {
     __NAME__: JSON.stringify(pkg.name),
     __DESCRIPTION__: JSON.stringify(pkg.description),
@@ -30,7 +37,7 @@ export default defineConfig({
           name: 'client',
           environment: 'jsdom',
           clearMocks: true,
-          include: ['src/**/*.svelte.{test,spec}.{js,ts}'],
+          include: ['tests/unit/**/*.{test,spec}.{js,ts}', 'src/**/*.svelte.{test,spec}.{js,ts}'],
           exclude: ['src/lib/server/**'],
           setupFiles: ['./vitest-setup-client.ts']
         }

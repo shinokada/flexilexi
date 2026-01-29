@@ -33,7 +33,11 @@ export default defineConfig(
     rules: {
       // typescript-eslint strongly recommend that you do not use the no-undef lint rule on TypeScript projects.
       // see: https://typescript-eslint.io/troubleshooting/faqs/eslint/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
-      'no-undef': 'off'
+      'no-undef': 'off',
+      // Allow {@html} in FuseSearch component where we properly escape HTML
+      'svelte/no-at-html-tags': 'off',
+      // FlexiLexi intentionally captures initial threshold value for user modification
+      'svelte/prefer-writable-derived': 'off'
     }
   },
   {

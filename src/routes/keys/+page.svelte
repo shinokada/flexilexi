@@ -1,6 +1,6 @@
 <script>
   import data from '../data/japanese-data.json';
-  import { FlexiLexi } from '$lib';
+  import { Fuzzy } from '$lib';
   import { P, Heading } from 'flowbite-svelte';
   import SampleDataJ from '../utils/SampleDataJ.svelte';
 
@@ -17,7 +17,7 @@
   <Heading tag="h2" class="mb-3 text-2xl font-semibold">What are Keys?</Heading>
   <P class="mb-8 text-lg">
     The <code class={codeLine}>keys</code> prop determines which properties in your data are
-    <strong>searched</strong>. When you type in the search box, FlexiLexi only looks through the
+    <strong>searched</strong>. When you type in the search box, FuzzySearch only looks through the
     fields specified in <code class={codeLine}>keys</code>.
   </P>
 
@@ -34,7 +34,7 @@
 </div>
 
 <div class="mt-16">
-  <FlexiLexi {data} {keys} />
+  <Fuzzy {data} {keys} />
 </div>
 
 <SampleDataJ />
