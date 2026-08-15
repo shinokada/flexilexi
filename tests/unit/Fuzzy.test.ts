@@ -18,8 +18,8 @@ describe('Fuzzy', () => {
   it('renders with default props', () => {
     render(Fuzzy, { props: { data: sampleData } });
 
-    expect(screen.getByLabelText('Adjust search fuzziness')).toBeInTheDocument();
-    expect(screen.getByLabelText('Search input')).toBeInTheDocument();
+    expect(screen.getByLabelText('Fuzziness')).toBeInTheDocument();
+    expect(screen.getByLabelText('Search')).toBeInTheDocument();
   });
 
   it('displays threshold label with correct value', () => {
@@ -51,7 +51,7 @@ describe('Fuzzy', () => {
   it('updates label when typing in search input', async () => {
     render(Fuzzy, { props: { data: sampleData } });
 
-    const searchInput = screen.getByLabelText('Search input');
+    const searchInput = screen.getByLabelText('Search');
     await fireEvent.input(searchInput, { target: { value: 'apple' } });
 
     expect(screen.getByText(/Searching for: "apple"/)).toBeInTheDocument();
@@ -68,7 +68,7 @@ describe('Fuzzy', () => {
       }
     });
 
-    const searchInput = screen.getByLabelText('Search input');
+    const searchInput = screen.getByLabelText('Search');
     await fireEvent.input(searchInput, { target: { value: 'apple' } });
 
     // Fast-forward time past debounce
@@ -92,7 +92,7 @@ describe('Fuzzy', () => {
       }
     });
 
-    const searchInput = screen.getByLabelText('Search input');
+    const searchInput = screen.getByLabelText('Search');
     await fireEvent.input(searchInput, { target: { value: 'xyz123' } });
 
     vi.advanceTimersByTime(300);
@@ -112,7 +112,7 @@ describe('Fuzzy', () => {
       }
     });
 
-    expect(screen.getByLabelText('Search input')).toBeInTheDocument();
+    expect(screen.getByLabelText('Search')).toBeInTheDocument();
   });
 
   it('accepts custom fields prop for display', () => {
@@ -123,7 +123,7 @@ describe('Fuzzy', () => {
       }
     });
 
-    expect(screen.getByLabelText('Search input')).toBeInTheDocument();
+    expect(screen.getByLabelText('Search')).toBeInTheDocument();
   });
 
   it('handles single object data format', () => {
@@ -135,7 +135,7 @@ describe('Fuzzy', () => {
 
     render(Fuzzy, { props: { data: objectData } });
 
-    expect(screen.getByLabelText('Search input')).toBeInTheDocument();
+    expect(screen.getByLabelText('Search')).toBeInTheDocument();
   });
 
   it('applies custom CSS classes', () => {
@@ -160,7 +160,7 @@ describe('Fuzzy', () => {
       }
     });
 
-    const searchInput = screen.getByLabelText('Search input') as HTMLInputElement;
+    const searchInput = screen.getByLabelText('Search') as HTMLInputElement;
     expect(searchInput).toHaveAttribute('autofocus');
   });
 
@@ -175,7 +175,7 @@ describe('Fuzzy', () => {
       }
     });
 
-    const searchInput = screen.getByLabelText('Search input');
+    const searchInput = screen.getByLabelText('Search');
     await fireEvent.input(searchInput, { target: { value: 'apple' } });
 
     vi.advanceTimersByTime(300);
@@ -203,7 +203,7 @@ describe('Fuzzy', () => {
       }
     });
 
-    const searchInput = screen.getByLabelText('Search input');
+    const searchInput = screen.getByLabelText('Search');
 
     // Type and wait for results
     await fireEvent.input(searchInput, { target: { value: 'apple' } });

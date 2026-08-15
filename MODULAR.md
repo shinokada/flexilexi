@@ -26,9 +26,7 @@ FlexiLexi now offers a **modular, flexible architecture** that lets you build se
 ```svelte
 <script>
   import { Fuzzy } from 'flexilexi';
-  const data = [
-    /* your data */
-  ];
+  const data = [/* your data */];
 </script>
 
 <Fuzzy {data} />
