@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.24
+
+### Patch Changes
+
+- fix: peerDependencies svelte to ^5.0.0
+
 ## 0.1.23
 
 ### Patch Changes

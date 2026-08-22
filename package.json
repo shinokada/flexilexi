@@ -1,6 +1,6 @@
 {
   "name": "flexilexi",
-  "version": "0.1.23",
+  "version": "0.1.24",
   "description": "A library to facilitate dynamic and flexible searching within a dataset.",
   "main": "dist/index.js",
   "author": {
@@ -103,13 +103,29 @@
       "types": "./dist/index.d.ts",
       "svelte": "./dist/index.js"
     },
+    "./Fuse.svelte": {
+      "types": "./dist/Fuse.svelte.d.ts",
+      "svelte": "./dist/Fuse.svelte"
+    },
     "./Fuzzy.svelte": {
       "types": "./dist/Fuzzy.svelte.d.ts",
       "svelte": "./dist/Fuzzy.svelte"
     },
-    "./Fuse.svelte": {
-      "types": "./dist/Fuse.svelte.d.ts",
-      "svelte": "./dist/Fuse.svelte"
+    "./FuzzyHeadless.svelte": {
+      "types": "./dist/FuzzyHeadless.svelte.d.ts",
+      "svelte": "./dist/FuzzyHeadless.svelte"
+    },
+    "./SearchInput.svelte": {
+      "types": "./dist/components/SearchInput.svelte.d.ts",
+      "svelte": "./dist/components/SearchInput.svelte"
+    },
+    "./SearchResults.svelte": {
+      "types": "./dist/components/SearchResults.svelte.d.ts",
+      "svelte": "./dist/components/SearchResults.svelte"
+    },
+    "./ThresholdSlider.svelte": {
+      "types": "./dist/components/ThresholdSlider.svelte.d.ts",
+      "svelte": "./dist/components/ThresholdSlider.svelte"
     },
     "./package.json": "./package.json"
   }
